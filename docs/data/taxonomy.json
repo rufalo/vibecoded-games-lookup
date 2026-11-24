@@ -1,0 +1,163 @@
+{
+  "genreGroups": [
+    { "id": "shooters", "label": "Shooters & FPS", "genres": ["fps", "shooter", "battle-royale", "bullet-hell"] },
+    { "id": "strategy", "label": "Strategy & building", "genres": ["strategy", "rts", "tower-defense", "4x", "tactics", "auto-battler", "city-builder", "management"] },
+    { "id": "vehicles", "label": "Flight, racing & driving", "genres": ["flight", "racing", "driving"] },
+    { "id": "worlds", "label": "MMOs & open worlds", "genres": ["mmo", "open-world", "sandbox"] },
+    { "id": "rpg", "label": "RPGs & roguelites", "genres": ["rpg", "roguelite"] },
+    { "id": "casual", "label": "Arcade, puzzle & cozy", "genres": ["arcade", "puzzle", "cozy", "typing", "microgames", "idle", "party", "platformer", "card", "rhythm", "sports"] },
+    { "id": "adventure", "label": "Adventure & survival", "genres": ["adventure", "exploration", "survival", "horror"] }
+  ],
+
+  "genres": {
+    "fps": "FPS", "shooter": "Shooter", "battle-royale": "Battle royale", "bullet-hell": "Bullet hell",
+    "strategy": "Strategy", "rts": "RTS", "tower-defense": "Tower defense", "4x": "4X", "tactics": "Tactics",
+    "auto-battler": "Auto-battler", "city-builder": "City builder", "management": "Management", "simulation": "Simulation",
+    "flight": "Flight", "racing": "Racing", "driving": "Driving",
+    "mmo": "MMO", "open-world": "Open world", "sandbox": "Sandbox",
+    "rpg": "RPG", "roguelite": "Roguelite",
+    "arcade": "Arcade", "puzzle": "Puzzle", "cozy": "Cozy", "typing": "Typing", "microgames": "Microgames", "idle": "Idle",
+    "party": "Party", "platformer": "Platformer", "card": "Card", "rhythm": "Rhythm", "sports": "Sports",
+    "adventure": "Adventure", "exploration": "Exploration", "survival": "Survival", "horror": "Horror"
+  },
+
+  "art": {
+    "code-generated": { "label": "Drawn by code", "short": "Code-drawn", "description": "No art files. The AI wrote code that builds the visuals: primitives, shaders, procedural textures and models." },
+    "ai-2d": { "label": "AI images (2D)", "short": "AI 2D", "description": "Sprites, textures, panoramas or key art from image models such as GPT Image, DALL-E, Flux or Nano Banana." },
+    "ai-3d": { "label": "AI 3D models", "short": "AI 3D", "description": "Meshes from image-to-3D or text-to-3D models such as Tripo, Meshy, CSM, Hunyuan3D or Rodin." },
+    "hand-made": { "label": "Hand-made art", "short": "Hand-made", "description": "Drawn or modeled by people (Blender, Aseprite, Photoshop...), including the creator's own cleanup of AI output." },
+    "asset-pack": { "label": "Asset packs", "short": "Asset packs", "description": "Ready-made models, animations and textures: Kenney, Quaternius, KayKit, Mixamo, Sketchfab, Poly Haven, itch.io packs." },
+    "ai-blender": { "label": "AI-driven Blender", "short": "AI Blender", "description": "An AI agent operated Blender (e.g. through Blender MCP) to build the assets." },
+    "unknown": { "label": "Undocumented", "short": "Art: ?", "description": "The creator hasn't said how the visuals were made." }
+  },
+
+  "audio": {
+    "ai-music": { "label": "AI music", "description": "Soundtrack from music models such as Suno or Udio." },
+    "ai-sfx": { "label": "AI sound effects", "description": "Sound effects from audio models such as ElevenLabs." },
+    "procedural": { "label": "Synthesized in code", "description": "No audio files: sounds are generated live with the Web Audio API or similar." },
+    "stock": { "label": "Stock / CC0 sounds", "description": "Library sounds, e.g. freesound.org or CC0 packs." },
+    "hand-made": { "label": "Human-made audio", "description": "Composed or recorded by people." },
+    "none": { "label": "No audio", "description": "The game is silent." },
+    "unknown": { "label": "Undocumented", "description": "Not documented." }
+  },
+
+  "tools": {
+    "cursor": { "label": "Cursor", "maker": "Anysphere", "description": "AI code editor; its agent mode drives Claude, GPT and Gemini models." },
+    "claude-code": { "label": "Claude Code", "maker": "Anthropic", "description": "Anthropic's terminal coding agent (incl. parallel sessions, Ultracode and /loop)." },
+    "claude": { "label": "Claude (chat)", "maker": "Anthropic", "description": "Claude in the chat app or API, with code pasted back and forth." },
+    "chatgpt": { "label": "ChatGPT", "maker": "OpenAI", "description": "OpenAI's chat app, also used for image generation." },
+    "codex": { "label": "Codex", "maker": "OpenAI", "description": "OpenAI's coding agent (CLI and cloud)." },
+    "gemini": { "label": "Gemini", "maker": "Google", "description": "Google's models via the Gemini app, AI Studio or an IDE." },
+    "gemini-cli": { "label": "Gemini CLI", "maker": "Google", "description": "Google's terminal coding agent." },
+    "grok": { "label": "Grok", "maker": "xAI", "description": "xAI's chat model, popular in early 2025 for planning and multiplayer code." },
+    "lovable": { "label": "Lovable", "maker": "Lovable", "description": "Prompt-to-app builder with hosting." },
+    "augment-code": { "label": "Augment Code", "maker": "Augment", "description": "AI coding agent for IDEs." },
+    "animoca-minds": { "label": "Animoca Minds", "maker": "Animoca Brands", "description": "AI 'Game Designer Mind' agent; the VibeBlitz jam required it for at least 50% of production." },
+    "verse8": { "label": "Verse8 Agent8", "maker": "Planetarium Labs", "description": "Prompt-to-game agent on the Verse8 platform." },
+    "windsurf": { "label": "Windsurf", "maker": "Windsurf", "description": "AI code editor." },
+    "copilot": { "label": "GitHub Copilot", "maker": "GitHub", "description": "AI pair programmer in the IDE." },
+    "bolt": { "label": "Bolt", "maker": "StackBlitz", "description": "Prompt-to-app builder in the browser." },
+    "replit": { "label": "Replit Agent", "maker": "Replit", "description": "Browser IDE with a coding agent." },
+    "v0": { "label": "v0", "maker": "Vercel", "description": "Prompt-to-UI/app builder." },
+    "rosebud": { "label": "Rosebud", "maker": "Rosebud AI", "description": "Prompt-to-game platform." },
+    "aider": { "label": "Aider", "maker": "Aider", "description": "Open-source terminal pair programmer." },
+    "cline": { "label": "Cline", "maker": "Cline", "description": "Open-source coding agent for VS Code." },
+    "deepseek": { "label": "DeepSeek", "maker": "DeepSeek", "description": "DeepSeek models." }
+  },
+
+  "stack": {
+    "threejs": { "label": "Three.js", "kind": "Engine" },
+    "react-three-fiber": { "label": "React Three Fiber", "kind": "Engine" },
+    "babylonjs": { "label": "Babylon.js", "kind": "Engine" },
+    "playcanvas": { "label": "PlayCanvas", "kind": "Engine" },
+    "phaser": { "label": "Phaser", "kind": "Engine" },
+    "pixijs": { "label": "PixiJS", "kind": "Engine" },
+    "kaplay": { "label": "KAPLAY", "kind": "Engine" },
+    "canvas2d": { "label": "Canvas 2D", "kind": "Engine" },
+    "godot": { "label": "Godot", "kind": "Engine" },
+    "unity": { "label": "Unity", "kind": "Engine" },
+    "unreal": { "label": "Unreal", "kind": "Engine" },
+    "webgl": { "label": "WebGL", "kind": "Graphics" },
+    "webgpu": { "label": "WebGPU", "kind": "Graphics" },
+    "typescript": { "label": "TypeScript", "kind": "Language & tooling" },
+    "vite": { "label": "Vite", "kind": "Language & tooling" },
+    "react": { "label": "React", "kind": "Language & tooling" },
+    "nextjs": { "label": "Next.js", "kind": "Language & tooling" },
+    "bitecs": { "label": "bitECS", "kind": "Language & tooling" },
+    "node": { "label": "Node.js", "kind": "Backend" },
+    "bun": { "label": "Bun", "kind": "Backend" },
+    "postgres": { "label": "Postgres", "kind": "Backend" },
+    "instantdb": { "label": "InstantDB", "kind": "Backend" },
+    "supabase": { "label": "Supabase", "kind": "Backend" },
+    "firebase": { "label": "Firebase", "kind": "Backend" },
+    "websockets": { "label": "WebSockets", "kind": "Networking" },
+    "webrtc": { "label": "WebRTC", "kind": "Networking" },
+    "socketio": { "label": "Socket.IO", "kind": "Networking" },
+    "colyseus": { "label": "Colyseus", "kind": "Networking" },
+    "partykit": { "label": "PartyKit", "kind": "Networking" },
+    "cloudflare": { "label": "Cloudflare", "kind": "Hosting" },
+    "vercel": { "label": "Vercel", "kind": "Hosting" },
+    "flyio": { "label": "Fly.io", "kind": "Hosting" },
+    "lovable": { "label": "Lovable Cloud", "kind": "Hosting" },
+    "rapier": { "label": "Rapier", "kind": "Physics" },
+    "cannon": { "label": "cannon-es", "kind": "Physics" },
+    "electron": { "label": "Electron", "kind": "Packaging" },
+    "capacitor": { "label": "Capacitor", "kind": "Packaging" },
+    "wasm": { "label": "WebAssembly", "kind": "Packaging" }
+  },
+
+  "approach": {
+    "one-shot": { "label": "One-shot", "description": "One prompt (or a handful) produced the game, often followed by long unattended agent loops." },
+    "iterative": { "label": "Iterative prompting", "description": "Many rounds of prompt, playtest and paste-the-error-back with a main assistant." },
+    "agent-swarm": { "label": "Agent swarm", "description": "Several agents in parallel, or a lead agent orchestrating sub-agents." },
+    "jam-sprint": { "label": "Jam sprint", "description": "Built against a game-jam deadline, in days to a few weeks." },
+    "long-haul": { "label": "Long haul", "description": "Months of continued AI-driven development and live updates." },
+    "pro-assisted": { "label": "Pro-assisted", "description": "An experienced engineer steering AI as a power tool." },
+    "platform": { "label": "Prompt-to-game platform", "description": "Made inside a hosted AI game platform such as Verse8." }
+  },
+
+  "multiplayer": {
+    "none": { "label": "Single-player" },
+    "local": { "label": "Local multiplayer" },
+    "online": { "label": "Online multiplayer" },
+    "mmo": { "label": "MMO" },
+    "unknown": { "label": "Unknown" }
+  },
+
+  "status": {
+    "playable": { "label": "Play in browser", "action": "Play now" },
+    "steam": { "label": "On Steam", "action": "View on Steam" },
+    "coming-soon": { "label": "Coming soon", "action": "View store page" },
+    "source-only": { "label": "Source code only", "action": "View source" },
+    "offline": { "label": "Offline", "action": "Original URL" },
+    "unknown": { "label": "No public build", "action": null }
+  },
+
+  "platforms": {
+    "web": "Browser", "steam": "Steam", "desktop": "Desktop", "vr": "VR / Meta Quest", "ios": "iOS", "android": "Android"
+  },
+
+  "events": {
+    "vibe-jam-2025": { "label": "Vibe Jam 2025", "url": "https://vibejam.com/2025/", "description": "levelsio's first Vibe Coding Game Jam: at least 80% AI-written code, 1,000+ entries, $17.5k in prizes." },
+    "vibe-jam-2026": { "label": "Vibe Jam 2026", "url": "https://vibejam.com/2026", "description": "Cursor Vibe Jam 2026: at least 90% AI-written code, 945 entries, $40k podium plus 12 special prizes." },
+    "vibeblitz-2026": { "label": "VibeBlitz 2026", "url": "https://vibecode.game/game-jams/vibeblitz-x-minds-by-animoca-minds-hackathon", "description": "YGG's VibeBlitz x Animoca Minds jam (July 2026), 72 submissions." },
+    "beginners-jam-2025": { "label": "Beginner's Jam 2025", "url": null, "description": "itch.io Beginner's Jam Summer 2025 (theme: Time Travel)." }
+  },
+
+  "places": {
+    "gold": "Gold", "silver": "Silver", "bronze": "Bronze", "entry": "Entry"
+  },
+
+  "confidence": {
+    "high": { "label": "Well documented", "description": "Creator write-ups, public repos or several independent sources." },
+    "medium": { "label": "Partly documented", "description": "Some first-hand info, with gaps or single-source claims." },
+    "low": { "label": "Thinly documented", "description": "Little first-hand info; treat the details as provisional." }
+  },
+
+  "dimension": { "2d": "2D", "3d": "3D" },
+
+  "perspective": {
+    "first-person": "First-person", "third-person": "Third-person", "top-down": "Top-down",
+    "isometric": "Isometric", "side-view": "Side-view", "other": "Other"
+  }
+}
