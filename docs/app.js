@@ -148,6 +148,7 @@
     view: store.get('view', 'grid') === 'table' ? 'table' : 'grid',
     catalogScroll: 0,
     lastCatalogQuery: '',
+    shots: [],
   };
 
   function parseHash() {
@@ -208,7 +209,7 @@
 
   function card(g) {
     return `<article class="card"><a class="card-link" href="#/game/${esc(g.id)}">
-      <div class="media">${media(g)}<div class="overlay">${statusOb(g)}${g.pick ? `<span class="ob pick right">${icon('star', 'fill')}Pick</span>` : ''}</div>${isPodium(g) ? `<div class="overlay-bottom">${medalOb(g)}</div>` : ''}</div>
+      <div class="media">${media(g)}<div class="overlay">${statusOb(g)}${g.pick ? `<span class="ob pick right">${icon('star', 'fill')}Pick</span>` : ''}</div>${isPodium(g) || g.gallery?.length ? `<div class="overlay-bottom">${medalOb(g)}${g.gallery?.length ? `<span class="ob right" title="${g.gallery.length} screenshots">${icon('image')}${g.gallery.length}</span>` : ''}</div>` : ''}</div>
       <div class="card-body">
         <div class="card-meta"><span>${esc(g._year || 'Undated')}</span><span aria-hidden="true">·</span><span>${esc(g.creator.name)}</span></div>
         <h3>${esc(g.title)}</h3>
@@ -454,6 +455,21 @@
       ${fact('In the guide since', esc(fmtDate(g.addedOn)))}
     </dl>`;
 
+    // Screenshot viewer sequence: the cover first, then the gallery.
+    state.shots = [
+      ...(g.image ? [{ src: g.image, source: g.imageSource, origin: 'cover' }] : []),
+      ...(g.gallery || []),
+    ];
+    const offset = g.image ? 1 : 0;
+    const gallery = g.gallery?.length ? `<section class="gallery-sec" aria-label="Screenshots">
+        <div class="section-title"><h2>Screenshots</h2><span class="count">${g.gallery.length + offset} images · click to enlarge</span></div>
+        <div class="gallery">${g.gallery.map((x, i) => `<button type="button" class="shot" data-shot="${i + offset}" aria-label="Open screenshot ${i + 1 + offset} of ${g.gallery.length + offset}">
+          <img src="${esc(x.thumb || x.src)}" alt="${esc(g.title)} screenshot ${i + 1}" loading="lazy" decoding="async"></button>`).join('')}</div>
+      </section>` : '';
+    const heroMedia = g.image
+      ? `<button type="button" class="media shot-hero" data-shot="0" aria-label="Open cover image">${media(g, true)}${g.gallery?.length ? `<span class="ob hero-count">${icon('image')}${g.gallery.length + 1} images</span>` : ''}</button>`
+      : `<div class="media">${media(g, true)}</div>`;
+
     const sims = similar(g).map(({ o, why }) => `<article class="card"><a class="card-link" href="#/game/${esc(o.id)}">
         <div class="media">${media(o)}<div class="overlay">${statusOb(o)}</div></div>
         <div class="card-body"><h3 style="font-size:16px">${esc(o.title)}</h3><div class="why">${why.slice(0, 3).map((w) => `<b>${esc(w)}</b>`).join(' · ')}</div></div>
@@ -468,7 +484,7 @@
         </nav>
       </div>
       <section class="detail-hero">
-        <div class="media">${media(g, true)}</div>
+        ${heroMedia}
         <div>
           <div class="badges">
             <span class="badge st-${esc(g.status)}"><span class="dot"></span>${esc(L.status(g.status))}</span>
@@ -482,6 +498,7 @@
           <div class="actions">${gameActions(g)}</div>
         </div>
       </section>
+      ${gallery}
       <div class="detail-layout">
         <article class="detail-main">
           ${sec('What it is', `<p>${esc(g.summary)}</p>`)}
@@ -648,6 +665,8 @@
     } else if ((m = path.match(/^\/game\/([\w-]+)$/))) {
       renderGame(m[1]);
       window.scrollTo(0, 0);
+      const shot = params.get('shot'); // deep link: #/game/<id>?shot=2 opens the viewer
+      if (shot && state.shots.length) openShots(Number(shot) || 0);
     } else if (path === '/insights') { renderInsights(); window.scrollTo(0, 0); }
     else if (path === '/radar') { renderRadar(); window.scrollTo(0, 0); }
     else if (path === '/about') { renderAbout(); window.scrollTo(0, 0); }
@@ -728,6 +747,97 @@
   document.addEventListener('focusin', (e) => { const el = e.target.closest?.('[data-tip-title]'); if (el) showTip(el); });
   document.addEventListener('focusout', (e) => { if (e.target.closest?.('[data-tip-title]')) hideTip(); });
   window.addEventListener('scroll', hideTip, { passive: true });
+
+  // ---------- screenshot viewer (lightbox) ----------
+  const lb = document.createElement('div');
+  lb.className = 'lightbox';
+  lb.hidden = true;
+  lb.setAttribute('role', 'dialog');
+  lb.setAttribute('aria-modal', 'true');
+  lb.setAttribute('aria-label', 'Screenshot viewer');
+  lb.innerHTML = `<button type="button" class="lb-btn lb-close" aria-label="Close (Esc)">${icon('x')}</button>
+    <button type="button" class="lb-btn lb-prev" aria-label="Previous (←)">${icon('arrowLeft')}</button>
+    <figure class="lb-fig"><img alt=""><figcaption></figcaption></figure>
+    <button type="button" class="lb-btn lb-next" aria-label="Next (→)">${icon('arrowRight')}</button>`;
+  document.body.append(lb);
+  const lbImg = $('img', lb);
+  const lbCap = $('figcaption', lb);
+  let lbIndex = 0;
+  let lbReturnFocus = null;
+
+  function shotCredit(s) {
+    const yt = /img\.youtube\.com\/vi\/([\w-]{11})\//.exec(s.source || '');
+    if (yt) return { label: 'Frame from a YouTube video', url: `https://youtu.be/${yt[1]}` };
+    if (s.origin === 'live') return { label: 'Live screenshot of the game', url: s.source };
+    if (/steamstatic|steampowered/.test(s.source || '')) return { label: 'Steam store screenshot', url: null };
+    if (s.origin === 'cover') return { label: 'Cover image', url: /^https?:/.test(s.source || '') ? s.source : null, text: s.source };
+    return { label: host(s.source) || 'Source', url: s.source };
+  }
+
+  function showShot(i) {
+    const shots = state.shots || [];
+    if (!shots.length) return;
+    lbIndex = (i + shots.length) % shots.length;
+    const s = shots[lbIndex];
+    lbImg.src = s.src;
+    lbImg.alt = `Screenshot ${lbIndex + 1} of ${shots.length}`;
+    const c = shotCredit(s);
+    lbCap.replaceChildren();
+    const count = document.createElement('b');
+    count.textContent = `${lbIndex + 1} / ${shots.length}`;
+    lbCap.append(count, document.createTextNode(' · '));
+    if (c.url) {
+      const a = document.createElement('a');
+      a.href = c.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = c.label;
+      lbCap.append(a);
+    } else lbCap.append(document.createTextNode(c.text && c.text !== c.label ? `${c.label}: ${c.text}` : c.label));
+    $$('.lb-prev, .lb-next', lb).forEach((b) => { b.hidden = shots.length < 2; });
+    for (const d of [1, -1]) { const n = shots[(lbIndex + d + shots.length) % shots.length]; if (n) new Image().src = n.src; } // preload neighbours
+  }
+  function openShots(i) {
+    lbReturnFocus = document.activeElement;
+    lb.hidden = false;
+    document.documentElement.classList.add('lb-open');
+    showShot(i);
+    $('.lb-close', lb).focus();
+  }
+  function closeShots() {
+    if (lb.hidden) return;
+    lb.hidden = true;
+    document.documentElement.classList.remove('lb-open');
+    lbImg.removeAttribute('src');
+    lbReturnFocus?.focus?.({ preventScroll: true });
+  }
+  lb.addEventListener('click', (e) => {
+    if (e.target.closest('.lb-close') || e.target === lb) closeShots();
+    else if (e.target.closest('.lb-prev')) showShot(lbIndex - 1);
+    else if (e.target.closest('.lb-next')) showShot(lbIndex + 1);
+  });
+  let touchX = null;
+  lb.addEventListener('touchstart', (e) => { touchX = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener('touchend', (e) => {
+    if (touchX == null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    touchX = null;
+    if (Math.abs(dx) > 50) showShot(lbIndex + (dx < 0 ? 1 : -1));
+  });
+  document.addEventListener('keydown', (e) => {
+    if (lb.hidden) return;
+    if (e.key === 'Escape') { e.preventDefault(); closeShots(); }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); showShot(lbIndex + 1); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); showShot(lbIndex - 1); }
+    else if (e.key === 'Tab') { // keep focus inside the dialog
+      const f = $$('button:not([hidden]), a[href]', lb);
+      const idx = f.indexOf(document.activeElement);
+      if (e.shiftKey && idx <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
+      else if (!e.shiftKey && idx === f.length - 1) { e.preventDefault(); f[0].focus(); }
+    }
+  });
+  document.addEventListener('click', (e) => {
+    const shot = e.target.closest('[data-shot]');
+    if (shot) openShots(Number(shot.dataset.shot));
+  });
+  window.addEventListener('hashchange', closeShots);
 
   function showError(message) {
     let el = $('.error-banner');

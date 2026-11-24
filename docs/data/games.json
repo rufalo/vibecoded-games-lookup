@@ -196,7 +196,47 @@
     ],
     "confidence": "high",
     "imageCandidates": [],
-    "imageSource": "http://fly.pieter.com/assets/fly_social_image.png?1234"
+    "imageSource": "http://fly.pieter.com/assets/fly_social_image.png?1234",
+    "gallery": [
+      {
+        "src": "media/gallery/fly-pieter-com/01.jpg",
+        "thumb": "media/gallery/fly-pieter-com/01-t.jpg",
+        "w": 1893,
+        "h": 900,
+        "source": "https://r2.levels.io/covers/fly-pieter-com-vibecoded-flight-simulator.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/fly-pieter-com/02.jpg",
+        "thumb": "media/gallery/fly-pieter-com/02-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/rufc7yrpdLA/maxres1.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/fly-pieter-com/03.jpg",
+        "thumb": "media/gallery/fly-pieter-com/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/rufc7yrpdLA/maxres2.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/fly-pieter-com/04.jpg",
+        "thumb": "media/gallery/fly-pieter-com/04-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/rufc7yrpdLA/maxres3.jpg",
+        "origin": "video"
+      }
+    ],
+    "galleryCandidates": [
+      "https://r2.levels.io/covers/fly-pieter-com-vibecoded-flight-simulator.jpg",
+      "youtube:rufc7yrpdLA",
+      "youtube:bhrv3bANEoM"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "battle-drones",
@@ -368,7 +408,84 @@
       "https://static.simonwillison.net/static/2026/agent-v-agent.jpg",
       "https://static.simonwillison.net/static/2026/random-map-contact-sheet.jpg"
     ],
-    "imageSource": "https://static.simonwillison.net/static/2026/battledrones-v5.jpg"
+    "imageSource": "https://static.simonwillison.net/static/2026/battledrones-v5.jpg",
+    "gallery": [
+      {
+        "src": "media/gallery/battle-drones/01.jpg",
+        "thumb": "media/gallery/battle-drones/01-t.jpg",
+        "w": 2496,
+        "h": 1682,
+        "source": "https://static.simonwillison.net/static/2026/battledrones-v1.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/battle-drones/02.jpg",
+        "thumb": "media/gallery/battle-drones/02-t.jpg",
+        "w": 1728,
+        "h": 1030,
+        "source": "https://static.simonwillison.net/static/2026/battledrones-v2.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/battle-drones/03.jpg",
+        "thumb": "media/gallery/battle-drones/03-t.jpg",
+        "w": 1728,
+        "h": 1117,
+        "source": "https://static.simonwillison.net/static/2026/battledrones-v3.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/battle-drones/04.jpg",
+        "thumb": "media/gallery/battle-drones/04-t.jpg",
+        "w": 1728,
+        "h": 1117,
+        "source": "https://static.simonwillison.net/static/2026/battledrones-v4.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/battle-drones/05.jpg",
+        "thumb": "media/gallery/battle-drones/05-t.jpg",
+        "w": 1728,
+        "h": 1117,
+        "source": "https://static.simonwillison.net/static/2026/battledrones-v8.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/battle-drones/06.jpg",
+        "thumb": "media/gallery/battle-drones/06-t.jpg",
+        "w": 1275,
+        "h": 870,
+        "source": "https://static.simonwillison.net/static/2026/agent-v-agent.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/battle-drones/07.jpg",
+        "thumb": "media/gallery/battle-drones/07-t.jpg",
+        "w": 1632,
+        "h": 808,
+        "source": "https://static.simonwillison.net/static/2026/random-map-contact-sheet.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/battle-drones/08.jpg",
+        "thumb": "media/gallery/battle-drones/08-t.jpg",
+        "w": 1200,
+        "h": 600,
+        "source": "https://static.simonwillison.net/static/2026/battle-drones-card.webp",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://static.simonwillison.net/static/2026/battledrones-v1.webp",
+      "https://static.simonwillison.net/static/2026/battledrones-v2.webp",
+      "https://static.simonwillison.net/static/2026/battledrones-v3.jpg",
+      "https://static.simonwillison.net/static/2026/battledrones-v4.jpg",
+      "https://static.simonwillison.net/static/2026/battledrones-v8.jpg",
+      "https://static.simonwillison.net/static/2026/agent-v-agent.jpg",
+      "https://static.simonwillison.net/static/2026/random-map-contact-sheet.jpg",
+      "https://static.simonwillison.net/static/2026/battle-drones-card.webp"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "claude-of-duty",
@@ -555,7 +672,30 @@
       "https://explainx.ai/blog/claude-of-duty-opus-5-procedural-fps-july-2026",
       "https://www.besthub.dev/articles/can-ai-build-a-aaa-level-browser-fps-with-three-js-inside-claude-of-duty-58017eef96e4"
     ],
-    "imageSource": null
+    "imageSource": null,
+    "gallery": [
+      {
+        "src": "media/gallery/claude-of-duty/01.jpg",
+        "thumb": "media/gallery/claude-of-duty/01-t.jpg",
+        "w": 2060,
+        "h": 1456,
+        "source": "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/Captura-de-pantalla-2026-07-28-a-las-10.09.47.png@webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/claude-of-duty/02.jpg",
+        "thumb": "media/gallery/claude-of-duty/02-t.jpg",
+        "w": 3024,
+        "h": 1964,
+        "source": "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/Captura-de-pantalla-2026-07-28-a-las-10.11.14.png@webp",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/Captura-de-pantalla-2026-07-28-a-las-10.09.47.png@webp",
+      "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/Captura-de-pantalla-2026-07-28-a-las-10.11.14.png@webp"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "capybaras-delivering-food",
@@ -736,7 +876,57 @@
     "imageCandidates": [
       "https://capybara-vibejam26.leocoout.dev/images/capybara_thumbnail.png?v=2"
     ],
-    "imageSource": "https://capybara-vibejam26.leocoout.dev/images/capybara_thumbnail.png?v=2"
+    "imageSource": "https://capybara-vibejam26.leocoout.dev/images/capybara_thumbnail.png?v=2",
+    "gallery": [
+      {
+        "src": "media/gallery/capybaras-delivering-food/01.jpg",
+        "thumb": "media/gallery/capybaras-delivering-food/01-t.jpg",
+        "w": 936,
+        "h": 480,
+        "source": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*76ZIY88engMRk6x5RQ8gqw.gif",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/capybaras-delivering-food/02.jpg",
+        "thumb": "media/gallery/capybaras-delivering-food/02-t.jpg",
+        "w": 1400,
+        "h": 855,
+        "source": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*BfM53YdnhHeubfQUNoPsyA.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/capybaras-delivering-food/03.jpg",
+        "thumb": "media/gallery/capybaras-delivering-food/03-t.jpg",
+        "w": 1400,
+        "h": 596,
+        "source": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7WAo1242z2ERF-Z5ZIzkuA.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/capybaras-delivering-food/04.jpg",
+        "thumb": "media/gallery/capybaras-delivering-food/04-t.jpg",
+        "w": 1400,
+        "h": 1020,
+        "source": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*e5BH0ahlUQuSRAuc71IeLw.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/capybaras-delivering-food/05.jpg",
+        "thumb": "media/gallery/capybaras-delivering-food/05-t.jpg",
+        "w": 1400,
+        "h": 778,
+        "source": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*G5dOt_et2Mu9yVBz3Y-V1A.png",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*76ZIY88engMRk6x5RQ8gqw.gif",
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*BfM53YdnhHeubfQUNoPsyA.png",
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7WAo1242z2ERF-Z5ZIzkuA.png",
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*e5BH0ahlUQuSRAuc71IeLw.png",
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*G5dOt_et2Mu9yVBz3Y-V1A.png"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "world-of-claudecraft",
@@ -934,7 +1124,84 @@
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/header.jpg",
       "https://worldofclaudecraft.com/worldofclaudecraft-logo.webp"
     ],
-    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/f22f79ea73da828d5495e6ae10eaa16dc5d33036/ss_f22f79ea73da828d5495e6ae10eaa16dc5d33036.1920x1080.jpg?t=1786321975"
+    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/f22f79ea73da828d5495e6ae10eaa16dc5d33036/ss_f22f79ea73da828d5495e6ae10eaa16dc5d33036.1920x1080.jpg?t=1786321975",
+    "gallery": [
+      {
+        "src": "media/gallery/world-of-claudecraft/01.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/01-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/7e000945bd1f24be7dc69c88f199be952afdc9d1/ss_7e000945bd1f24be7dc69c88f199be952afdc9d1.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/world-of-claudecraft/02.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/02-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/9837a0a9df1c9566ce2a9d97c44acf16697fe925/ss_9837a0a9df1c9566ce2a9d97c44acf16697fe925.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/world-of-claudecraft/03.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/03-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/fe8d3af9de8e89351573571cead5f01554c7bbda/ss_fe8d3af9de8e89351573571cead5f01554c7bbda.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/world-of-claudecraft/04.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/04-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/40b85d4050af6b54b724c5f1c949158c2136977b/ss_40b85d4050af6b54b724c5f1c949158c2136977b.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/world-of-claudecraft/05.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/05-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/c972508b95dc6492a5bb01bd3dc1ef495ec28139/ss_c972508b95dc6492a5bb01bd3dc1ef495ec28139.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/world-of-claudecraft/06.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/06-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/54640864ff8c534720915fba76b15b60775e4701/ss_54640864ff8c534720915fba76b15b60775e4701.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/world-of-claudecraft/07.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/07-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/0b8e41852625723df5ca953a1de4a7fe23fe3c88/ss_0b8e41852625723df5ca953a1de4a7fe23fe3c88.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/world-of-claudecraft/08.jpg",
+        "thumb": "media/gallery/world-of-claudecraft/08-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/c3575bb9011c15097e9f7493a5cc42ed1fbf30a9/ss_c3575bb9011c15097e9f7493a5cc42ed1fbf30a9.1920x1080.jpg?t=1786321975",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/7e000945bd1f24be7dc69c88f199be952afdc9d1/ss_7e000945bd1f24be7dc69c88f199be952afdc9d1.1920x1080.jpg?t=1786321975",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/9837a0a9df1c9566ce2a9d97c44acf16697fe925/ss_9837a0a9df1c9566ce2a9d97c44acf16697fe925.1920x1080.jpg?t=1786321975",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/fe8d3af9de8e89351573571cead5f01554c7bbda/ss_fe8d3af9de8e89351573571cead5f01554c7bbda.1920x1080.jpg?t=1786321975",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/40b85d4050af6b54b724c5f1c949158c2136977b/ss_40b85d4050af6b54b724c5f1c949158c2136977b.1920x1080.jpg?t=1786321975",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/c972508b95dc6492a5bb01bd3dc1ef495ec28139/ss_c972508b95dc6492a5bb01bd3dc1ef495ec28139.1920x1080.jpg?t=1786321975",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/54640864ff8c534720915fba76b15b60775e4701/ss_54640864ff8c534720915fba76b15b60775e4701.1920x1080.jpg?t=1786321975",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/0b8e41852625723df5ca953a1de4a7fe23fe3c88/ss_0b8e41852625723df5ca953a1de4a7fe23fe3c88.1920x1080.jpg?t=1786321975",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4897790/c3575bb9011c15097e9f7493a5cc42ed1fbf30a9/ss_c3575bb9011c15097e9f7493a5cc42ed1fbf30a9.1920x1080.jpg?t=1786321975"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "codex-mortis",
@@ -1121,7 +1388,84 @@
       "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4084120/482df43bca1d8ba6a01be7d900ba20d0592a2b3b/header.jpg?t=1790624630",
       "https://img.youtube.com/vi/dR4KVvYtBwk/maxresdefault.jpg"
     ],
-    "imageSource": "https://img.youtube.com/vi/dR4KVvYtBwk/maxresdefault.jpg"
+    "imageSource": "https://img.youtube.com/vi/dR4KVvYtBwk/maxresdefault.jpg",
+    "gallery": [
+      {
+        "src": "media/gallery/codex-mortis/01.jpg",
+        "thumb": "media/gallery/codex-mortis/01-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/c1a4019f9a7ed3afba72256557b05f580c8a678d/ss_c1a4019f9a7ed3afba72256557b05f580c8a678d.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/codex-mortis/02.jpg",
+        "thumb": "media/gallery/codex-mortis/02-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/1c0d0b96226c559d9892a6865009d6266ded0396/ss_1c0d0b96226c559d9892a6865009d6266ded0396.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/codex-mortis/03.jpg",
+        "thumb": "media/gallery/codex-mortis/03-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/4c2c55521fde8c76e3ef6867b33ccd1235829a7a/ss_4c2c55521fde8c76e3ef6867b33ccd1235829a7a.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/codex-mortis/04.jpg",
+        "thumb": "media/gallery/codex-mortis/04-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/b940b665601898860ddf807be1ac7345fd41ab3d/ss_b940b665601898860ddf807be1ac7345fd41ab3d.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/codex-mortis/05.jpg",
+        "thumb": "media/gallery/codex-mortis/05-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/661993b4368a404087e6b25d769a0def1900fd50/ss_661993b4368a404087e6b25d769a0def1900fd50.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/codex-mortis/06.jpg",
+        "thumb": "media/gallery/codex-mortis/06-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/eff712678f29c8e44462469ca2a248c0e127664c/ss_eff712678f29c8e44462469ca2a248c0e127664c.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/codex-mortis/07.jpg",
+        "thumb": "media/gallery/codex-mortis/07-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/4f682e52af87be94a695437fbc251a7dfb6874eb/ss_4f682e52af87be94a695437fbc251a7dfb6874eb.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/codex-mortis/08.jpg",
+        "thumb": "media/gallery/codex-mortis/08-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/89eea76cffa84a4c4a0192e59cd560e33982d988/ss_89eea76cffa84a4c4a0192e59cd560e33982d988.1920x1080.jpg?t=1790624630",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/c1a4019f9a7ed3afba72256557b05f580c8a678d/ss_c1a4019f9a7ed3afba72256557b05f580c8a678d.1920x1080.jpg?t=1790624630",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/1c0d0b96226c559d9892a6865009d6266ded0396/ss_1c0d0b96226c559d9892a6865009d6266ded0396.1920x1080.jpg?t=1790624630",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/4c2c55521fde8c76e3ef6867b33ccd1235829a7a/ss_4c2c55521fde8c76e3ef6867b33ccd1235829a7a.1920x1080.jpg?t=1790624630",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/b940b665601898860ddf807be1ac7345fd41ab3d/ss_b940b665601898860ddf807be1ac7345fd41ab3d.1920x1080.jpg?t=1790624630",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/661993b4368a404087e6b25d769a0def1900fd50/ss_661993b4368a404087e6b25d769a0def1900fd50.1920x1080.jpg?t=1790624630",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/eff712678f29c8e44462469ca2a248c0e127664c/ss_eff712678f29c8e44462469ca2a248c0e127664c.1920x1080.jpg?t=1790624630",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/4f682e52af87be94a695437fbc251a7dfb6874eb/ss_4f682e52af87be94a695437fbc251a7dfb6874eb.1920x1080.jpg?t=1790624630",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084120/89eea76cffa84a4c4a0192e59cd560e33982d988/ss_89eea76cffa84a4c4a0192e59cd560e33982d988.1920x1080.jpg?t=1790624630"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "great-taxi-assignment",
@@ -1283,7 +1627,57 @@
     "imageCandidates": [
       "https://great-taxi-assignment.netlify.app/assets/social-preview.jpg"
     ],
-    "imageSource": "https://great-taxi-assignment.netlify.app/assets/social-preview.jpg"
+    "imageSource": "https://great-taxi-assignment.netlify.app/assets/social-preview.jpg",
+    "gallery": [
+      {
+        "src": "media/gallery/great-taxi-assignment/01.jpg",
+        "thumb": "media/gallery/great-taxi-assignment/01-t.jpg",
+        "w": 1200,
+        "h": 675,
+        "source": "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_01.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/great-taxi-assignment/02.jpg",
+        "thumb": "media/gallery/great-taxi-assignment/02-t.jpg",
+        "w": 1200,
+        "h": 596,
+        "source": "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_Editor.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/great-taxi-assignment/03.jpg",
+        "thumb": "media/gallery/great-taxi-assignment/03-t.jpg",
+        "w": 1200,
+        "h": 800,
+        "source": "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Too-Smooth-to-Be-Legal.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/great-taxi-assignment/04.jpg",
+        "thumb": "media/gallery/great-taxi-assignment/04-t.jpg",
+        "w": 1200,
+        "h": 675,
+        "source": "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_Billboards.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/great-taxi-assignment/05.jpg",
+        "thumb": "media/gallery/great-taxi-assignment/05-t.jpg",
+        "w": 1200,
+        "h": 675,
+        "source": "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_Cover.webp",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_01.webp",
+      "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_Editor.webp",
+      "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Too-Smooth-to-Be-Legal.webp",
+      "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_Billboards.webp",
+      "https://cassoviacode.com/wp-content/uploads/2025/04/blog_Vibe-Jam_Cover.webp"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "counter-strike-bench",
@@ -1425,7 +1819,57 @@
       "https://www.instantdb.com/img/essays/agents_building_counterstrike.jpg",
       "https://img.youtube.com/vi/fm-OoCWQlmc/maxresdefault.jpg"
     ],
-    "imageSource": "YouTube thumbnail of the build video, https://youtu.be/fm-OoCWQlmc"
+    "imageSource": "YouTube thumbnail of the build video, https://youtu.be/fm-OoCWQlmc",
+    "gallery": [
+      {
+        "src": "media/gallery/counter-strike-bench/01.jpg",
+        "thumb": "media/gallery/counter-strike-bench/01-t.jpg",
+        "w": 3136,
+        "h": 1808,
+        "source": "https://instantdb.com/posts/counter_strike/map_claude.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/counter-strike-bench/02.jpg",
+        "thumb": "media/gallery/counter-strike-bench/02-t.jpg",
+        "w": 3134,
+        "h": 1776,
+        "source": "https://instantdb.com/posts/counter_strike/map_gemini.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/counter-strike-bench/03.jpg",
+        "thumb": "media/gallery/counter-strike-bench/03-t.jpg",
+        "w": 800,
+        "h": 523,
+        "source": "https://instantdb.com/posts/counter_strike/recoil_codex.gif",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/counter-strike-bench/04.jpg",
+        "thumb": "media/gallery/counter-strike-bench/04-t.jpg",
+        "w": 800,
+        "h": 574,
+        "source": "https://instantdb.com/posts/counter_strike/recoil_gemini.gif",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/counter-strike-bench/05.jpg",
+        "thumb": "media/gallery/counter-strike-bench/05-t.jpg",
+        "w": 1514,
+        "h": 1282,
+        "source": "https://instantdb.com/posts/counter_strike/ui_claude.png",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://instantdb.com/posts/counter_strike/map_claude.png",
+      "https://instantdb.com/posts/counter_strike/map_gemini.png",
+      "https://instantdb.com/posts/counter_strike/recoil_codex.gif",
+      "https://instantdb.com/posts/counter_strike/recoil_gemini.gif",
+      "https://instantdb.com/posts/counter_strike/ui_claude.png"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "survive-the-horde",
@@ -1574,7 +2018,39 @@
     "imageCandidates": [
       "https://opengraph.githubassets.com/1/Harshk133/babylon-fps"
     ],
-    "imageSource": "Screenshot of the live game (loading screen), https://babylon-fps.vercel.app/"
+    "imageSource": "Screenshot of the live game (loading screen), https://babylon-fps.vercel.app/",
+    "gallery": [
+      {
+        "src": "media/gallery/survive-the-horde/01.jpg",
+        "thumb": "media/gallery/survive-the-horde/01-t.jpg",
+        "w": 1380,
+        "h": 650,
+        "source": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/3/f/3f42c56b4fe5c6245fb721a85f3113b73cfc89d9_2_1380x650.jpeg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/survive-the-horde/02.jpg",
+        "thumb": "media/gallery/survive-the-horde/02-t.jpg",
+        "w": 1380,
+        "h": 654,
+        "source": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/0/8/08c31a45b0255a0f68c18d36541b3e3a80fd1a2a_2_1380x654.jpeg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/survive-the-horde/03.jpg",
+        "thumb": "media/gallery/survive-the-horde/03-t.jpg",
+        "w": 1380,
+        "h": 662,
+        "source": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/e/e/ee5b2646248b3d4e533ee785af25b2507068d51f_2_1380x662.jpeg",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/3/f/3f42c56b4fe5c6245fb721a85f3113b73cfc89d9_2_1380x650.jpeg",
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/0/8/08c31a45b0255a0f68c18d36541b3e3a80fd1a2a_2_1380x654.jpeg",
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/e/e/ee5b2646248b3d4e533ee785af25b2507068d51f_2_1380x662.jpeg"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "taipei-rush",
@@ -1718,7 +2194,79 @@
     ],
     "confidence": "medium",
     "imageCandidates": [],
-    "imageSource": "https://www.taipei-rush.app/og/taipei.jpg"
+    "imageSource": "https://www.taipei-rush.app/og/taipei.jpg",
+    "gallery": [
+      {
+        "src": "media/gallery/taipei-rush/01.jpg",
+        "thumb": "media/gallery/taipei-rush/01-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/2_mf_yJpLOI/maxres1.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/taipei-rush/02.jpg",
+        "thumb": "media/gallery/taipei-rush/02-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/2_mf_yJpLOI/maxres2.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/taipei-rush/03.jpg",
+        "thumb": "media/gallery/taipei-rush/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/2_mf_yJpLOI/maxres3.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/taipei-rush/04.jpg",
+        "thumb": "media/gallery/taipei-rush/04-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/BviMkdGBnKc/maxres1.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/taipei-rush/05.jpg",
+        "thumb": "media/gallery/taipei-rush/05-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/BviMkdGBnKc/maxres2.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/taipei-rush/06.jpg",
+        "thumb": "media/gallery/taipei-rush/06-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/BviMkdGBnKc/maxres3.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/taipei-rush/07.jpg",
+        "thumb": "media/gallery/taipei-rush/07-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/eKPtgevY08A/maxres1.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/taipei-rush/08.jpg",
+        "thumb": "media/gallery/taipei-rush/08-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/eKPtgevY08A/maxres2.jpg",
+        "origin": "video"
+      }
+    ],
+    "galleryCandidates": [
+      "youtube:2_mf_yJpLOI",
+      "youtube:BviMkdGBnKc",
+      "youtube:eKPtgevY08A"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "tower-of-time",
@@ -1881,7 +2429,21 @@
       "https://github.com/maciej-trebacz/tower-of-time-game/raw/main/screenshot.png",
       "https://img.itch.zone/aW1hZ2UvMzY4MDMxNS8yMTk4MTE4NC5wbmc=/original/qBxicv.png"
     ],
-    "imageSource": "Gameplay screenshot from the repo, https://github.com/maciej-trebacz/tower-of-time-game/raw/main/screenshot.png"
+    "imageSource": "Gameplay screenshot from the repo, https://github.com/maciej-trebacz/tower-of-time-game/raw/main/screenshot.png",
+    "gallery": [
+      {
+        "src": "media/gallery/tower-of-time/01.jpg",
+        "thumb": "media/gallery/tower-of-time/01-t.jpg",
+        "w": 630,
+        "h": 500,
+        "source": "https://img.itch.zone/aW1nLzIxOTkyNzAxLnBuZw==/original/nylYw3.png",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://img.itch.zone/aW1nLzIxOTkyNzAxLnBuZw==/original/nylYw3.png"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "ww2-dogfight-arena",
@@ -2051,7 +2613,12 @@
       "https://pbs.twimg.com/media/Gl3okbgXUAAt932.jpg?name=orig",
       "https://opengraph.githubassets.com/1/EnzeD/vibe-coding"
     ],
-    "imageSource": "Screenshot of the live game menu, https://fly.zullo.fun/"
+    "imageSource": "Screenshot of the live game menu, https://fly.zullo.fun/",
+    "gallery": [],
+    "galleryCandidates": [
+      "readme:https://github.com/EnzeD/vibe-coding"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "wenware",
@@ -2216,7 +2783,57 @@
       "https://googlemapsmania.blogspot.com/2026/04/historical-geoguesssr.html",
       "https://wen-ware.com/play"
     ],
-    "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKsvbgz-Tt1fV-MPbnJOJDKBcKp9lQ40G2KhbUELEN1BtahPgJgKxPi4TQumB_xT6gg3mayU1T0qlfSvtosn0X-1E7tnPkfHkdB1v4OstBUitsFmSPFfS8L3OaiS1nvo1W5bGRpqd2gN64bkVxW1Pr5l6_AOhnJKw15BhaLTzVmOwzncBweffnBw/w1200-h630-p-k-no-nu/Screenshot%202026-04-28%208.18.57%20AM.png"
+    "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKsvbgz-Tt1fV-MPbnJOJDKBcKp9lQ40G2KhbUELEN1BtahPgJgKxPi4TQumB_xT6gg3mayU1T0qlfSvtosn0X-1E7tnPkfHkdB1v4OstBUitsFmSPFfS8L3OaiS1nvo1W5bGRpqd2gN64bkVxW1Pr5l6_AOhnJKw15BhaLTzVmOwzncBweffnBw/w1200-h630-p-k-no-nu/Screenshot%202026-04-28%208.18.57%20AM.png",
+    "gallery": [
+      {
+        "src": "media/gallery/wenware/01.jpg",
+        "thumb": "media/gallery/wenware/01-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/Tw4waDIb4as/maxres1.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/wenware/02.jpg",
+        "thumb": "media/gallery/wenware/02-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/Tw4waDIb4as/maxres2.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/wenware/03.jpg",
+        "thumb": "media/gallery/wenware/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/ECSKLA-16ck/maxres1.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/wenware/04.jpg",
+        "thumb": "media/gallery/wenware/04-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/ECSKLA-16ck/maxres2.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/wenware/05.jpg",
+        "thumb": "media/gallery/wenware/05-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/ECSKLA-16ck/maxres3.jpg",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://img.youtube.com/vi/Tw4waDIb4as/maxres1.jpg",
+      "https://img.youtube.com/vi/Tw4waDIb4as/maxres2.jpg",
+      "https://img.youtube.com/vi/ECSKLA-16ck/maxres1.jpg",
+      "https://img.youtube.com/vi/ECSKLA-16ck/maxres2.jpg",
+      "https://img.youtube.com/vi/ECSKLA-16ck/maxres3.jpg"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "isocity",
@@ -2367,7 +2984,64 @@
       "https://raw.githubusercontent.com/amilich/isometric-city/main/public/readme-image.png",
       "https://raw.githubusercontent.com/amilich/isometric-city/main/public/readme-coaster.png"
     ],
-    "imageSource": "README image, https://raw.githubusercontent.com/amilich/isometric-city/main/public/readme-image.png"
+    "imageSource": "README image, https://raw.githubusercontent.com/amilich/isometric-city/main/public/readme-image.png",
+    "gallery": [
+      {
+        "src": "media/gallery/isocity/01.jpg",
+        "thumb": "media/gallery/isocity/01-t.jpg",
+        "w": 1024,
+        "h": 412,
+        "source": "https://raw.githubusercontent.com/amilich/isometric-city/HEAD/public/readme-coaster.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/isocity/02.jpg",
+        "thumb": "media/gallery/isocity/02-t.jpg",
+        "w": 1400,
+        "h": 625,
+        "source": "https://cdn.shazoo.ru/c1400x625/841135_CgvZXgv_isocity.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/isocity/03.jpg",
+        "thumb": "media/gallery/isocity/03-t.jpg",
+        "w": 2400,
+        "h": 1304,
+        "source": "https://cdn.shazoo.ru/c2400x1304/841137_lV5mbvw_g8lksr3waae876k.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/isocity/04.jpg",
+        "thumb": "media/gallery/isocity/04-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/cvFSxgB5bog/maxres1.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/isocity/05.jpg",
+        "thumb": "media/gallery/isocity/05-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/cvFSxgB5bog/maxres2.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/isocity/06.jpg",
+        "thumb": "media/gallery/isocity/06-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/cvFSxgB5bog/maxres3.jpg",
+        "origin": "video"
+      }
+    ],
+    "galleryCandidates": [
+      "https://raw.githubusercontent.com/amilich/isometric-city/HEAD/public/readme-coaster.png",
+      "https://cdn.shazoo.ru/c1400x625/841135_CgvZXgv_isocity.jpg",
+      "https://cdn.shazoo.ru/c2400x1304/841137_lV5mbvw_g8lksr3waae876k.jpg",
+      "youtube:cvFSxgB5bog"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "keypress-express",
@@ -2505,7 +3179,84 @@
       "https://nitzan.games/steam-games/keypress-express-screenshot.jpg"
     ],
     "imageSource": "Steam store screenshot (app 4816900)",
-    "imagePosition": "bottom"
+    "imagePosition": "bottom",
+    "gallery": [
+      {
+        "src": "media/gallery/keypress-express/01.jpg",
+        "thumb": "media/gallery/keypress-express/01-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/72ee231f35074d321370b6bbd29e221c02b2db5e/ss_72ee231f35074d321370b6bbd29e221c02b2db5e.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/keypress-express/02.jpg",
+        "thumb": "media/gallery/keypress-express/02-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/9c1ac1a6d89b5b545262d5c2784e02c0cced3174/ss_9c1ac1a6d89b5b545262d5c2784e02c0cced3174.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/keypress-express/03.jpg",
+        "thumb": "media/gallery/keypress-express/03-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/6abdd77227c9ab9b5ca2895ce4987fcc94cb89bc/ss_6abdd77227c9ab9b5ca2895ce4987fcc94cb89bc.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/keypress-express/04.jpg",
+        "thumb": "media/gallery/keypress-express/04-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/e6e56e3dc0f8a4f79cd3d2461697180237fb63fd/ss_e6e56e3dc0f8a4f79cd3d2461697180237fb63fd.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/keypress-express/05.jpg",
+        "thumb": "media/gallery/keypress-express/05-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/7d6237462d9880ea9afd859046e7b344afed06a7/ss_7d6237462d9880ea9afd859046e7b344afed06a7.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/keypress-express/06.jpg",
+        "thumb": "media/gallery/keypress-express/06-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/7ee1521a30367423abc72674030eeb41c3c6e444/ss_7ee1521a30367423abc72674030eeb41c3c6e444.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/keypress-express/07.jpg",
+        "thumb": "media/gallery/keypress-express/07-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/4aa5ae8d78d055d9d34f78ea0ae38060aa992573/ss_4aa5ae8d78d055d9d34f78ea0ae38060aa992573.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/keypress-express/08.jpg",
+        "thumb": "media/gallery/keypress-express/08-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/30e9ad74492ceeee3a146f47e4ca943ea0e48039/ss_30e9ad74492ceeee3a146f47e4ca943ea0e48039.1920x1080.jpg?t=1786075683",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/72ee231f35074d321370b6bbd29e221c02b2db5e/ss_72ee231f35074d321370b6bbd29e221c02b2db5e.1920x1080.jpg?t=1786075683",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/9c1ac1a6d89b5b545262d5c2784e02c0cced3174/ss_9c1ac1a6d89b5b545262d5c2784e02c0cced3174.1920x1080.jpg?t=1786075683",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/6abdd77227c9ab9b5ca2895ce4987fcc94cb89bc/ss_6abdd77227c9ab9b5ca2895ce4987fcc94cb89bc.1920x1080.jpg?t=1786075683",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/e6e56e3dc0f8a4f79cd3d2461697180237fb63fd/ss_e6e56e3dc0f8a4f79cd3d2461697180237fb63fd.1920x1080.jpg?t=1786075683",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/7d6237462d9880ea9afd859046e7b344afed06a7/ss_7d6237462d9880ea9afd859046e7b344afed06a7.1920x1080.jpg?t=1786075683",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/7ee1521a30367423abc72674030eeb41c3c6e444/ss_7ee1521a30367423abc72674030eeb41c3c6e444.1920x1080.jpg?t=1786075683",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/4aa5ae8d78d055d9d34f78ea0ae38060aa992573/ss_4aa5ae8d78d055d9d34f78ea0ae38060aa992573.1920x1080.jpg?t=1786075683",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4816900/30e9ad74492ceeee3a146f47e4ca943ea0e48039/ss_30e9ad74492ceeee3a146f47e4ca943ea0e48039.1920x1080.jpg?t=1786075683"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "void-balls",
@@ -2643,7 +3394,66 @@
       "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4591360/ea5a839af72bbfc35407c44075465b609c78b2a1/header.jpg?t=1795437014",
       "https://voidballs.game/assets/boss-art.webp"
     ],
-    "imageSource": "https://voidballs.game/assets/boss-art.webp"
+    "imageSource": "https://voidballs.game/assets/boss-art.webp",
+    "gallery": [
+      {
+        "src": "media/gallery/void-balls/01.jpg",
+        "thumb": "media/gallery/void-balls/01-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/b71f469fde41bc549f4164a37aad267814fac034/ss_b71f469fde41bc549f4164a37aad267814fac034.1920x1080.jpg?t=1795437014",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/void-balls/02.jpg",
+        "thumb": "media/gallery/void-balls/02-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/c46ea6477be1f86cfcc4d64389e0572f8a0b1f64/ss_c46ea6477be1f86cfcc4d64389e0572f8a0b1f64.1920x1080.jpg?t=1795437014",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/void-balls/03.jpg",
+        "thumb": "media/gallery/void-balls/03-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/6ada6c1e713a56c1d2e0308fe8e5dfa6c079a149/ss_6ada6c1e713a56c1d2e0308fe8e5dfa6c079a149.1920x1080.jpg?t=1795437014",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/void-balls/04.jpg",
+        "thumb": "media/gallery/void-balls/04-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/1a192099823cfb38e82d8ee4c5edd6a7223e14f8/ss_1a192099823cfb38e82d8ee4c5edd6a7223e14f8.1920x1080.jpg?t=1795437014",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/void-balls/05.jpg",
+        "thumb": "media/gallery/void-balls/05-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/e31d1ae64ad31d8dccfdad818224a197bf165b0f/ss_e31d1ae64ad31d8dccfdad818224a197bf165b0f.1920x1080.jpg?t=1795437014",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/void-balls/06.jpg",
+        "thumb": "media/gallery/void-balls/06-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/89547ca48f5a3863a3c5a80834ed7776aac68ccd/ss_89547ca48f5a3863a3c5a80834ed7776aac68ccd.1920x1080.jpg?t=1795437014",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/b71f469fde41bc549f4164a37aad267814fac034/ss_b71f469fde41bc549f4164a37aad267814fac034.1920x1080.jpg?t=1795437014",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/c46ea6477be1f86cfcc4d64389e0572f8a0b1f64/ss_c46ea6477be1f86cfcc4d64389e0572f8a0b1f64.1920x1080.jpg?t=1795437014",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/6ada6c1e713a56c1d2e0308fe8e5dfa6c079a149/ss_6ada6c1e713a56c1d2e0308fe8e5dfa6c079a149.1920x1080.jpg?t=1795437014",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/1a192099823cfb38e82d8ee4c5edd6a7223e14f8/ss_1a192099823cfb38e82d8ee4c5edd6a7223e14f8.1920x1080.jpg?t=1795437014",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/e31d1ae64ad31d8dccfdad818224a197bf165b0f/ss_e31d1ae64ad31d8dccfdad818224a197bf165b0f.1920x1080.jpg?t=1795437014",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4591360/89547ca48f5a3863a3c5a80834ed7776aac68ccd/ss_89547ca48f5a3863a3c5a80834ed7776aac68ccd.1920x1080.jpg?t=1795437014"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "the-librarian-2",
@@ -2765,7 +3575,10 @@
     "imageCandidates": [
       "https://img.youtube.com/vi/qK4nV_LnXxQ/maxresdefault.jpg"
     ],
-    "imageSource": "https://img.youtube.com/vi/qK4nV_LnXxQ/maxresdefault.jpg"
+    "imageSource": "https://img.youtube.com/vi/qK4nV_LnXxQ/maxresdefault.jpg",
+    "gallery": [],
+    "galleryCandidates": [],
+    "galleryAuto": false
   },
   {
     "id": "suika-watermelon-coolmath",
@@ -2930,7 +3743,39 @@
       "https://www.coolmathgames.com/sites/default/files/suika-watermelon-game-icon_0.png",
       "https://www.coolmathgames.com/sites/default/files/styles/mobile_game_image/public/SuikaWatermelonGame.png.webp"
     ],
-    "imageSource": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feffgv472xzfz3vasuwyh.png"
+    "imageSource": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feffgv472xzfz3vasuwyh.png",
+    "gallery": [
+      {
+        "src": "media/gallery/suika-watermelon-coolmath/01.jpg",
+        "thumb": "media/gallery/suika-watermelon-coolmath/01-t.jpg",
+        "w": 900,
+        "h": 506,
+        "source": "https://substackcdn.com/image/fetch/$s_!VMin!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0cb70328-1d62-451b-8121-d5493e8bf983_900x506.jpeg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/suika-watermelon-coolmath/02.jpg",
+        "thumb": "media/gallery/suika-watermelon-coolmath/02-t.jpg",
+        "w": 799,
+        "h": 631,
+        "source": "https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxi0d5oeq8ekdooumwnix.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/suika-watermelon-coolmath/03.jpg",
+        "thumb": "media/gallery/suika-watermelon-coolmath/03-t.jpg",
+        "w": 900,
+        "h": 719,
+        "source": "https://substackcdn.com/image/fetch/$s_!dTof!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf3d736b-4647-4f97-9334-5b47073b8a27_900x719.jpeg",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://substackcdn.com/image/fetch/$s_!VMin!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0cb70328-1d62-451b-8121-d5493e8bf983_900x506.jpeg",
+      "https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxi0d5oeq8ekdooumwnix.png",
+      "https://substackcdn.com/image/fetch/$s_!dTof!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf3d736b-4647-4f97-9334-5b47073b8a27_900x719.jpeg"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "vector-tango",
@@ -3075,7 +3920,75 @@
     "imageCandidates": [
       "https://www.vector-tango.com/landing/share-1200x630.jpg"
     ],
-    "imageSource": "https://www.vector-tango.com/landing/share-1200x630.jpg"
+    "imageSource": "https://www.vector-tango.com/landing/share-1200x630.jpg",
+    "gallery": [
+      {
+        "src": "media/gallery/vector-tango/01.jpg",
+        "thumb": "media/gallery/vector-tango/01-t.jpg",
+        "w": 1600,
+        "h": 900,
+        "source": "https://www.vector-tango.com/landing/mr/tower-desk.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/vector-tango/02.jpg",
+        "thumb": "media/gallery/vector-tango/02-t.jpg",
+        "w": 1440,
+        "h": 810,
+        "source": "https://www.vector-tango.com/flight-log/8/gameplay-cover.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/vector-tango/03.jpg",
+        "thumb": "media/gallery/vector-tango/03-t.jpg",
+        "w": 1440,
+        "h": 810,
+        "source": "https://www.vector-tango.com/flight-log/7/gameplay-cover.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/vector-tango/04.jpg",
+        "thumb": "media/gallery/vector-tango/04-t.jpg",
+        "w": 3840,
+        "h": 2160,
+        "source": "https://www.vector-tango.com/flight-log/6/gameplay-cover.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/vector-tango/05.jpg",
+        "thumb": "media/gallery/vector-tango/05-t.jpg",
+        "w": 3840,
+        "h": 2160,
+        "source": "https://www.vector-tango.com/flight-log/5/gameplay-cover.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/vector-tango/06.jpg",
+        "thumb": "media/gallery/vector-tango/06-t.jpg",
+        "w": 1600,
+        "h": 760,
+        "source": "https://www.vector-tango.com/flight-log/4/cover.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/vector-tango/07.jpg",
+        "thumb": "media/gallery/vector-tango/07-t.jpg",
+        "w": 1600,
+        "h": 761,
+        "source": "https://www.vector-tango.com/flight-log/3/cover.jpg",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://www.vector-tango.com/landing/mr/tower-desk.webp",
+      "https://www.vector-tango.com/flight-log/8/gameplay-cover.jpg",
+      "https://www.vector-tango.com/flight-log/7/gameplay-cover.jpg",
+      "https://www.vector-tango.com/flight-log/6/gameplay-cover.jpg",
+      "https://www.vector-tango.com/flight-log/5/gameplay-cover.jpg",
+      "https://www.vector-tango.com/flight-log/4/cover.jpg",
+      "https://www.vector-tango.com/flight-log/3/cover.jpg"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "idle-tactics-ascension",
@@ -3217,7 +4130,48 @@
     "imageCandidates": [
       "https://vibecode.game/media/catalog/idle-tactics-ascension/idle-tactics-ascension_cover.webp"
     ],
-    "imageSource": "https://vibecode.game/media/catalog/idle-tactics-ascension/idle-tactics-ascension_cover.webp"
+    "imageSource": "https://vibecode.game/media/catalog/idle-tactics-ascension/idle-tactics-ascension_cover.webp",
+    "gallery": [
+      {
+        "src": "media/gallery/idle-tactics-ascension/01.jpg",
+        "thumb": "media/gallery/idle-tactics-ascension/01-t.jpg",
+        "w": 1569,
+        "h": 889,
+        "source": "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/01-0-Captura-de-tela-2026-07-27-052225.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/idle-tactics-ascension/02.jpg",
+        "thumb": "media/gallery/idle-tactics-ascension/02-t.jpg",
+        "w": 1580,
+        "h": 881,
+        "source": "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/02-1-Captura-de-tela-2026-07-27-050735.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/idle-tactics-ascension/03.jpg",
+        "thumb": "media/gallery/idle-tactics-ascension/03-t.jpg",
+        "w": 1566,
+        "h": 879,
+        "source": "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/03-2-Captura-de-tela-2026-07-27-052251.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/idle-tactics-ascension/04.jpg",
+        "thumb": "media/gallery/idle-tactics-ascension/04-t.jpg",
+        "w": 1570,
+        "h": 899,
+        "source": "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/04-3-Captura-de-tela-2026-07-27-050901.webp",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/01-0-Captura-de-tela-2026-07-27-052225.webp",
+      "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/02-1-Captura-de-tela-2026-07-27-050735.webp",
+      "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/03-2-Captura-de-tela-2026-07-27-052251.webp",
+      "https://vibecode.game/media/catalog/idle-tactics-ascension/gallery/04-3-Captura-de-tela-2026-07-27-050901.webp"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "halo-craft",
@@ -3333,7 +4287,21 @@
     ],
     "confidence": "medium",
     "imageCandidates": [],
-    "imageSource": "https://jmcdice.github.io/halo-craft/images/social/hc-social.png"
+    "imageSource": "https://jmcdice.github.io/halo-craft/images/social/hc-social.png",
+    "gallery": [
+      {
+        "src": "media/gallery/halo-craft/01.jpg",
+        "thumb": "media/gallery/halo-craft/01-t.jpg",
+        "w": 845,
+        "h": 563,
+        "source": "https://jmcdice.github.io/halo-craft/images/landing-sm.png",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://jmcdice.github.io/halo-craft/images/landing-sm.png"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "3dfps-vibes",
@@ -3456,7 +4424,21 @@
     "imageCandidates": [
       "https://opengraph.githubassets.com/1/mrkulk/3dfps-vibes"
     ],
-    "imageSource": "https://substackcdn.com/image/fetch/$s_!bKm7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78ae44ca-92a5-4fe3-955e-c0d3e5772e87_1673x1282.png"
+    "imageSource": "https://substackcdn.com/image/fetch/$s_!bKm7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78ae44ca-92a5-4fe3-955e-c0d3e5772e87_1673x1282.png",
+    "gallery": [
+      {
+        "src": "media/gallery/3dfps-vibes/01.jpg",
+        "thumb": "media/gallery/3dfps-vibes/01-t.jpg",
+        "w": 1600,
+        "h": 800,
+        "source": "https://substackcdn.com/image/fetch/$s_!CIHb!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftejaskulkarni.substack.com%2Fapi%2Fv1%2Fpost_preview%2F158735029%2Ftwitter.jpg%3Fversion%3D4",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://substackcdn.com/image/fetch/$s_!CIHb!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftejaskulkarni.substack.com%2Fapi%2Fv1%2Fpost_preview%2F158735029%2Ftwitter.jpg%3Fversion%3D4"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "fantos-mega-mart",
@@ -3589,7 +4571,10 @@
     "imageCandidates": [
       "https://fantos-megamart.vercel.app/fanto-thumbnail-b.png"
     ],
-    "imageSource": "https://fantos-megamart.vercel.app/fanto-thumbnail-b.png"
+    "imageSource": "https://fantos-megamart.vercel.app/fanto-thumbnail-b.png",
+    "gallery": [],
+    "galleryCandidates": [],
+    "galleryAuto": false
   },
   {
     "id": "vibesail",
@@ -3728,7 +4713,22 @@
     ],
     "confidence": "low",
     "imageCandidates": [],
-    "imageSource": "https://vibesail.com/assets/thumbnail.png"
+    "imageSource": "https://vibesail.com/assets/thumbnail.png",
+    "gallery": [
+      {
+        "src": "media/gallery/vibesail/01.jpg",
+        "thumb": "media/gallery/vibesail/01-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://vibesail.com/",
+        "origin": "live"
+      }
+    ],
+    "galleryCandidates": [
+      "https://fsspmzxvfjnvtqnuutsp.supabase.co/storage/v1/object/public/tool-images/screenshots/vibe-sail.png",
+      "screenshot:https://vibesail.com/|15000"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "tiny-realm",
@@ -3859,7 +4859,48 @@
     "imageCandidates": [
       "https://vibecode.game/media/catalog/tiny-realm/tiny-realm_cover.webp"
     ],
-    "imageSource": "https://vibecode.game/media/catalog/tiny-realm/tiny-realm_cover.webp"
+    "imageSource": "https://vibecode.game/media/catalog/tiny-realm/tiny-realm_cover.webp",
+    "gallery": [
+      {
+        "src": "media/gallery/tiny-realm/01.jpg",
+        "thumb": "media/gallery/tiny-realm/01-t.jpg",
+        "w": 1287,
+        "h": 864,
+        "source": "https://vibecode.game/media/catalog/tiny-realm/gallery/01-0-sss.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/tiny-realm/02.jpg",
+        "thumb": "media/gallery/tiny-realm/02-t.jpg",
+        "w": 1148,
+        "h": 945,
+        "source": "https://vibecode.game/media/catalog/tiny-realm/gallery/04-3-summ.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/tiny-realm/03.jpg",
+        "thumb": "media/gallery/tiny-realm/03-t.jpg",
+        "w": 840,
+        "h": 724,
+        "source": "https://vibecode.game/media/catalog/tiny-realm/gallery/06-5-arc.webp",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/tiny-realm/04.jpg",
+        "thumb": "media/gallery/tiny-realm/04-t.jpg",
+        "w": 758,
+        "h": 655,
+        "source": "https://vibecode.game/media/catalog/tiny-realm/gallery/07-6-arg.webp",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://vibecode.game/media/catalog/tiny-realm/gallery/01-0-sss.webp",
+      "https://vibecode.game/media/catalog/tiny-realm/gallery/04-3-summ.webp",
+      "https://vibecode.game/media/catalog/tiny-realm/gallery/06-5-arc.webp",
+      "https://vibecode.game/media/catalog/tiny-realm/gallery/07-6-arg.webp"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "mine8",
@@ -3995,7 +5036,30 @@
     ],
     "confidence": "low",
     "imageCandidates": [],
-    "imageSource": "https://contents.verse8.io/verses/e91ea9dc1e49/1d42cbdf-3d3a-487e-b301-ddbb31a5f128.png"
+    "imageSource": "https://contents.verse8.io/verses/e91ea9dc1e49/1d42cbdf-3d3a-487e-b301-ddbb31a5f128.png",
+    "gallery": [
+      {
+        "src": "media/gallery/mine8/01.jpg",
+        "thumb": "media/gallery/mine8/01-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://cdn.phaser.io/news/2026/04/mine8-header.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/mine8/02.jpg",
+        "thumb": "media/gallery/mine8/02-t.jpg",
+        "w": 1280,
+        "h": 768,
+        "source": "https://cdn.phaser.io/news/2026/04/mine8-3.png",
+        "origin": "picked"
+      }
+    ],
+    "galleryCandidates": [
+      "https://cdn.phaser.io/news/2026/04/mine8-header.png",
+      "https://cdn.phaser.io/news/2026/04/mine8-3.png"
+    ],
+    "galleryAuto": false
   },
   {
     "id": "vibeware",
@@ -4121,6 +5185,9 @@
     ],
     "confidence": "low",
     "imageCandidates": [],
-    "imageSource": "https://vibeware.vercel.app/social-card.jpg"
+    "imageSource": "https://vibeware.vercel.app/social-card.jpg",
+    "gallery": [],
+    "galleryCandidates": [],
+    "galleryAuto": false
   }
 ]

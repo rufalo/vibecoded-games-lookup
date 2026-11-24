@@ -90,6 +90,12 @@ for (const g of games) {
   for (const s of g.sources || []) if (!isUrl(s.url)) err(id, `source "${s.title}" has an invalid url`);
   inTax(id, 'confidence', g.confidence, tax.confidence);
 
+  if (g.gallery != null && !Array.isArray(g.gallery)) err(id, 'gallery must be an array');
+  for (const [i, s] of (g.gallery || []).entries()) {
+    for (const k of ['src', 'thumb']) if (!s[k] || !existsSync(join(SITE, s[k]))) err(id, `gallery[${i}].${k} file missing (${s[k]})`);
+  }
+  if ((g.gallery || []).length < 3) warn(id, `only ${(g.gallery || []).length} gallery image(s)`);
+
   if (g.image) {
     if (!existsSync(join(SITE, g.image))) err(id, `image file ${g.image} does not exist`);
   } else warn(id, 'no image (a generated cover will be shown)');

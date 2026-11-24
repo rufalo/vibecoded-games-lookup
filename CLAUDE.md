@@ -17,6 +17,7 @@ A private website cataloguing notable vibe-coded games (games whose code was mos
   - `validate.mjs`: data checks.
   - `fetch-images.mjs`: cover finder/downloader.
   - `resize-image.ps1`: re-encodes to ≤1280px JPEG.
+  - `fetch-gallery.mjs` + `process-images.ps1`: build screenshot galleries (resize, thumbnail, near-duplicate hashing; WebP via WIC).
   - `screenshot.ps1`: headless-Edge page screenshots, with `-ColorScheme dark|light`.
   - `start-server.ps1`, `stop-server.ps1`: run the local preview server in the background.
 
@@ -45,6 +46,13 @@ A private website cataloguing notable vibe-coded games (games whose code was mos
    - For a live web game with no og:image: run `scripts/screenshot.ps1 -Url <playUrl> -Out <tmp.png>`, then `scripts/resize-image.ps1 -In <tmp.png> -Out docs/media/<id>.jpg`, and set `image` and `imageSource`.
    - **Look at the result.** og:images are sometimes unrelated stock art or a doc screenshot.
    - No image is fine: a generated cover is shown.
+   - **Gallery (screenshots):** aim for 4–8 images that show what the game looks like. Put them in `galleryCandidates` and set `galleryAuto: false`, then run `node scripts/fetch-gallery.mjs --force <id>`. It writes `docs/media/gallery/<id>/NN.jpg` plus `NN-t.jpg` thumbnails and the `gallery` array. Candidate forms:
+     - a direct image URL
+     - `youtube:<videoId>`: three HD frames of a gameplay video
+     - `screenshot:<playUrl>|<waitMs>`: a live headless capture
+     - `readme:<githubRepoUrl>`: the images in that repo's README
+
+     Good sources: Steam screenshots (`/api/appdetails`), repo READMEs, the creator's devlog, and gameplay videos (search YouTube). Without `galleryAuto: false`, the script discovers images itself; `--press` also scrapes the cited articles. **Always review a contact sheet**: scraped pages bring in stock photos, "related posts", other games and presenters' faces. Pin the keepers as candidates.
 4. **Validate.** `node scripts/validate.mjs` must report 0 errors.
 5. **Update the curated files.** If the game strengthens or changes a pattern, update `insights.json` (its `games` lists and points). If it was on the radar, remove it from `radar.json`.
 6. **Check the page.** Run `powershell -File scripts/screenshot.ps1 -Url "http://127.0.0.1:8210/#/game/<id>" -Out <png> -Width 1440 -Height 2200` and view it.
@@ -88,7 +96,9 @@ A private website cataloguing notable vibe-coded games (games whose code was mos
   "lessons": ["…"],
   "sources": [{ "title": "…", "url": "…" }],
   "confidence": "high",             // high | medium | low (how well documented)
-  "imageCandidates": [], "imagePages": []   // inputs for fetch-images.mjs
+  "imageCandidates": [], "imagePages": [],  // inputs for fetch-images.mjs (cover)
+  "gallery": [{ "src": "media/gallery/<id>/01.jpg", "thumb": "media/gallery/<id>/01-t.jpg", "w": 1920, "h": 1080, "source": "url", "origin": "picked|steam|video|live|repo|creator" }],
+  "galleryCandidates": ["youtube:…", "https://…jpg"], "galleryAuto": false   // inputs for fetch-gallery.mjs
 }
 ```
 
