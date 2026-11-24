@@ -618,7 +618,7 @@
         <li><code>node scripts/fetch-images.mjs</code> downloads cover images; <code>node scripts/validate.mjs</code> checks the data.</li>
       </ul>
       <h2>Hosting</h2>
-      <p>A tiny Node server (<code>scripts/serve.mjs</code>) serves the <code>docs/</code> folder on <code>127.0.0.1:8210</code>, and <code>tailscale serve</code> publishes it to your tailnet only. Edits to the data files show up on the next page load.</p>
+      <p>The site is static files in the repo's <code>docs/</code> folder, published by GitHub Pages. Pushing changes to <code>main</code> redeploys it in about a minute. For a local preview, run <code>node scripts/serve.mjs</code>.</p>
       <p class="muted">Research for the first ${DB.games.length} games was done on ${esc(fmtDate(DB.updated))} from creator write-ups, public repos, jam data and press coverage.</p>
     </div>`;
   }
@@ -739,7 +739,7 @@
   window.addEventListener('hashchange', route);
 
   loadData().then(() => {
-    $('#footer-stats').textContent = `${DB.games.length} games · updated ${fmtDate(DB.updated)} · served over Tailscale`;
+    $('#footer-stats').textContent = `${DB.games.length} games · updated ${fmtDate(DB.updated)} · hosted on GitHub Pages`;
     route();
   }).catch((err) => {
     main.innerHTML = `<div class="wrap"><div class="notice"><h2>Couldn't load the data</h2><p>${esc(err.message)}</p>

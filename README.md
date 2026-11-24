@@ -4,7 +4,7 @@
 
 A private field guide to notable **vibe-coded games**: games where AI wrote most of the code. For each game it covers what the game is, what's impressive, how the developer used AI, how the art and audio were made, the tech, traction and lessons learned, with sources.
 
-**Open it (tailnet only):** http://olipc.tail2a6a2b.ts.net:8210/
+**Open it:** https://rufalo.github.io/vibecoded-games-lookup/
 
 ## What's in it
 
@@ -26,22 +26,19 @@ A private field guide to notable **vibe-coded games**: games where AI wrote most
 | Piece | What it does |
 |---|---|
 | `docs/` | The website: static HTML/CSS/JS with no build step. All content lives in `docs/data/*.json`. |
-| `scripts/serve.mjs` | Zero-dependency Node server for `docs/` on `127.0.0.1:8210`. |
-| `tailscale serve --bg --http=8210 http://127.0.0.1:8210` | Publishes the server to the tailnet (persists across reboots). |
-| Startup launcher | `scripts/install-autostart.ps1` put `vibecoded-games-lookup-server.vbs` in the Windows Startup folder, so the server starts at login. |
+| GitHub Pages | Publishes `docs/` from the `main` branch. Every push to `main` redeploys. |
+| `scripts/serve.mjs` | Zero-dependency local preview server for `docs/` on `127.0.0.1:8210`. |
 
 Handy commands (PowerShell, from the repo root):
 
 ```powershell
-powershell -File scripts\start-server.ps1        # start the server if it isn't running
-powershell -File scripts\stop-server.ps1         # stop it
-powershell -File scripts\install-autostart.ps1 -Uninstall   # remove the login autostart
-tailscale serve --http=8210 off                  # unpublish from the tailnet
+powershell -File scripts\start-server.ps1        # local preview at http://127.0.0.1:8210/
+powershell -File scripts\stop-server.ps1         # stop the preview server
 node scripts\validate.mjs                        # check the data files
 ```
 
 ## Adding games
 
-Ask Claude, e.g. *"add Undersphere and Null Range to the guide"*. The workflow and data schema are in [CLAUDE.md](CLAUDE.md). Data edits show up on the next page reload with no restart.
+Ask Claude, e.g. *"add Undersphere and Null Range to the guide"*. The workflow and data schema are in [CLAUDE.md](CLAUDE.md). Changes go live about a minute after they are pushed to `main`.
 
 Created in [T3 Code](https://t3.codes).

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Zero-dependency static file server for the Vibe-Coded Games field guide.
 //
-// Serves ../site on 127.0.0.1:8210 (localhost only). Tailscale exposes it to the tailnet with:
-//   tailscale serve --bg --http=8210 http://127.0.0.1:8210
+// Local preview: serves ../docs on http://127.0.0.1:8210/ (localhost only).
+// The live site is GitHub Pages, publishing docs/ from the main branch.
 //
 // Env overrides: PORT, HOST.
 

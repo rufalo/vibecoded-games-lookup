@@ -1,6 +1,6 @@
 # Vibe-Coded Games field guide
 
-A private website cataloguing notable vibe-coded games (games whose code was mostly written by AI). The owner browses it over Tailscale at http://olipc.tail2a6a2b.ts.net:8210/ and will periodically ask for more games to be researched and added. The owner cares most about: FPS and strategy games, *how* the developer used AI, and *how the art was made* (code-drawn vs AI 2D vs AI 3D vs hand-made/Blender vs asset packs).
+A private website cataloguing notable vibe-coded games (games whose code was mostly written by AI). It is published on GitHub Pages at https://rufalo.github.io/vibecoded-games-lookup/ (repo `rufalo/vibecoded-games-lookup`, Pages source `main` → `/docs`). The owner will periodically ask for more games to be researched and added. The owner cares most about: FPS and strategy games, *how* the developer used AI, and *how the art was made* (code-drawn vs AI 2D vs AI 3D vs hand-made/Blender vs asset packs).
 
 ## Layout
 
@@ -18,15 +18,13 @@ A private website cataloguing notable vibe-coded games (games whose code was mos
   - `fetch-images.mjs`: cover finder/downloader.
   - `resize-image.ps1`: re-encodes to ≤1280px JPEG.
   - `screenshot.ps1`: headless-Edge page screenshots, with `-ColorScheme dark|light`.
-  - `start-server.ps1`, `stop-server.ps1`, `install-autostart.ps1`.
+  - `start-server.ps1`, `stop-server.ps1`: run the local preview server in the background.
 
 ## Hosting
 
-- `node scripts/serve.mjs` serves `docs/` on 127.0.0.1:8210 with `Cache-Control: no-cache` plus ETag. Data edits appear on reload and never need a restart.
-- Tailscale: `tailscale serve --bg --http=8210 http://127.0.0.1:8210`, persisted by tailscaled. Serving a folder directly through tailscale needs Windows admin, hence the Node server.
-  - The tailnet has no HTTPS certs. Other projects on this machine use ports 8155–8200 the same way.
-- Autostart: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\vibecoded-games-lookup-server.vbs`, written by `scripts/install-autostart.ps1` (`-Uninstall` removes it).
-- Site down? Run `powershell -File scripts/start-server.ps1`, then check `tailscale serve status`.
+- **Live site:** GitHub Pages serves `docs/` from `main`. Pushing to `main` redeploys in about a minute (check with `gh api repos/rufalo/vibecoded-games-lookup/pages/builds/latest --jq .status`). `docs/.nojekyll` disables Jekyll. All asset and data paths are relative, so the `/vibecoded-games-lookup/` subpath works.
+- **Local preview:** `node scripts/serve.mjs` serves `docs/` on http://127.0.0.1:8210/ with no-cache + ETag, so data edits show on reload.
+- After adding games: validate, then commit and push to `main`. The user chose Pages hosting, so pushing data updates is expected.
 
 ## Adding a game (the usual request)
 

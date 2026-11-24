@@ -1,6 +1,6 @@
 # Starts the field-guide static server (scripts/serve.mjs) in the background with no window,
 # unless it is already running. The server listens on http://127.0.0.1:8210/ only;
-# `tailscale serve` publishes that port to the tailnet.
+# The live site is GitHub Pages; this is only for local previews.
 
 $ErrorActionPreference = 'Stop'
 $serve = Join-Path $PSScriptRoot 'serve.mjs'
