@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-26",
   "lede": "Patterns across the games in this guide, pulled from creator write-ups, public repos, jam data and press coverage. Researched November 2026.",
 
   "insights": [
@@ -9,13 +9,14 @@
       "title": "Who made the visuals? Four answers",
       "lead": "Vibe coding means AI-written code. The art comes from wherever the creator could get it, and that choice shapes both the look and the reception.",
       "points": [
-        "**Drawn by code** is the default for showcases. Claude of Duty ships zero asset files. Every Battle Drones unit and building is three.js code: Claude \"has no image model\", Simon Willison notes, yet builds full-colour 3D models in code. The Librarian 2 and Counter-Strike Bench work the same way.",
-        "**AI image models** fill the 2D gap. ChatGPT drew Codex Mortis's sprites, and Claude-written wobble shaders fake the animation. WenWare's whole world is GPT-Image-2 360° panoramas. Battle Drones' terrain and menu art came from the OpenAI Images API, with Claude writing the prompts and reviewing its own outputs.",
-        "**AI 3D models** are still rare in shipped games. The 2026 Vibe Jam gold built its cast in Tripo3D from front/back/left/right reference images, and 3dfps-vibes used CSM.ai (its author works there). No shipped game turned up that used Blender MCP.",
-        "**Asset packs and human art** carry the games that want to feel complete: Survive the Horde uses Mixamo, Sketchfab, Kenney, Quaternius and Poly Haven. World of ClaudeCraft uses KayKit, Quaternius and Kenney plus commissioned art. Tower of Time uses itch.io packs touched up in Aseprite, and Keypress Express is hand-drawn.",
+        "**Drawn by code** is the default for showcases. Claude of Duty ships zero asset files. Every Battle Drones unit and building is three.js code: Claude \"has no image model\", Simon Willison notes, yet builds full-colour 3D models in code. Freeze Out's eight maps and its whole cast are code too, and for Pumpkin Farmer Claude built five playable art-direction prototypes to choose from.",
+        "**AI image models** fill the 2D gap. ChatGPT drew Codex Mortis's sprites, and Claude-written wobble shaders fake the animation. WenWare's whole world is GPT-Image-2 360° panoramas. HEXSTORM has the most elaborate pipeline here: an image model poses each turret, a video model spins it a full turn, and the developer's own tool cuts the video into a 32-direction sprite atlas.",
+        "**AI 3D models** went from rare to common in 2026. Every building, car and gun in Mafia City is a Nano Banana image turned into a Meshy model. Null Range's ships go Midjourney → Tripo → a wireframe that GPT 5.4 decimates. The 2026 Vibe Jam gold built its cast in Tripo3D from front/back/left/right reference images.",
+        "**The catch with AI 3D** is cleanup. 100 Bodies in the Grass splits complex models into sections for Meshy, then needs \"a LOT of refinement\" in Blender. Claude driving Blender is \"decent enough at small clean up tasks\" but \"shouldn't be used at all for animations\", so animation comes from Mixamo and paid packs.",
+        "**Asset packs and human art** carry the games that want to feel complete: Survive the Horde uses Mixamo, Sketchfab, Kenney, Quaternius and Poly Haven, and World of ClaudeCraft uses KayKit, Quaternius and Kenney plus commissioned art. Undersphere won its award with stock Kenney models. Tower of Time uses itch.io packs touched up in Aseprite, and Keypress Express is hand-drawn.",
         "Contrast case: Messenger by Abeto, often cited as the most polished three.js world on the web, is fully hand-made in Blender and Houdini, with no AI involved."
       ],
-      "games": ["claude-of-duty", "battle-drones", "codex-mortis", "wenware", "capybaras-delivering-food", "3dfps-vibes", "survive-the-horde", "world-of-claudecraft", "keypress-express"],
+      "games": ["claude-of-duty", "battle-drones", "codex-mortis", "wenware", "capybaras-delivering-food", "3dfps-vibes", "survive-the-horde", "world-of-claudecraft", "keypress-express", "hexstorm", "mafia-city", "null-range", "100-bodies-in-the-grass", "freeze-out", "pumpkin-farmer", "undersphere"],
       "sources": [
         { "title": "Simon Willison: Battle Drones", "url": "https://simonwillison.net/2026/Oct/20/battledrones/" },
         { "title": "Claude of Duty README", "url": "https://github.com/mshumer/Claude-of-Duty" },
@@ -33,10 +34,12 @@
       "points": [
         "Codex Mortis's ChatGPT sprites earned \"a milestone for slop everywhere\" headlines. Its buyers still rate it Very Positive (82% of 102 Steam reviews).",
         "Keypress Express (hand-drawn art, code reportedly all Claude) and The Librarian 2 (everything drawn in code) drew no AI backlash that the research could find.",
+        "HEXSTORM discloses its AI art openly. Within hours of launch its Steam rating fell from 80% to 55% in a burst of short-playtime negative reviews, which the developer traced to anti-AI users. It recovered to Mostly Positive (77% of 67).",
+        "Animation is the tell players spot first. 100 Bodies in the Grass drew \"this is beautiful\" on r/ClaudeAI, but critics went straight for skating feet and weightless attacks, and the developer answered with a public \"DeSlopify\" pass.",
         "Since January 2026, Steam's AI disclosure only covers content players consume, so code-only vibe coding is invisible on store pages.",
         "Pushback still exists. The top reply to IsoCity's \"Made with Cursor\" note on Lemmy was \"Eww\", and an HN thread about Steam users asking for a \"No AI\" filter drew 185 points."
       ],
-      "games": ["codex-mortis", "keypress-express", "the-librarian-2", "isocity"],
+      "games": ["codex-mortis", "keypress-express", "the-librarian-2", "isocity", "hexstorm", "100-bodies-in-the-grass"],
       "sources": [
         { "title": "PC Gamer on Codex Mortis", "url": "https://www.pcgamer.com/games/roguelike/this-roguelite-claims-to-have-the-dubious-honor-of-being-the-worlds-first-fully-playable-game-created-100-percent-through-ai-in-a-milestone-for-slop-everywhere/" },
         { "title": "Codex Mortis on Steam", "url": "https://store.steampowered.com/app/4084120/CODEX_MORTIS/" },
@@ -53,9 +56,10 @@
       "points": [
         "The Great Taxi Assignment's car physics took four restarts from an empty repo. The AI struggled most with axes and orientation.",
         "The capybara game's developer couldn't get a usable 3D city out of AI at all.",
-        "Both fixed it the same way: the AI wrote editors and converters, then a human placed the world by hand. The taxi game used the Three.js editor plus AI-written import/export; the capybara game got custom terrain, road and cutscene editors."
+        "Both fixed it the same way: the AI wrote editors and converters, then a human placed the world by hand. The taxi game used the Three.js editor plus AI-written import/export; the capybara game got custom terrain, road and cutscene editors.",
+        "The same trick works for look and feel. Null Range's designer says to \"prompt the tool instead of the result\": the agent builds a panel of live parameters and he tunes the visuals himself, which \"saves hella tokens\". HEXSTORM's artist had the AI write a sprite-atlas converter and a VFX editor, and asked it for balance tools rather than balance."
       ],
-      "games": ["great-taxi-assignment", "capybaras-delivering-food"],
+      "games": ["great-taxi-assignment", "capybaras-delivering-food", "null-range", "hexstorm"],
       "sources": [
         { "title": "Tomáš Bencko: how I created GTA with AI", "url": "https://cassoviacode.com/i-tried-vibe-coding-how-i-created-gta-with-artificial-intelligence" },
         { "title": "36Kr on the capybara game", "url": "https://eu.36kr.com/en/p/3896358295029383" }
@@ -70,9 +74,10 @@
         "WW2 Dogfight Arena's \"memory bank\" (game design doc, tech-stack.md, implementation-plan.md, progress.md, architecture.md) became a 4.8k-star vibe-coding playbook.",
         "Claude of Duty's ARCHITECTURE.md was \"the contract the agents worked against\". Survive the Horde runs on a 122 KB CLAUDE.md with \"do NOT migrate\" guardrails, and Dust Corridor came from a ~20-section spec.",
         "Simon Willison's opener: \"First research and then critique this design. Only build after we have agreed on any modifications.\"",
+        "Pumpkin Farmer began as a brainstorm that produced a SPEC.md. Opus 5.5 Ultracode then built from it for \"nearly two days\", using \"millions of tokens\". Catvivors was written from a readme \"blueprint\".",
         "Tower of Time published every prompt. Its tricks: ask for console logs and paste them back, paste library docs, and \"Try not to rewrite everything we have but instead plug into already existing functionality\"."
       ],
-      "games": ["ww2-dogfight-arena", "claude-of-duty", "survive-the-horde", "battle-drones", "tower-of-time"],
+      "games": ["ww2-dogfight-arena", "claude-of-duty", "survive-the-horde", "battle-drones", "tower-of-time", "pumpkin-farmer", "catvivors"],
       "sources": [
         { "title": "Nicolas Zullo's vibe-coding guide", "url": "https://github.com/EnzeD/vibe-coding" },
         { "title": "Claude of Duty README", "url": "https://github.com/mshumer/Claude-of-Duty" },
@@ -145,10 +150,11 @@
       "points": [
         "In-world ads (a \"3D Million Dollar Homepage\"): fly.pieter.com went from a self-reported $67k MRR on day 13 to $87k on day 17, then decayed to an estimated ~$5k/month because slots don't renew. VibeSail copied the model and reached $2.7k/month by day 8.",
         "Steadier but smaller: web-portal licensing (the Suika clone made $25k+ lifetime), platform currencies (Mine8), paid credits (WenWare: $5–$29/month), Steam sales (Codex Mortis) and crypto tokens (World of ClaudeCraft's $WOC).",
+        "Steam can pay for a polished game. HEXSTORM reports ~1,200 copies and ~$9,500 gross in its first week, after 30,000 players on Yandex Games (self-reported). Catvivors, out since March, still has no Steam reviews.",
         "Prizes count too: $25k for the 2026 Vibe Jam gold, $10k for the 2025 gold.",
         "Build costs range from tiny to huge: ~€72 in AI services (taxi game, 65 hours), under ~$150 (capybara game), ~$50/month (Void Balls' AI stack), $10k+ in tokens (Taipei Rush)."
       ],
-      "games": ["fly-pieter-com", "vibesail", "suika-watermelon-coolmath", "mine8", "wenware", "codex-mortis", "world-of-claudecraft", "great-taxi-assignment", "capybaras-delivering-food", "taipei-rush"],
+      "games": ["fly-pieter-com", "vibesail", "suika-watermelon-coolmath", "mine8", "wenware", "codex-mortis", "world-of-claudecraft", "great-taxi-assignment", "capybaras-delivering-food", "taipei-rush", "hexstorm", "catvivors"],
       "sources": [
         { "title": "He built a flight simulator in three hours... then it went to zero", "url": "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l" },
         { "title": "My AI-generated game earned $25,000", "url": "https://gameplaydev.substack.com/p/my-ai-generated-game-earned-25000" },
@@ -184,13 +190,32 @@
         "Simon Willison: \"Building games that play well is shockingly easy now. The new challenge is coming up with concepts for games that are novel and delightful.\"",
         "Tiny Realm's non-programmer creator said the same: the biggest challenge was designing a cohesive concept, not code. IsoCity's main criticism is shallow simulation.",
         "Model taste matters. Simon found GPT-6 versions of his games \"look great\" but \"don't play nearly as well\" as Opus 5.5's.",
+        "Agent-built depth isn't fun by default. Simon rates Pumpkin Farmer below Battle Drones: its planting puzzle is \"actually quite complicated\" and unproven. HEXSTORM's developer finds AI weak at original concepts, UX and story; its dialogue kept drifting into Dune, Star Wars and Asimov.",
         "Vibe Jam judge Tim Soret predicted that within about a year vibe-coded games will match a third-year game-dev student, though not yet the top 20%."
       ],
-      "games": ["battle-drones", "tiny-realm", "isocity", "capybaras-delivering-food"],
+      "games": ["battle-drones", "tiny-realm", "isocity", "capybaras-delivering-food", "pumpkin-farmer", "hexstorm"],
       "sources": [
         { "title": "Simon Willison: vibe game development", "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/" },
         { "title": "vibecode.game: Tiny Realm", "url": "https://vibecode.game/vibe-coded-games/tiny-realm" },
         { "title": "levels.io: Vibe Jam 2026 winners and quality", "url": "https://levels.io/vibe-jam-2026-winners-quality" }
+      ]
+    },
+    {
+      "id": "makers",
+      "kicker": "Who's building",
+      "title": "Designers and artists who can't code are shipping standouts",
+      "lead": "Several of the strongest recent entries come from people whose skill is visual or design, not programming.",
+      "points": [
+        "Null Range's creator is a product designer who says he doesn't \"know code at all, beyond some basic html/css\". With GPT 5.4 writing the code, it placed 4th of 945 at Vibe Jam 2026 and won Best Art Direction.",
+        "HEXSTORM's developer was an artist on Allods Online and says he couldn't write \"Hello World\" in JavaScript. About 1,000 logged hours with AI-written code took it to a Mostly Positive Steam launch.",
+        "100 Bodies in the Grass is a hobbyist's first game: \"I wouldn't have even attempted it without these tools\". Tiny Realm's creator isn't a programmer either.",
+        "What they bring is taste: a deliberate look (wireframes, painted steampunk, misty realism) and their own tools to tune it. Veterans such as Freeze Out's three.js developer and Simon Willison use AI differently, as a power tool for speed."
+      ],
+      "games": ["null-range", "hexstorm", "100-bodies-in-the-grass", "tiny-realm", "freeze-out", "pumpkin-farmer"],
+      "sources": [
+        { "title": "$9,500 a week: a solo developer on launching HEXSTORM, a game with AI code (WN Hub)", "url": "https://wnhub.io/news/Generative_AI/item-51792" },
+        { "title": "Started a hobby project about the Mongol Invasions of Vietnam. Claude helped turn it into a real game (r/ClaudeAI)", "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm7kw7/started_a_hobby_project_about_the_mongol/" },
+        { "title": "Null Range first playtest (@taylor_sntx on X)", "url": "https://x.com/taylor_sntx/status/2041917312186429576" }
       ]
     },
     {
@@ -202,9 +227,11 @@
         "Three.js was the engine for 60% of 2025 and 65% of 2026 Vibe Jam entries. Phaser is a distant second; Godot grew from 5 to 21 entries.",
         "Codex Mortis dropped Tauri (\"didn't work well with Steam at all\") and found Electron's Steam integration rougher than Unity's or Unreal's. The Steam overlay expects continuous rendering, which browsers don't do.",
         "Agents do best in code-only stacks or through a bridge. The Codex Mortis dev asked the AI which language it knew best and built on engine-less TypeScript + PixiJS + bitECS. Void Balls connected Claude Code to Unity through MCP.",
+        "HEXSTORM ships its 25 MB Phaser game inside a ~250 MB NW.js wrapper. Its developer then tried Unity and calls it a terrible engine for AI, because the MCP bridge burns tokens. 100 Bodies in the Grass's developer recommends Godot: scenes and scripts are plain text, so Claude Code can read, test and fix in a loop.",
+        "Stellar Throne changed architecture four times in a year: Zig/SDL2, Godot, a Zig simulation core, then C behind a Unity frontend.",
         "Architecture stays a human job on long projects. Codex Mortis was rebuilt onto an ECS after context limits broke the design. Its developer's verdict: \"AI is a good programmer but not a good architect\"."
       ],
-      "games": ["codex-mortis", "void-balls", "keypress-express"],
+      "games": ["codex-mortis", "void-balls", "keypress-express", "hexstorm", "100-bodies-in-the-grass", "stellar-throne"],
       "sources": [
         { "title": "Vibe Jam public API (entry data)", "url": "https://vibejam.com/api" },
         { "title": "Gigazine on Codex Mortis", "url": "https://gigazine.net/gsc_news/en/20251215-codex-mortis" },
@@ -220,9 +247,10 @@
       "points": [
         "Only 58% of 2025 Vibe Jam entries (632 of 1,083) were still online about 19 months later, against 87% of 2026 entries so far.",
         "Even podium games disappear: Vibeware (2025 silver) is now a teaser page, and 3dfps-vibes' hosted build no longer resolves.",
+        "Mafia City, one of the most-liked Colyseus games of the 2026 jam, was already offline by November 2026; the last Wayback capture is from July.",
         "Podium games that survive tend to become products. WenWare sells credits, Vector Tango became a paid Meta Quest game, and Vibeware grew into an iOS app."
       ],
-      "games": ["vibeware", "3dfps-vibes", "wenware", "vector-tango"],
+      "games": ["vibeware", "3dfps-vibes", "wenware", "vector-tango", "mafia-city"],
       "sources": [
         { "title": "Vibe Jam public API (entry data)", "url": "https://vibejam.com/api" },
         { "title": "Vector Tango", "url": "https://www.vector-tango.com/" },
@@ -232,13 +260,48 @@
   ],
 
   "eras": [
-    { "when": "2023", "title": "Copy-paste era", "text": "A former game producer pasted ChatGPT code into Unity and cleaned up DALL-E fruit sprites by hand. His Suika clone became Coolmath's top mobile game.", "games": ["suika-watermelon-coolmath"] },
-    { "when": "Feb–Apr 2025", "title": "Cursor + Claude 3.7 Sonnet + Grok 3", "text": "levelsio built fly.pieter.com live on X in about 3 hours and set off the craze. The first Vibe Jam drew 1,000+ entries. The typical stack was Cursor agent mode, Sonnet 3.7, Grok 3 for planning, and Three.js.", "games": ["fly-pieter-com", "ww2-dogfight-arena", "great-taxi-assignment", "3dfps-vibes", "halo-craft", "vibesail", "vibeware", "vector-tango"] },
-    { "when": "Mid 2025", "title": "Claude 4 in the IDE", "text": "Sonnet 4 and Opus 4 arrive in Cursor and Augment Code, and creators start publishing their prompts.", "games": ["tower-of-time"] },
-    { "when": "Late 2025", "title": "Terminal agents take over", "text": "Claude Code, Codex and Gemini CLI become the main tools. Same-prompt bake-offs pit Opus 4.5, GPT-5.1 Codex Max and Gemini 3 Pro against each other, and Codex Mortis's demo reaches Steam.", "games": ["counter-strike-bench", "codex-mortis", "isocity"] },
-    { "when": "Spring 2026", "title": "Parallel sessions + AI assets", "text": "Claude Code (Opus 4.7) and Codex take the Vibe Jam 2026 podium. Tripo3D, GPT Images 2, Suno and ElevenLabs make the assets.", "games": ["capybaras-delivering-food", "fantos-mega-mart", "wenware"] },
-    { "when": "Summer 2026", "title": "Swarms and Ultracode", "text": "Claude of Duty comes from an Opus 5 agent swarm, and World of ClaudeCraft's MMO foundation from a weekend with Claude Fable 5. Model hand-offs (Claude Code builds, Codex polishes) and MCP bridges into Unity appear.", "games": ["claude-of-duty", "world-of-claudecraft", "the-librarian-2", "keypress-express", "void-balls", "idle-tactics-ascension", "tiny-realm"] },
-    { "when": "Autumn 2026", "title": "Agents that playtest", "text": "Battle Drones gets 1,200 AI-vs-AI balance matches (Opus 5.5), Survive the Horde gets Opus 5.5 co-authored commits, a solo dev builds a \"200 AIs\" open world, and Codex Mortis reaches 1.0.", "games": ["battle-drones", "survive-the-horde", "taipei-rush"] }
+    {
+      "when": "2023",
+      "title": "Copy-paste era",
+      "text": "A former game producer pasted ChatGPT code into Unity and cleaned up DALL-E fruit sprites by hand. His Suika clone became Coolmath's top mobile game.",
+      "games": ["suika-watermelon-coolmath"]
+    },
+    {
+      "when": "Feb–Apr 2025",
+      "title": "Cursor + Claude 3.7 Sonnet + Grok 3",
+      "text": "levelsio built fly.pieter.com live on X in about 3 hours and set off the craze. The first Vibe Jam drew 1,000+ entries. The typical stack was Cursor agent mode, Sonnet 3.7, Grok 3 for planning, and Three.js.",
+      "games": ["fly-pieter-com", "ww2-dogfight-arena", "great-taxi-assignment", "3dfps-vibes", "halo-craft", "vibesail", "vibeware", "vector-tango"]
+    },
+    {
+      "when": "Mid 2025",
+      "title": "Claude 4 in the IDE",
+      "text": "Sonnet 4 and Opus 4 arrive in Cursor and Augment Code, and creators start publishing their prompts. Stellar Throne starts a public \"agentic game development\" devlog with Claude as a junior dev.",
+      "games": ["tower-of-time", "stellar-throne"]
+    },
+    {
+      "when": "Late 2025",
+      "title": "Terminal agents take over",
+      "text": "Claude Code, Codex and Gemini CLI become the main tools. Same-prompt bake-offs pit Opus 4.5, GPT-5.1 Codex Max and Gemini 3 Pro against each other, and Codex Mortis's demo reaches Steam.",
+      "games": ["counter-strike-bench", "codex-mortis", "isocity"]
+    },
+    {
+      "when": "Spring 2026",
+      "title": "Parallel sessions + AI assets",
+      "text": "Claude Code (Opus 4.7) and Codex take the Vibe Jam 2026 podium. Tripo3D, GPT Images 2, Suno and ElevenLabs make the assets. Meshy and Tripo turn concept images into whole casts and cities (Mafia City, Null Range).",
+      "games": ["capybaras-delivering-food", "fantos-mega-mart", "wenware", "null-range", "undersphere", "mafia-city", "catvivors", "crownfall"]
+    },
+    {
+      "when": "Summer 2026",
+      "title": "Swarms and Ultracode",
+      "text": "Claude of Duty comes from an Opus 5 agent swarm, and World of ClaudeCraft's MMO foundation from a weekend with Claude Fable 5. Model hand-offs (Claude Code builds, Codex polishes) and MCP bridges into Unity appear. HEXSTORM reaches Steam with all-AI code and a video-model sprite pipeline.",
+      "games": ["claude-of-duty", "world-of-claudecraft", "the-librarian-2", "keypress-express", "void-balls", "idle-tactics-ascension", "tiny-realm", "hexstorm"]
+    },
+    {
+      "when": "Autumn 2026",
+      "title": "Agents that playtest",
+      "text": "Battle Drones gets 1,200 AI-vs-AI balance matches (Opus 5.5), Survive the Horde gets Opus 5.5 co-authored commits, a solo dev builds a \"200 AIs\" open world, and Codex Mortis reaches 1.0. Pumpkin Farmer comes from a spec and two days of Ultracode, and a first-timer's Godot co-op game reaches a Steam demo.",
+      "games": ["battle-drones", "survive-the-horde", "taipei-rush", "pumpkin-farmer", "freeze-out", "100-bodies-in-the-grass"]
+    }
   ],
 
   "jams": {
@@ -261,14 +324,14 @@
     ],
     "specialAwards2026": [
       { "award": "Most Original", "game": "HALDANE-4 (ASCII horror)", "url": "https://haldane4.denisbondare.com" },
-      { "award": "Best Art Direction", "game": "Null Range (multiplayer space dogfighting FPS)", "url": "https://nullrange.com" },
-      { "award": "Most Played", "game": "WenWare", "url": "https://wen-ware.com" },
+      { "award": "Best Art Direction", "game": "Null Range (multiplayer space dogfighting FPS)", "url": "https://nullrange.com", "id": "null-range" },
+      { "award": "Most Played", "game": "WenWare", "url": "https://wen-ware.com", "id": "wenware" },
       { "award": "Most Zen", "game": "Kanso (bonsai cultivation)", "url": "https://www.kansogame.com" },
       { "award": "Most Unhinged", "game": "Swingers", "url": "https://swing.offmylawn.com" },
       { "award": "Most Portal Transfers", "game": "FULL SEND (2D racer)", "url": "https://fullsend.game" },
       { "award": "Funniest Game", "game": "KÖTTBULLAR METAL", "url": "https://kottbullar-metal.vercel.app" },
       { "award": "Most Polished", "game": "Tiny Skies", "url": "https://tinyskies.vercel.app" },
-      { "award": "Unique Concept", "game": "Undersphere (FPS inside a sphere)", "url": "https://playundersphere.com" },
+      { "award": "Unique Concept", "game": "Undersphere (FPS inside a sphere)", "url": "https://playundersphere.com", "id": "undersphere" },
       { "award": "Most Atmospheric", "game": "Eyrie (co-op roguelike shooter)", "url": "https://playeyrie.com" },
       { "award": "Rage-Quit Award", "game": "BeetleJump", "url": "https://beetlejump.com" },
       { "award": "Most Cursed", "game": "Almost Surgery (Godot)", "url": "https://almostsurgery.ragim.dev" }

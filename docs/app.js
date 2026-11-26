@@ -581,7 +581,7 @@
       <div class="table-wrap"><table class="data jam-table"><thead><tr>${j.columns.map((c) => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead>
       <tbody>${j.rows.map((r) => `<tr><th scope="row">${esc(r[0])}</th>${r.slice(1).map((c) => `<td>${cell(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
       ${j.specialAwards2026?.length ? `<div class="sub" style="margin-top:22px">Vibe Jam 2026 special awards ($1,000 each)</div>
-        <div class="awards">${j.specialAwards2026.map((a) => `<div class="award"><small>${esc(a.award)}</small>${ext(a.url, esc(a.game))}</div>`).join('')}</div>` : ''}
+        <div class="awards">${j.specialAwards2026.map((a) => `<div class="award"><small>${esc(a.award)}</small>${a.id && DB.games.some((x) => x.id === a.id) ? `<a href="#/game/${esc(a.id)}">${esc(a.game)}</a>` : ext(a.url, esc(a.game))}</div>`).join('')}</div>` : ''}
       <details style="margin-top:12px"><summary class="muted">Jam data sources</summary><ul>${(j.sources || []).map((s) => `<li>${ext(s.url, esc(s.title))}</li>`).join('')}</ul></details>` : '';
 
     main.innerHTML = `<div class="wrap">
@@ -768,6 +768,7 @@
   function shotCredit(s) {
     const yt = /img\.youtube\.com\/vi\/([\w-]{11})\//.exec(s.source || '');
     if (yt) return { label: 'Frame from a YouTube video', url: `https://youtu.be/${yt[1]}` };
+    if (/video\.twimg\.com|\.mp4(?:[?#]|$)/.test(s.source || '')) return { label: 'Frame from a gameplay video', url: s.source };
     if (s.origin === 'live') return { label: 'Live screenshot of the game', url: s.source };
     if (/steamstatic|steampowered/.test(s.source || '')) return { label: 'Steam store screenshot', url: null };
     if (s.origin === 'cover') return { label: 'Cover image', url: /^https?:/.test(s.source || '') ? s.source : null, text: s.source };

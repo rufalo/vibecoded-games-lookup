@@ -51,6 +51,9 @@ A private website cataloguing notable vibe-coded games (games whose code was mos
      - `youtube:<videoId>`: three HD frames of a gameplay video
      - `screenshot:<playUrl>|<waitMs>`: a live headless capture
      - `readme:<githubRepoUrl>`: the images in that repo's README
+     - `screenshot:<video.mp4 URL>#t=<sec>|<waitMs>`: a frame of a directly hosted video (e.g. X's `video.twimg.com` MP4s, found via the api.fxtwitter.com mirror). The lightbox credits it as a gameplay video frame.
+
+     To drop one bad image (e.g. one of the three YouTube frames), add its source URL to `galleryExclude` and re-run with `--force`.
 
      Good sources: Steam screenshots (`/api/appdetails`), repo READMEs, the creator's devlog, and gameplay videos (search YouTube). Without `galleryAuto: false`, the script discovers images itself; `--press` also scrapes the cited articles. **Always review a contact sheet**: scraped pages bring in stock photos, "related posts", other games and presenters' faces. Pin the keepers as candidates.
 4. **Validate.** `node scripts/validate.mjs` must report 0 errors.

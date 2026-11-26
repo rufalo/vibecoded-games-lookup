@@ -1,29 +1,21 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-26",
   "intro": "Games spotted during research that aren't in the guide yet, usually because their build process isn't documented. Any of them can be researched and added.",
   "groups": [
     {
       "label": "Shooters & FPS",
       "items": [
-        { "name": "Undersphere", "url": "https://playundersphere.com", "note": "Multiplayer FPS fought on the inside of a sphere with shifting gravity. Vibe Jam 2026 \"Unique Concept\" award.", "status": "Curated lists say it was built with Cursor; no creator write-up found." },
-        { "name": "Null Range", "url": "https://nullrange.com", "note": "Multiplayer first-person space dogfighting with a sonar-ping mechanic and a ship outfitter. Vibe Jam 2026 \"Best Art Direction\".", "status": "Said to be Cursor + Three.js and inspired by Elite: Dangerous; may still be in playtests." },
         { "name": "Eyrie", "url": "https://playeyrie.com", "note": "Co-op wave-based roguelike shooter. Vibe Jam 2026 \"Most Atmospheric\".", "status": "Credited to Claude Code by one curated list." },
         { "name": "Dust Corridor", "url": "https://claude-of-duty-six.vercel.app/", "note": "Playable market-street tactical FPS built from a ~20-section spec with Opus 5 in Cursor.", "status": "Covered inside the Claude of Duty entry; could get its own page." },
-        { "name": "Mafia City", "url": "https://mafiacity.online", "note": "GTA-style multiplayer shooter, one of the top Colyseus games of Vibe Jam 2026.", "status": "Offline when checked." },
-        { "name": "Freeze Out", "url": "https://discourse.threejs.org/t/freeze-out-a-first-person-4v4-snowball-fight-in-the-browser-three-js-webgpu-mobile-gamepad/96804", "note": "4v4 first-person snowball fight in three.js WebGPU, with mobile and gamepad support.", "status": "AI use not verified yet." },
         { "name": "Orcs in the Forest", "url": "https://huggingface.co/spaces/victor/orcs-in-the-forest", "note": "Browser FPS hosted as a Hugging Face Space.", "status": "Possibly vibe-coded; not checked." }
       ]
     },
     {
       "label": "Strategy & building",
       "items": [
-        { "name": "Crownfall", "url": "https://www.crownfall.cz/", "note": "Browser multiplayer hex-territory kingdom game with 28-day eras and 288 turns a day.", "status": "\"Built almost entirely with Claude Code\" per its Product Hunt listing; no build details." },
-        { "name": "Pumpkin Farmer (Simon Willison)", "url": "https://simonw.github.io/pumpkin-farmer/", "note": "Cozy isometric farming sim with a pelican mayor, built from a SPEC.md over nearly two days of Opus 5.5 Ultracode.", "status": "Simon says the mechanics aren't convincing yet." },
-        { "name": "Co-op hex game about the 1287 Mongol invasion of Vietnam", "url": "https://shazoo.ru/2026/11/11/193847/entuziast-ii-bez-opyta-razrabotki-igr-s-pomoshhiu-claude-sozdal-kooperativnyi-eksen-o-mongolskom-vtorzenii-vo-vetnam-1287-goda", "note": "Built with Claude by an enthusiast with no game-dev experience (Nov 2026).", "status": "Found too late to research." },
-        { "name": "Stellar Throne", "url": "https://www.indiehackers.com/product/stellar-throne", "note": "Sci-fi 4X in Zig/SDL2, pitched as \"agentic game development\" with Claude and ChatGPT as co-authors.", "status": "Still in development; thin public info." },
         { "name": "Silicon Pantheon", "url": "https://github.com/haoyifan/Silicon-Pantheon", "note": "Turn-based tactics game where AI agents are first-class players.", "status": "Build tooling unknown." },
         { "name": "Hanafuda card game (hogwartz.inc)", "url": "https://dev.to/morinaga/i-shipped-a-polished-hanafuda-card-game-in-2-days-with-claude-and-godot-5a7j", "note": "Polished Godot card game shipped in two days with Claude.", "status": "Not researched yet." },
-        { "name": "Warlord", "url": "https://www.skool.com/vibe-engineering-9169/new-build-is-live-i-gave-a-local-ai-command-of-the-enemy-army", "note": "Top-down war game where a local LLM commands the enemy army; vibe-coded in about two hours.", "status": "Truncated post, no play link." }
+        { "name": "Warlord", "url": "https://github.com/CurtisSlone/Warlord", "note": "Top-down war game where a local LLM commands the enemy army; vibe-coded in about two hours.", "status": "Checked Nov 2026: a public repo with a CLAUDE.md and a stage-by-stage devlog (Excalibur.js, Colyseus, an Ollama \"mistral\" commander, asset-pack art), but no public build or screenshots." }
       ]
     },
     {
@@ -37,9 +29,7 @@
         { "name": "HALDANE-4", "url": "https://haldane4.denisbondare.com", "note": "ASCII horror game. Vibe Jam 2026 \"Most Original\".", "status": "Not researched yet." },
         { "name": "Emberwick (Simon Willison)", "url": "https://simonw.github.io/emberwick/v11/emberwick.html", "note": "15-minute three.js RPG whose story and dialogue are all model-generated, built in regular Claude chat.", "status": "Easy add; documented on Simon's blog." },
         { "name": "Raccoon Heist (Simon Willison)", "url": "https://simonwillison.net/2026/aug/5/raccoon-heist", "note": "3D browser game from a single prompt.", "status": "Easy add; documented on Simon's blog." },
-        { "name": "Catvivors", "url": "https://pchojecki.medium.com/ai-helped-me-solo-dev-a-game-on-steam-f84a2425be10", "note": "Steam Early Access roguelite auto-battler made with Claude Code and Codex.", "status": "Medium post was unreadable to the researcher." },
-        { "name": "HEXSTORM: Tears of Arcadia", "url": "https://wnhub.io/news/Generative_AI/item-51792", "note": "Solo dev with AI-written code reporting \"$9,500 a week\".", "status": "Revenue claim worth checking." },
-        { "name": "Duckov Explorer", "url": "https://www.producthunt.com/p/self-promotion/duckov-explorer-a-fully-ai-made-webgl-3d-roguelike-game", "note": "Clearest AI-3D pipeline found: GPT concept art → Fast3D image-to-3D → rigged GLB in Three.js, code by Cursor + Claude.", "status": "Negligible traction; site didn't load." },
+        { "name": "Duckov Explorer", "url": "https://www.producthunt.com/p/self-promotion/duckov-explorer-a-fully-ai-made-webgl-3d-roguelike-game", "note": "Claimed a fully AI-made pipeline: GPT concept art → Fast3D image-to-3D → one rigged GLB in Three.js, code by Cursor + Claude.", "status": "Checked Nov 2026: the play domain has expired and the only source is one anonymous Product Hunt post. It was a prototype with one model and red-cube enemies." },
         { "name": "Grumbulus", "url": "https://gonzoml.substack.com/p/how-we-built-a-full-browser-game", "note": "Browser game by two developers with Claude Code: ~15k lines of vanilla JS with procedural audio.", "status": "Not researched yet." },
         { "name": "Messenger (Abeto)", "url": "https://messenger.abeto.co", "note": "Gorgeous tiny-planet multiplayer three.js world. Not vibe-coded: it's fully hand-made, which makes it a useful contrast.", "status": "Excluded on purpose." }
       ]

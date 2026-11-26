@@ -8,7 +8,7 @@ A private field guide to notable **vibe-coded games**: games where AI wrote most
 
 ## What's in it
 
-- **Games**: 27 researched games (Nov 2026).
+- **Games**: 37 researched games (Nov 2026).
   - Search, plus category tabs: Shooters & FPS, Strategy & building, MMOs & open worlds and more.
   - Filters: art pipeline, AI tool, players, availability, build approach, engine and game jam.
   - Card view or comparison-table view.
@@ -19,7 +19,7 @@ A private field guide to notable **vibe-coded games**: games where AI wrote most
 - **Insights**: charts computed live from the data, plus:
   - 12 cross-game patterns (art pipelines, specs as AI memory, agent swarms, netcode, money, data quality and more).
   - A timeline of how the tooling evolved, and Vibe Jam 2025 vs 2026.
-- **Radar**: 27 candidate games spotted during research but not yet added.
+- **Radar**: 17 candidate games spotted during research but not yet added.
 
 ## How it runs
 

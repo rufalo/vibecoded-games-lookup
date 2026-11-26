@@ -1471,7 +1471,7 @@
     "id": "great-taxi-assignment",
     "title": "The Great Taxi Assignment",
     "tagline": "A GTA: Vice City tribute taxi game built in 65 hours with Cursor and Claude 3.7 Sonnet; won the 2025 Vibe Jam's $10k gold.",
-    "rank": 7,
+    "rank": 10,
     "pick": true,
     "status": "playable",
     "playUrl": "https://great-taxi-assignment.netlify.app",
@@ -1683,7 +1683,7 @@
     "id": "counter-strike-bench",
     "title": "Counter-Strike Bench",
     "tagline": "InstantDB's CTO had GPT-5.1 Codex Max, Claude Opus 4.5 and Gemini 3 Pro each build a multiplayer browser Counter-Strike in ~7 prompts.",
-    "rank": 8,
+    "rank": 11,
     "pick": true,
     "status": "playable",
     "playUrl": "https://csclaude.vercel.app/",
@@ -1875,7 +1875,7 @@
     "id": "survive-the-horde",
     "title": "Survive the Horde",
     "tagline": "A zombie FPS set in Indian villages that Claude Code grew into co-op and battle royale with squads, voice chat and vehicles in 6 weeks.",
-    "rank": 9,
+    "rank": 12,
     "pick": true,
     "status": "playable",
     "playUrl": "https://babylon-fps.vercel.app/",
@@ -2056,7 +2056,7 @@
     "id": "taipei-rush",
     "title": "Taipei Rush",
     "tagline": "One dev, '200 AIs' and $10k+ in tokens built a GTA-style open-world Taipei for the browser; it claims 1.2M concurrent players in 3 days.",
-    "rank": 10,
+    "rank": 13,
     "pick": false,
     "status": "playable",
     "playUrl": "https://taipei-gta.vercel.app/",
@@ -2272,7 +2272,7 @@
     "id": "tower-of-time",
     "title": "Tower of Time",
     "tagline": "A time-rewinding tower defense jam game that was ~95% AI-written, with every prompt published; 319 points on Hacker News.",
-    "rank": 11,
+    "rank": 15,
     "pick": false,
     "status": "playable",
     "playUrl": "https://m4v3k.itch.io/tower-of-time",
@@ -2449,7 +2449,7 @@
     "id": "ww2-dogfight-arena",
     "title": "WW2 Dogfight Arena",
     "tagline": "A multiplayer WW2 dogfight sim made with 0 human code in 20 hours and 500 prompts; its guide became a 4.8k-star vibe-coding playbook.",
-    "rank": 12,
+    "rank": 17,
     "pick": false,
     "status": "playable",
     "playUrl": "https://fly.zullo.fun/",
@@ -2624,7 +2624,7 @@
     "id": "wenware",
     "title": "WenWare",
     "tagline": "GeoGuessr meets time travel: guess where and when in AI-generated 360° historical scenes. Vibe Jam 2026 bronze + Most Played.",
-    "rank": 13,
+    "rank": 18,
     "pick": false,
     "status": "playable",
     "playUrl": "https://wen-ware.com",
@@ -2839,7 +2839,7 @@
     "id": "isocity",
     "title": "IsoCity",
     "tagline": "An open-source SimCity-style isometric city builder a Cursor engineer vibe-coded in days; 2.4k GitHub stars and a theme-park spin-off.",
-    "rank": 14,
+    "rank": 19,
     "pick": false,
     "status": "playable",
     "playUrl": "https://iso-city.com",
@@ -3047,7 +3047,7 @@
     "id": "keypress-express",
     "title": "Keypress Express",
     "tagline": "Your real typing powers a hand-drawn train along your desktop; the dev says Claude Code wrote all of it across 973 commits.",
-    "rank": 15,
+    "rank": 21,
     "pick": false,
     "status": "steam",
     "playUrl": "https://store.steampowered.com/app/4816900/Keypress_Express/",
@@ -3262,7 +3262,7 @@
     "id": "void-balls",
     "title": "Void Balls",
     "tagline": "Eight parallel Claude Code agents drove Unity via MCP to build it in 10 days, with Flux-made art held together by a 7-colour palette.",
-    "rank": 16,
+    "rank": 22,
     "pick": false,
     "status": "coming-soon",
     "playUrl": "https://store.steampowered.com/app/4591360/Void_Balls/",
@@ -3459,7 +3459,7 @@
     "id": "the-librarian-2",
     "title": "The Librarian 2",
     "tagline": "Matt Wolfe's 3D roguelite sequel: ~10k lines from a 90-minute Claude Code run, then Codex polish, with zero asset files.",
-    "rank": 17,
+    "rank": 24,
     "pick": false,
     "status": "unknown",
     "playUrl": null,
@@ -3584,7 +3584,7 @@
     "id": "suika-watermelon-coolmath",
     "title": "Suika Watermelon Game (Coolmath)",
     "tagline": "A 2023 Suika clone coded entirely by ChatGPT that became Coolmath's #1 mobile game; the dev claims 50–60M players and $25k+ profit.",
-    "rank": 18,
+    "rank": 25,
     "pick": false,
     "status": "playable",
     "playUrl": "https://www.coolmathgames.com/0-suika-watermelon-game",
@@ -3781,7 +3781,7 @@
     "id": "vector-tango",
     "title": "Vector Tango",
     "tagline": "A 3D air-traffic-control web game took bronze at the 2025 Vibe Jam, then became a paid Meta Quest mixed-reality game in Nov 2026.",
-    "rank": 19,
+    "rank": 26,
     "pick": false,
     "status": "playable",
     "playUrl": "https://www.vector-tango.com/play/",
@@ -3994,7 +3994,7 @@
     "id": "idle-tactics-ascension",
     "title": "Idle Tactics: Ascension",
     "tagline": "Won YGG's first VibeBlitz AI jam: a pixel idle auto-battler where the hero fights and you handle gear, loot gambles and boss timing.",
-    "rank": 20,
+    "rank": 27,
     "pick": false,
     "status": "playable",
     "playUrl": "https://idletactics.xyz/",
@@ -4177,7 +4177,7 @@
     "id": "halo-craft",
     "title": "Halo-Craft",
     "tagline": "Minecraft-style voxel building meets Halo combat under a giant ring in the sky, built largely by prompting Claude, Cursor and GPT-4.",
-    "rank": 21,
+    "rank": 29,
     "pick": false,
     "status": "playable",
     "playUrl": "https://jmcdice.github.io/halo-craft/",
@@ -4307,7 +4307,7 @@
     "id": "3dfps-vibes",
     "title": "3dfps-vibes",
     "tagline": "An early 2025 1v1 COD-style browser FPS: Grok 3 wrote v1, Cursor + Sonnet 3.7 grew it to ~5,000 lines, and CSM.ai supplied 3D assets.",
-    "rank": 22,
+    "rank": 30,
     "pick": false,
     "status": "source-only",
     "playUrl": null,
@@ -4444,7 +4444,7 @@
     "id": "fantos-mega-mart",
     "title": "Fanto's Mega-Mart",
     "tagline": "Vibe Jam 2026 silver: a rocket-speed shopping race through a procedurally generated haunted supermarket, with ghost replays.",
-    "rank": 23,
+    "rank": 31,
     "pick": false,
     "status": "playable",
     "playUrl": "https://fantos-megamart.vercel.app",
@@ -4580,7 +4580,7 @@
     "id": "vibesail",
     "title": "VibeSail",
     "tagline": "Multiplayer browser sailing sim from a dev with <2k followers that copied fly.pieter.com's ad model: $2.7k/mo in sponsors by day 8.",
-    "rank": 24,
+    "rank": 32,
     "pick": false,
     "status": "playable",
     "playUrl": "https://vibesail.com/",
@@ -4734,7 +4734,7 @@
     "id": "tiny-realm",
     "title": "Tiny Realm",
     "tagline": "A pixel-art base-defense RTS made with no programming background by chaining five AI tools; 2nd place at VibeBlitz.",
-    "rank": 25,
+    "rank": 33,
     "pick": false,
     "status": "playable",
     "playUrl": "https://tinyrealm.lovable.app/",
@@ -4906,7 +4906,7 @@
     "id": "mine8",
     "title": "Mine8",
     "tagline": "The most-played game on Verse8's prompt-to-game platform: a timed mining upgrade loop with 3M+ plays and in-platform purchases.",
-    "rank": 26,
+    "rank": 35,
     "pick": false,
     "status": "playable",
     "playUrl": "https://verse8.io/j7s8R9Q",
@@ -5065,7 +5065,7 @@
     "id": "vibeware",
     "title": "Vibeware",
     "tagline": "WarioWare for internet chores: play a scraping bot racing through microgames like typing 4242 into Stripe. 2025 Vibe Jam silver.",
-    "rank": 27,
+    "rank": 37,
     "pick": false,
     "status": "offline",
     "playUrl": "https://vibeware.vercel.app",
@@ -5189,5 +5189,2711 @@
     "gallery": [],
     "galleryCandidates": [],
     "galleryAuto": false
+  },
+  {
+    "id": "hexstorm",
+    "title": "HEXSTORM: Tears of Arcadia",
+    "tagline": "A steampunk hex tower defense around a flying fortress, made solo by an artist who can't code, with AI code and his own AI art tools.",
+    "rank": 7,
+    "pick": true,
+    "status": "steam",
+    "playUrl": "https://store.steampowered.com/app/4402950/HEXSTORM_Tears_of_Arcadia/",
+    "links": {
+      "steam": "https://store.steampowered.com/app/4402950/HEXSTORM_Tears_of_Arcadia/",
+      "itch": null,
+      "github": null,
+      "video": "https://www.youtube.com/watch?v=c2KeJq3Kp_w",
+      "devlog": "https://t.me/s/tearevo",
+      "creatorPost": "https://www.youtube.com/watch?v=t9Rico-_ZJI"
+    },
+    "extraLinks": [
+      {
+        "label": "Why AI art falls apart inside a game (art pipeline video, Russian)",
+        "url": "https://www.youtube.com/watch?v=2FvYLoIQl6U"
+      },
+      {
+        "label": "The hard parts of making games with AI (balance tools video, Russian)",
+        "url": "https://www.youtube.com/watch?v=msImd8-vTUk"
+      },
+      {
+        "label": "App2Top interview with Anton Chuev (Russian, April 2026)",
+        "url": "https://www.youtube.com/watch?v=zAtrj_CfBoI"
+      },
+      {
+        "label": "Arcadia Effector, his free LLM-friendly 2D VFX editor",
+        "url": "https://www.youtube.com/watch?v=nHztjZHce7w"
+      }
+    ],
+    "image": "media/hexstorm.jpg",
+    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/99f11bc07bf959eb394faa6f08744a7dedf8173a/ss_99f11bc07bf959eb394faa6f08744a7dedf8173a.1920x1080.jpg",
+    "creator": {
+      "name": "Anton Chuev",
+      "handle": "Tearevo",
+      "url": "https://t.me/tearevo",
+      "background": "In games since 2011: artist on Allods Online, then ran a trailer studio that produced thousands of game trailers, and from 2024 head of production and content at MY.GAMES. He now works as an AI engineer there. He says he couldn't write 'Hello World' in JavaScript."
+    },
+    "released": "2026-08-03",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "tower-defense",
+      "strategy",
+      "roguelite"
+    ],
+    "dimension": "2d",
+    "perspective": "top-down",
+    "multiplayer": "none",
+    "platforms": [
+      "steam",
+      "desktop"
+    ],
+    "event": null,
+    "summary": "A tactical tower defense with a roguelite structure. You defend Arcadia, a winged steampunk airship, by building a power-linked network of turrets, support modules and resource collectors on a hex grid while enemies come from every side. Ground missions are static sieges. In air missions the world scrolls beneath the moving ship, and depot pickups offer stacking boosts mid-battle. Anton Chuev built it alone in about 1,000 logged hours. All of the code was written by AI, and he made the art with image and video models plus a lot of hand work.",
+    "highlights": [
+      "A one-person, polished-looking commercial strategy game from someone who can't code. All the code is AI-written (Claude Code and Cursor), and lead and senior programmers who reviewed it called it 'good code'.",
+      "A clever turret pipeline. Each 2D turret needs 32 facing directions, which image models can't draw consistently. He renders one pose on a green background, has a video model spin it a full turn, and cuts the video into a sprite atlas with his own Atlas Converter tool (now open source).",
+      "Camera-matching trick: he sketches a rough building straight onto an in-game screenshot and sends that to the image model, so it sees the real perspective, lighting, scale and palette.",
+      "Effects are built as code first. An LLM assembles each effect from SVG circles, lines, flashes and particles, it is rendered to frames, and then drawn or generated textures go on top. He released the editor free as Arcadia Effector.",
+      "Balance tooling: an AI-written bot plays at 5x speed in styles from a casual player to a 200-APM StarCraft veteran. Its stats feed difficulty curves, per-wave heatmaps and damage graphs, and external level editors change the game's config without touching the code.",
+      "Open about the money: about 1,200 copies and roughly $9,500 gross in week one. His video about the launch passed 1.1 million views.",
+      "Survived an anti-AI review bomb. The rating fell from 80% to 55% within hours, then recovered to Mostly Positive (77% of 67 reviews by Nov 2026)."
+    ],
+    "story": "Anton Chuev spent about 15 years in game art and trailer production before neural networks reached his video team at MY.GAMES. He followed them into code. His first experiment, ARCFADE, was a turn-based racing game based on the old graph-paper racing game. Colleagues liked it but asked whether the approach would survive something complex, like a tower defense with meta progression and monetization. HEXSTORM was his test of that question. It mixes his love of StarCraft with the steampunk airships of Allods, and he gave himself a fixed budget of hours.\n\nChatGPT built the first web prototype. Then he moved to Cursor and the Phaser engine, with Claude Code in a terminal inside Cursor. He wrote the game design himself on paper. The AI wrote all the code, following a large tree of markdown docs, rules, skills and Claude Code memory. It took about 400 hours to reach an MVP and 600 to a web build that made money. He held it to a 25 MB build that ran on an old Xiaomi Mi 9. The free version on Yandex Games reached 30,000 players in two months, which gave him retention data he couldn't get alone. He then pulled it and turned it into a premium PC game with NW.js, Steam Deck support and difficulty levels, and showed the demo in Steam Next Fest.\n\nSteam's review of the full build took three weeks, which pushed the launch from 27 June to 3 August 2026. On day one it sold 250 copies at $11. The 15% refund rate came from difficulty, not bugs: he had tuned the game for himself after 15 years of StarCraft 2. More than ten patches in three days and a difficulty selector followed. Then seven or eight sub-10-minute negative reviews, in several languages but from one region, dragged the rating to 55% and cut sales fivefold. It recovered to 71% two days later. When he dropped the price to $9, Steam re-processed the ~1,200 copies already sold at the new price. For an hour it looked like $9,500 had arrived, but first-week gross had actually fallen from about $11,000 to $9,500. A fourth chapter (v1.10, October 2026) added 10 missions in a water biome, 15 crew skills and two new turrets.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code",
+        "cursor",
+        "chatgpt"
+      ],
+      "models": [
+        "Claude Opus 4.8",
+        "Claude Fable",
+        "GPT-5.6",
+        "GPT-5"
+      ],
+      "aiCodeShare": "100%. He says all the code was written by AI and that he still can't program by hand.",
+      "buildTime": "About a year and ~1,000 fully logged hours: ~400 h to the MVP, ~600 h to the money-making web build, and the rest on the PC port, Steam launch and patches.",
+      "approach": "long-haul",
+      "workflow": [
+        "Claude Code runs as a terminal inside Cursor. In April 2026 he used Cursor's $200 plan with Opus for 'planning, refactoring and complex features' and GPT-5 for everything else. By July he named Fable, Opus 4.8 and GPT 5.6 as his current models.",
+        "Architecture before features. On a new project his first prompt asks the AI to propose 'a very powerful AI architecture' so it can scale later. That means rules, skills and memory, plus a big tree of markdown docs and maps the agent uses to find its way around.",
+        "He writes the game design on paper and the UX documents by hand. ChatGPT or NotebookLM only format his notes and voice memos into a design doc.",
+        "A self-written autotest bot plays at 5x speed in different styles and logs win probability, clear time, strategy and damage. He reads the graphs and changes the balance numbers himself. 'AI can launch autotests and look at a graph, but it won't understand how it feels.'",
+        "External editors (a level editor, a difficulty heatmap) stay outside the game build, so the agent's context isn't cluttered with editor code. Each editor has its own READMEs and skills, so he no longer bothers the LLM with requests like 'reduce the fighters in wave 12 of level 44'.",
+        "He soft-launched a 25 MB web build on Yandex Games to gather retention data (D1 about 20%, D7 about 8%), then rebuilt it for PC.",
+        "He used ChatGPT as his guide to Steam publishing. Its one failure was price: it said $14, and players thought even $11 was too much."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "ai-2d",
+        "hand-made",
+        "code-generated"
+      ],
+      "style": "Painterly steampunk 2D: a winged airship fortress, brass-and-teal turrets and drones on hex grids over desert, jungle, snow and sea, seen from a high top-down camera. Ornate brass UI frames.",
+      "tools": [
+        "Midjourney",
+        "Nano Banana",
+        "AI video generator (unnamed)",
+        "Atlas Converter (his own tool)",
+        "Arcadia Effector (his own VFX editor)"
+      ],
+      "notes": "He is a trained artist, and he splits the art into four kinds, each made differently.\n\nGameplay assets: he generates one turret pose on a green background, a video model spins it 360°, and Atlas Converter removes the green, splits the frames and packs a 32-direction sprite atlas. To keep the fixed camera angle he puts perspective grids over the input image, or sketches the object directly onto an in-game screenshot before generating.\n\nUI: early concepts came from Midjourney with details refined in Nano Banana, but he says he ended up redrawing most of the UI himself. His later method is to put a sheet of existing UI pieces in front of Nano Banana, mark the new shapes in red, and have it fill those areas in the same style. He then cuts and polishes each piece. The LLM places placeholder blocks in code from the design.\n\nVFX: after trying video generators and Nano Banana frames, he settled on code-built SVG effects rendered to frames and then textured.\n\nPromo art: he starts from his own sketch, uses generation for detail, then fixes hands, faces, weapons and 'typical AI slop' by hand.\n\nSteam's AI disclosure says AI was used for 'prototyping, localization and the creation of some visual assets'. He tried a 2D→3D→animate→restyle pipeline but found no usable 3D animation tool for non-human objects."
+    },
+    "audio": {
+      "pipeline": [
+        "hand-made",
+        "ai-music"
+      ],
+      "tools": [
+        "FL Studio",
+        "Suno"
+      ],
+      "notes": "He composed the main melody and themes on piano and arranged them in FL Studio. Then he ran the arrangements through Suno ($20) to get full orchestral tracks at different tempos for different stages of play. He wrote the recurring 'Arcadia' theme himself because Suno's melodies 'don't stick'. Of about 40 tracks, 6 made the build (3 full tracks plus victory and defeat stings) because of the web build's size limit."
+    },
+    "tech": {
+      "stack": [
+        "phaser",
+        "webgl",
+        "nwjs"
+      ],
+      "notes": "JavaScript on Phaser, built in Cursor. It began as a 25 MB web build for Yandex Games, which caps builds at 100 MB, and he made it run on old Android phones. The Steam version wraps the web game in NW.js (about 250 MB of wrapper around the 25 MB game) for Windows, macOS and Linux. It adds Steam Deck support, full controller support and Steam Cloud. AI localized it into English, Spanish, Chinese, French and German from his Russian text. No generative AI runs at runtime. For new projects he moved to Unity, which he calls a terrible engine for AI because the MCP bridge burns tokens. He also built ArcEngine, a minimal 3D engine for AI coding."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Steam user reviews",
+          "value": "Mostly Positive: 77% of 67",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://store.steampowered.com/app/4402950/HEXSTORM_Tears_of_Arcadia/"
+        },
+        {
+          "label": "First-week sales",
+          "value": "~1,200 copies (250 on day one, 280 on day two)",
+          "asOf": "2026-08",
+          "selfReported": true,
+          "source": "https://www.youtube.com/watch?v=t9Rico-_ZJI"
+        },
+        {
+          "label": "First-week gross revenue",
+          "value": "~$9,500 after Steam re-priced sales for the $9 price cut (~$11,000 before). $8,649 after refunds and taxes, before Steam's 30%.",
+          "asOf": "2026-08",
+          "selfReported": true,
+          "source": "https://www.youtube.com/watch?v=t9Rico-_ZJI"
+        },
+        {
+          "label": "Wishlists at launch",
+          "value": "~5,000 (up from ~2,500 three days before release)",
+          "asOf": "2026-08",
+          "selfReported": true,
+          "source": "https://www.youtube.com/watch?v=t9Rico-_ZJI"
+        },
+        {
+          "label": "Web version players (Yandex Games)",
+          "value": "30,000 in 2 months",
+          "asOf": "2026-07",
+          "selfReported": true,
+          "source": "https://www.youtube.com/watch?v=HotJE1qZUAM"
+        },
+        {
+          "label": "Launch-results video views",
+          "value": "1.1 million",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://www.youtube.com/watch?v=t9Rico-_ZJI"
+        }
+      ],
+      "monetization": "Premium on Steam: launched at $11 with a 15% launch discount, now $8.99. The earlier free web version on Yandex Games was monetized and earned about 40,000 rubles in 3 months. All monetization was removed for Steam.",
+      "notes": "Two weeks after launch it was selling 20-30 copies a day. He projected about $25,000 in the first year. His AI spend was about $500 by April 2026 and $120-150 a month by July, with the whole game's budget 'approaching $1,000'. He says the subscriptions paid for themselves on day one. WN Hub's '$9,500 a week' headline is really the re-priced first-week gross."
+    },
+    "reception": "Players liked it but found it too hard and too expensive at first. Within hours of launch the rating fell from 80% to 55% after a burst of short-playtime negative reviews that he traced to anti-AI users from one region. It recovered to Mostly Positive. He discloses AI use openly on Steam and says 'if the game is interesting, the player won't care how it was made'. App2Top's interviewer remarked that some of the art is visibly AI-made. WN Hub and App2Top covered the launch, and his launch-results video passed 1.1 million views.",
+    "lessons": [
+      "Upload the full build at least a month early. The demo passed review in 3 days, but the full game took 3 weeks.",
+      "Don't tune difficulty for yourself. A 15-year StarCraft 2 player made a game that was too hard, and refunds hit 15% until he added a difficulty selector.",
+      "Ask the AI for tools to balance the game by hand (bots, graphs, editors), not for the balance itself.",
+      "Image models struggle with consistent angles and many-direction sprites. Using a video model's turnaround as the source, and matching perspective with in-game screenshots, makes the output usable.",
+      "Code-built VFX are steadier than generated animation: code controls the motion and art controls the look.",
+      "AI is still weak at original game concepts, UX layout and story. His dialogue attempts kept drifting into Dune, Star Wars and Asimov.",
+      "On Yandex Games, don't buy traffic at launch. Let organic metrics settle for 2-3 weeks first."
+    ],
+    "sources": [
+      {
+        "title": "HEXSTORM: Tears of Arcadia on Steam",
+        "url": "https://store.steampowered.com/app/4402950/HEXSTORM_Tears_of_Arcadia/"
+      },
+      {
+        "title": "$9,500 a week: a solo developer on launching HEXSTORM, a game with AI code (WN Hub)",
+        "url": "https://wnhub.io/news/Generative_AI/item-51792"
+      },
+      {
+        "title": "How much I earned on Steam with a game AI wrote (Tearevo, YouTube, Russian)",
+        "url": "https://www.youtube.com/watch?v=t9Rico-_ZJI"
+      },
+      {
+        "title": "Why AI art falls apart inside a game (Tearevo, YouTube, Russian)",
+        "url": "https://www.youtube.com/watch?v=2FvYLoIQl6U"
+      },
+      {
+        "title": "The hard parts of making games with AI (Tearevo, YouTube, Russian)",
+        "url": "https://www.youtube.com/watch?v=msImd8-vTUk"
+      },
+      {
+        "title": "From idea to Steam without a programmer (Tearevo, YouTube Short, Russian)",
+        "url": "https://www.youtube.com/watch?v=HotJE1qZUAM"
+      },
+      {
+        "title": "Solo AI game development: interview with Anton Chuev (App2Top, YouTube, Russian)",
+        "url": "https://www.youtube.com/watch?v=zAtrj_CfBoI"
+      },
+      {
+        "title": "Arcadia Effector: making game VFX with AI (Tearevo, YouTube, Russian)",
+        "url": "https://www.youtube.com/watch?v=nHztjZHce7w"
+      },
+      {
+        "title": "Tearevo Telegram channel (devlog, patch notes, tool releases)",
+        "url": "https://t.me/s/tearevo"
+      },
+      {
+        "title": "HEXSTORM: Tears of Arcadia, Walkthrough Trailer (YouTube)",
+        "url": "https://www.youtube.com/watch?v=c2KeJq3Kp_w"
+      }
+    ],
+    "confidence": "high",
+    "imageCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/99f11bc07bf959eb394faa6f08744a7dedf8173a/ss_99f11bc07bf959eb394faa6f08744a7dedf8173a.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/93edc4b2b1e800a37327854aafe3a49fd8e2e1eb/ss_93edc4b2b1e800a37327854aafe3a49fd8e2e1eb.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/23d6b30d97ef8bd7e654976d31a26d871fe8aaa3/ss_23d6b30d97ef8bd7e654976d31a26d871fe8aaa3.1920x1080.jpg"
+    ],
+    "imagePages": [
+      "https://store.steampowered.com/app/4402950/HEXSTORM_Tears_of_Arcadia/"
+    ],
+    "galleryCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/99f11bc07bf959eb394faa6f08744a7dedf8173a/ss_99f11bc07bf959eb394faa6f08744a7dedf8173a.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/23d6b30d97ef8bd7e654976d31a26d871fe8aaa3/ss_23d6b30d97ef8bd7e654976d31a26d871fe8aaa3.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/c1267acdc9c392a0012ed7d2cec62a3067270e7c/ss_c1267acdc9c392a0012ed7d2cec62a3067270e7c.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/93edc4b2b1e800a37327854aafe3a49fd8e2e1eb/ss_93edc4b2b1e800a37327854aafe3a49fd8e2e1eb.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/65943c16cd2c6b806bed3572c89f2d87d82a2da5/ss_65943c16cd2c6b806bed3572c89f2d87d82a2da5.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/09cd3e3499d30f8fe8de265f96d1c08de041f098/ss_09cd3e3499d30f8fe8de265f96d1c08de041f098.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/d06834e9a36e40438fc989a33c0ebb5189aac124/ss_d06834e9a36e40438fc989a33c0ebb5189aac124.1920x1080.jpg",
+      "youtube:c2KeJq3Kp_w"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/hexstorm/01.jpg",
+        "thumb": "media/gallery/hexstorm/01-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/23d6b30d97ef8bd7e654976d31a26d871fe8aaa3/ss_23d6b30d97ef8bd7e654976d31a26d871fe8aaa3.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/hexstorm/02.jpg",
+        "thumb": "media/gallery/hexstorm/02-t.jpg",
+        "w": 1917,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/c1267acdc9c392a0012ed7d2cec62a3067270e7c/ss_c1267acdc9c392a0012ed7d2cec62a3067270e7c.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/hexstorm/03.jpg",
+        "thumb": "media/gallery/hexstorm/03-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/93edc4b2b1e800a37327854aafe3a49fd8e2e1eb/ss_93edc4b2b1e800a37327854aafe3a49fd8e2e1eb.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/hexstorm/04.jpg",
+        "thumb": "media/gallery/hexstorm/04-t.jpg",
+        "w": 1917,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/65943c16cd2c6b806bed3572c89f2d87d82a2da5/ss_65943c16cd2c6b806bed3572c89f2d87d82a2da5.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/hexstorm/05.jpg",
+        "thumb": "media/gallery/hexstorm/05-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/09cd3e3499d30f8fe8de265f96d1c08de041f098/ss_09cd3e3499d30f8fe8de265f96d1c08de041f098.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/hexstorm/06.jpg",
+        "thumb": "media/gallery/hexstorm/06-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402950/d06834e9a36e40438fc989a33c0ebb5189aac124/ss_d06834e9a36e40438fc989a33c0ebb5189aac124.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/hexstorm/07.jpg",
+        "thumb": "media/gallery/hexstorm/07-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/c2KeJq3Kp_w/maxres2.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/hexstorm/08.jpg",
+        "thumb": "media/gallery/hexstorm/08-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/c2KeJq3Kp_w/maxres3.jpg",
+        "origin": "video"
+      }
+    ],
+    "galleryExclude": [
+      "https://img.youtube.com/vi/c2KeJq3Kp_w/maxres1.jpg"
+    ]
+  },
+  {
+    "id": "null-range",
+    "title": "Null Range",
+    "tagline": "A designer who says he can't code built a wireframe space-dogfighting sim with GPT 5.4. It placed 4th of 945 at Vibe Jam 2026.",
+    "rank": 8,
+    "pick": true,
+    "status": "playable",
+    "playUrl": "https://nullrange.com",
+    "links": {
+      "steam": null,
+      "itch": null,
+      "github": null,
+      "video": "https://x.com/taylor_sntx/status/2048817635429589379",
+      "devlog": null,
+      "creatorPost": "https://x.com/taylor_sntx/status/2041917312186429576"
+    },
+    "extraLinks": [
+      {
+        "label": "Engine Lab (open-source ship audio tuning tool)",
+        "url": "https://github.com/taylor-sntx/engine-lab"
+      },
+      {
+        "label": "study-particle-landscape (the open-source terrain base)",
+        "url": "https://github.com/taylor-sntx/study-particle-landscape"
+      },
+      {
+        "label": "Midjourney → Tripo → three.js asset workflow post",
+        "url": "https://x.com/taylor_sntx/status/2046994363260055823"
+      },
+      {
+        "label": "Null Range clip posted by @threejs",
+        "url": "https://x.com/threejs/status/2054697444068474933"
+      }
+    ],
+    "image": "media/null-range.jpg",
+    "imageSource": "https://pbs.twimg.com/amplify_video_thumb/2054697387374129152/img/78QEJN1DePgYC2LW.jpg?format=jpg&name=orig",
+    "creator": {
+      "name": "Taylor Allen",
+      "handle": "@taylor_sntx",
+      "url": "https://x.com/taylor_sntx",
+      "background": "spatial and interactive product designer (sntx.co) with a 3D/Blender background; says he doesn't 'know code at all, beyond some basic html/css' and had no game-dev experience"
+    },
+    "released": "2026-04-09",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "flight",
+      "shooter",
+      "simulation"
+    ],
+    "dimension": "3d",
+    "perspective": "first-person",
+    "multiplayer": "online",
+    "platforms": [
+      "web"
+    ],
+    "event": {
+      "id": "vibe-jam-2026",
+      "place": "entry",
+      "name": "Vibe Jam 2026",
+      "result": "4th of 945 + Cursor's 'Best Art Direction' special award ($1,000)"
+    },
+    "summary": "A first-person multiplayer space dogfighting game in the browser, inspired by Elite: Dangerous and the 1980s Star Wars arcade game. You fly low over a glowing point-cloud landscape and press Space to send out a sonar ping that reveals the terrain, enemies and salvage. You shoot down red AI hostiles and other pilots, haul their salvage back to a landing pad for credits, then spend the credits in a ship outfitter. It finished 4th of 945 entries at Vibe Jam 2026 and won Cursor's Best Art Direction award.",
+    "highlights": [
+      "The sonar ping is the core mechanic. Pressing Space sends a pulse across a point-cloud terrain with topographic contour lines, revealing the landscape and contacts. Other pilots stay hidden until you ping.",
+      "Finished 4th of 945 overall, just off the podium, and won Cursor's Best Art Direction award plus $1,000. @OverJumpRally, the account of final-round judge Alessandro, replied 'Yours was my only 10/10!'",
+      "Made by a product designer who says he can't code. He said GPT 5.4 'one-shots nearly every prompt. Most of the time is spent styling/tweaking.'",
+      "Ship models go Midjourney concept, then Tripo 3D, then GPT 5.4 decimating the mesh and turning it into a wireframe. The three ships he showed weighed 77 KB ('all three are 77kb'), which suits the browser.",
+      "Diegetic UI: opening settings feels like the pilot turning his head away from the HUD. The orange-and-black Ship Services outfitter sells Vector Seeker homing missiles plus radar and boost upgrades.",
+      "PvPvE in one shared airspace. 250 players tried the first playtest the day it went up, and 'the server didn't explode'.",
+      "He open-sourced Engine Lab, a tool where you 'fly' with WASD to tune engine and cockpit audio loops in real time, then copy the parameters as JSON for your coding agent."
+    ],
+    "story": "Taylor Allen (@taylor_sntx) is a spatial and interactive product designer who had spent months posting three.js experiments. In October 2025 he open-sourced a heightmap-to-particle-landscape study, which now has 142 GitHub stars. In January 2026 he posted a demo in which pressing Space sends radar pulses that reveal the terrain as you fly (about 44k views). He says he doesn't 'know code at all, beyond some basic html/css' and had no game-dev experience.\n\nWhen Vibe Jam 2026 opened in early April, he turned those experiments into Null Range, a multiplayer dogfighting sim inspired by Elite: Dangerous and the 1980s Star Wars arcade game. He announced it on 8 April with a roadmap of '1. SOUND (this is so intimidating) 2. Ship upgrades 3. UI/gameplay/performance'. The next day he put up a 'scotch tape and glue alpha' (desktop only, no sound, 'probably bugs', 'really fun??'), and 250 people played it that day. The jam listing names Cursor as the tool, and Taylor credited GPT 5.4 for the code. Through April he added ship upgrades at a landing pad, pointer lock, music and sound, a homing energy-shrapnel weapon, lock-on missiles, a reworked HUD and menus, AI-made ship models, and faster enemies that evade when hit.\n\nAt the results on 17 June it placed 4th of 945 ('just missed it at number 4!'), and Cursor picked it for Best Art Direction. levelsio then gave each special-award winner $1,000. After the jam, the official @threejs account posted a clip of the game (about 217k views), and Taylor had Codex turn the X and Reddit feedback into a backlog for his other agents. Development has continued: the live build has a ship selector (NR-L Kestrel, with the NR-H Bastion and Spike Cannons 'coming soon') and an email list for playtests. In October he had Claude gather every loose 3D asset in the game into a walkable space so he could inspect them and leave comments.",
+    "vibeCoding": {
+      "tools": [
+        "cursor",
+        "codex"
+      ],
+      "models": [
+        "GPT 5.4"
+      ],
+      "aiCodeShare": "~100% (implied: he says he doesn't 'know code at all, beyond some basic html/css'. Jam rules required at least 90%)",
+      "buildTime": "Started when the jam opened in early April 2026. Playable alpha on 9 April, jam listing submitted 12 April, then updated until the 1 May deadline and beyond. The terrain and sonar look came from his own earlier experiments (Oct 2025 to Jan 2026).",
+      "approach": "jam-sprint",
+      "workflow": [
+        "'Prompt the tool instead of the result': he has the agent build a dev panel of live parameters (particle color, size, density, scale, tile size) and then tunes the dials himself. He says it is 'much easier for me as a visual person, and it saves hella tokens vs going back and forth \"make this blue, make this bigger\"'.",
+        "He said GPT 5.4 'one-shots nearly every prompt' and that 'I'm struggling to find enough stuff to put in the prompt to keep it running so I have time to work on other things.'",
+        "He mocks up UI in Figma to guide the AI, which is 'good at inferring and adding functionality'.",
+        "He built side tools instead of prompting blind. Engine Lab lets you 'fly' with WASD to bend and tune ElevenLabs engine loops, then 'copy the parameters as json and give it to your agent'.",
+        "He started from his own open-source particle-landscape study, which turns a PNG heightmap into particle terrain.",
+        "He shipped a rough playtest about a week in and fixed what players reported: pointer lock, a sensitivity slider, controls hints, a 'sheild' typo, and homing missiles that players asked for.",
+        "After the jam, Codex reviewed the comments on X and Reddit, screenshotted the replies into a Figma board, and published a bug and feature backlog to Notion 'where my other agents can read it and get to work'.",
+        "In Oct 2026 Claude put every loose 3D asset into a walkable 'giant digital space' so he could walk around, inspect them and send back comments."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "code-generated",
+        "ai-3d",
+        "ai-2d"
+      ],
+      "style": "Wireframe and point-cloud sci-fi: particle terrain with topographic contour lines and chromatic aberration, an orange and cyan cockpit HUD, and wireframe ships",
+      "tools": [
+        "three.js",
+        "Midjourney",
+        "Tripo AI",
+        "GPT 5.4 (mesh decimation and wireframe conversion)",
+        "Figma"
+      ],
+      "notes": "The landscape is drawn in code: a PNG heightmap becomes a particle field, using his own open-source study-particle-landscape. He renders the landscape 'twice kinda' to get the topographic lines, and the sonar ping lights it up. Ships come from a 'midjourney -> @tripoai -> three.js' pipeline: Midjourney concept images, Tripo image-to-3D, then a wireframe conversion. He says 'I'm just using GPT 5.4 to decimate and wireframe it', and that 'all three are 77kb'. He notes that PBR textures 'would probably hurt a lot'. The HUD, menus and orange outfitter come from his own Figma mockups, built out by the AI. He is a professional designer, and the look won Cursor's Best Art Direction award. He also posts 'midjourney sketches - spacecraft interiors', but nothing confirms these are in the game."
+    },
+    "audio": {
+      "pipeline": [
+        "ai-music",
+        "ai-sfx",
+        "procedural"
+      ],
+      "tools": [
+        "Suno",
+        "ElevenLabs",
+        "Web Audio API (Engine Lab)"
+      ],
+      "notes": "Sound was the part he feared most ('SOUND (this is so intimidating)'). The music is from Suno; the default track is 'Midnight Firewall'. He made the engine and ambient cockpit loops with ElevenLabs' loop option. He told levelsio his prompt was 'a pulsing hum of a futuristic fusion engine, sputtering slightly', and that swapping in 'growling' gave a combustion engine. His Engine Lab tool pitches and loops those files and adds synth layers that react to throttle, boost and banking. The build also has voice callouts such as 'hull critical' and 'under attack', whose source isn't stated. Some effect file names look like sound-library files, but that is unconfirmed. Players can load their own music from a local file, a URL or SoundCloud, with a beat-reactive mode."
+    },
+    "tech": {
+      "stack": [
+        "threejs",
+        "vite",
+        "webgl",
+        "websockets"
+      ],
+      "notes": "A three.js client built with Vite. Multiplayer runs over a WebSocket at /ws on the same host, served by Caddy (probably his own server; the stack isn't documented). Bots and salvage share one airspace with all players, and you can team up against hostiles or fight each other. Players are white, bots are red, and usernames show only after a sonar ping. There's a hidden Vibe Jam portal, and the GLB ship models load in-game. Mobile works in landscape only, with touch controls (steer on the left, a throttle slider, and FIRE, MISSILE, SONAR and BOOST buttons) and a High/Low graphics toggle."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Vibe Jam 2026 final ranking",
+          "value": "4th of 945, plus Best Art Direction ($1,000)",
+          "asOf": "2026-06",
+          "selfReported": false,
+          "source": "https://vibejam.com/"
+        },
+        {
+          "label": "Players on the first playtest day",
+          "value": "250",
+          "asOf": "2026-04",
+          "selfReported": true,
+          "source": "https://x.com/taylor_sntx/status/2042715021797359826"
+        },
+        {
+          "label": "Asset-workflow post on X (Midjourney → Tripo → three.js)",
+          "value": "38,007 views / 729 likes",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://x.com/taylor_sntx/status/2046994363260055823"
+        },
+        {
+          "label": "Null Range clip posted by @threejs",
+          "value": "217,535 views / 3,096 likes",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://x.com/threejs/status/2054697444068474933"
+        },
+        {
+          "label": "GitHub stars on the terrain base (study-particle-landscape)",
+          "value": "142",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://github.com/taylor-sntx/study-particle-landscape"
+        }
+      ],
+      "monetization": "None: free browser game with an email list for updates and playtests.",
+      "notes": "No total player count has been published. The jam site's widget counters for nullrange.com look partial (104 plays), so they are left out. The @threejs clip has no caption; Taylor quote-posted it as a source of feedback on his game."
+    },
+    "reception": "Strong reception in the jam community. levelsio replied to the first playtest 'So sick!!!', and fellow jammer Danny Limanseta wrote 'this game is dripping with style'. Players compared it to X-Wing vs TIE Fighter and Star Wars Starfighter. Early criticism was about mobile performance, a too-high default mouse sensitivity, a weak shot sound, and no way to pause. Taylor himself said SFX was the hardest part: 'someday I need to partner with a great sfx artist'.",
+    "lessons": [
+      "Ask the AI for tools, not finished results. A live parameter panel lets a non-coder designer apply his own taste directly, and it saves tokens.",
+      "A deliberate wireframe and point-cloud style suits both the browser and AI 3D. Models stay tiny, rough topology doesn't show, and in his words 'the retro aesthetic is so forgiving and impactful if there's a fresh take on it'.",
+      "Audio can be solved without audio skills: ElevenLabs loops, Suno music, and a custom tuning tool whose output is handed back to the agent.",
+      "Put a rough build in front of players within a week and let their feedback drive the next updates."
+    ],
+    "sources": [
+      {
+        "title": "Null Range (live game)",
+        "url": "https://nullrange.com"
+      },
+      {
+        "title": "Vibe Jam 2026 gallery with final rankings",
+        "url": "https://vibejam.com/"
+      },
+      {
+        "title": "Vibe Jam public API",
+        "url": "https://vibejam.com/api"
+      },
+      {
+        "title": "levels.io: Vibe Jam 2026 winners",
+        "url": "https://levels.io/vibe-jam-2026-winners-quality"
+      },
+      {
+        "title": "levelsio: special-award winners also get $1,000",
+        "url": "https://x.com/levelsio/status/2067366207356096825"
+      },
+      {
+        "title": "Taylor: joining the #vibejam with Null Range (+ GPT 5.4 replies)",
+        "url": "https://x.com/taylor_sntx/status/2041917312186429576"
+      },
+      {
+        "title": "Taylor: first playtest (+ replies on how he works with AI and Figma)",
+        "url": "https://x.com/taylor_sntx/status/2042279562340376640"
+      },
+      {
+        "title": "Taylor: 250 players on day one",
+        "url": "https://x.com/taylor_sntx/status/2042715021797359826"
+      },
+      {
+        "title": "Taylor: Engine Lab and the ElevenLabs engine prompt",
+        "url": "https://x.com/taylor_sntx/status/2043692500657770760"
+      },
+      {
+        "title": "Taylor: first sound pass (Suno music)",
+        "url": "https://x.com/taylor_sntx/status/2044534690325893561"
+      },
+      {
+        "title": "Taylor: Midjourney → Tripo → three.js (+ GPT 5.4 wireframe reply)",
+        "url": "https://x.com/taylor_sntx/status/2046994363260055823"
+      },
+      {
+        "title": "Taylor: final-week updates",
+        "url": "https://x.com/taylor_sntx/status/2048817635429589379"
+      },
+      {
+        "title": "Taylor: 'prompt the tool instead of the result'",
+        "url": "https://x.com/taylor_sntx/status/2049116056279568404"
+      },
+      {
+        "title": "Taylor: Codex feedback triage to Notion",
+        "url": "https://x.com/taylor_sntx/status/2055388826353406080"
+      },
+      {
+        "title": "Taylor: Best Art Direction",
+        "url": "https://x.com/taylor_sntx/status/2067365527526191240"
+      },
+      {
+        "title": "Taylor: 'just missed it at number 4'",
+        "url": "https://x.com/taylor_sntx/status/2067372335653429384"
+      },
+      {
+        "title": "Taylor: Claude builds a walkable asset review space",
+        "url": "https://x.com/taylor_sntx/status/2111182963866062859"
+      },
+      {
+        "title": "@threejs: Null Range clip",
+        "url": "https://x.com/threejs/status/2054697444068474933"
+      },
+      {
+        "title": "GitHub: taylor-sntx/engine-lab",
+        "url": "https://github.com/taylor-sntx/engine-lab"
+      },
+      {
+        "title": "GitHub: taylor-sntx/study-particle-landscape",
+        "url": "https://github.com/taylor-sntx/study-particle-landscape"
+      },
+      {
+        "title": "Manathos Arcade: The 7 Best Games Made by AI (Vibe Jam 2026 Winners)",
+        "url": "https://www.youtube.com/watch?v=8lqW8tec8VM"
+      }
+    ],
+    "confidence": "medium",
+    "imageCandidates": [
+      "https://pbs.twimg.com/amplify_video_thumb/2054697387374129152/img/78QEJN1DePgYC2LW.jpg?format=jpg&name=orig",
+      "https://pbs.twimg.com/media/HFehtwuXkAARMYK.jpg?name=orig",
+      "https://pbs.twimg.com/amplify_video_thumb/2042714667798130688/img/l3Ls5KBZGxQ6Fq_j.jpg?format=jpg&name=orig"
+    ],
+    "imagePages": [],
+    "galleryCandidates": [
+      "https://pbs.twimg.com/media/HFehtwuXkAARMYK.jpg?name=orig",
+      "https://pbs.twimg.com/amplify_video_thumb/2054697387374129152/img/78QEJN1DePgYC2LW.jpg?format=jpg&name=orig",
+      "screenshot:https://video.twimg.com/amplify_video/2048798283838189568/vid/avc1/1920x1080/OtYA_plZwCzNDvBj.mp4?tag=21#t=15|6000",
+      "screenshot:https://video.twimg.com/amplify_video/2054697387374129152/vid/avc1/1920x1080/iQMAxNBB_dVJoBpe.mp4?tag=27#t=12|6000",
+      "screenshot:https://video.twimg.com/amplify_video/2054697387374129152/vid/avc1/1920x1080/iQMAxNBB_dVJoBpe.mp4?tag=27#t=5|6000",
+      "https://pbs.twimg.com/amplify_video_thumb/2046236692240359424/img/F6dgeba46y83hDLp.jpg?format=jpg&name=orig",
+      "https://pbs.twimg.com/amplify_video_thumb/2046236503655747584/img/TG-V8c7Q2AUZ2hzR.jpg?format=jpg&name=orig",
+      "https://pbs.twimg.com/amplify_video_thumb/2046994180593889280/img/HTCPFwHBrtJKczz8.jpg?format=jpg&name=orig",
+      "screenshot:https://nullrange.com/|10000"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/null-range/01.jpg",
+        "thumb": "media/gallery/null-range/01-t.jpg",
+        "w": 1695,
+        "h": 884,
+        "source": "https://pbs.twimg.com/media/HFehtwuXkAARMYK.jpg?name=orig",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/null-range/02.jpg",
+        "thumb": "media/gallery/null-range/02-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://video.twimg.com/amplify_video/2048798283838189568/vid/avc1/1920x1080/OtYA_plZwCzNDvBj.mp4?tag=21#t=15",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/null-range/03.jpg",
+        "thumb": "media/gallery/null-range/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://video.twimg.com/amplify_video/2054697387374129152/vid/avc1/1920x1080/iQMAxNBB_dVJoBpe.mp4?tag=27#t=12",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/null-range/04.jpg",
+        "thumb": "media/gallery/null-range/04-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://pbs.twimg.com/amplify_video_thumb/2046236692240359424/img/F6dgeba46y83hDLp.jpg?format=jpg&name=orig",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/null-range/05.jpg",
+        "thumb": "media/gallery/null-range/05-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://pbs.twimg.com/amplify_video_thumb/2046236503655747584/img/TG-V8c7Q2AUZ2hzR.jpg?format=jpg&name=orig",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/null-range/06.jpg",
+        "thumb": "media/gallery/null-range/06-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://pbs.twimg.com/amplify_video_thumb/2046994180593889280/img/HTCPFwHBrtJKczz8.jpg?format=jpg&name=orig",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/null-range/07.jpg",
+        "thumb": "media/gallery/null-range/07-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://nullrange.com/",
+        "origin": "live"
+      }
+    ]
+  },
+  {
+    "id": "100-bodies-in-the-grass",
+    "title": "100 Bodies in the Grass",
+    "tagline": "A first-timer's 4-player co-op hero defense set in the 1287 Mongol invasion of Vietnam, coded mostly by Claude Code in Godot.",
+    "rank": 9,
+    "pick": true,
+    "status": "coming-soon",
+    "playUrl": "https://store.steampowered.com/app/5474660/100_Bodies_in_the_Grass_Demo/",
+    "links": {
+      "steam": "https://store.steampowered.com/app/5357660/100_Bodies_in_the_Grass/",
+      "itch": null,
+      "github": null,
+      "video": "https://www.youtube.com/watch?v=9OAfiKcEw1Q",
+      "devlog": "https://www.reddit.com/r/aigamedev/comments/1xajfgh/deslopify_your_game_animations_are_the_most/",
+      "creatorPost": "https://www.reddit.com/r/ClaudeAI/comments/1xm7kw7/started_a_hobby_project_about_the_mongol/"
+    },
+    "extraLinks": [
+      {
+        "label": "Free demo on Steam",
+        "url": "https://store.steampowered.com/app/5474660/100_Bodies_in_the_Grass_Demo/"
+      },
+      {
+        "label": "Official site",
+        "url": "https://100bodiesinthegrass.com"
+      },
+      {
+        "label": "Tools and AI disclosure post (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1x7lxmn/im_making_a_game_to_defend_vietnam_from_the_third/"
+      },
+      {
+        "label": "Animation fixes, take 2 (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1xc2f1m/deslopifying_animations_take_2_implementing_your/"
+      },
+      {
+        "label": "Act II height refactor with Claude Fable 5.2 (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1xyc8hj/using_claudefable_52_to_make_real_world_height/"
+      }
+    ],
+    "image": "media/100-bodies-in-the-grass.jpg",
+    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/7278584c234f7f51b94c5e5eabce5ef52ebbeb40/ss_7278584c234f7f51b94c5e5eabce5ef52ebbeb40.1920x1080.jpg?t=1795495022",
+    "creator": {
+      "name": "Hipfire",
+      "handle": "u/Ok-Pirate5732",
+      "url": "https://www.reddit.com/user/Ok-Pirate5732/",
+      "background": "Solo hobbyist making his first game as a side project next to a day job (where he works with Claude a lot). He describes 'very little prior experience', beyond making custom maps in Unreal years ago, and was new to Godot. Publishes on Steam as Hipfire."
+    },
+    "released": "2026-11-02",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "tower-defense",
+      "rpg",
+      "roguelite"
+    ],
+    "dimension": "3d",
+    "perspective": "isometric",
+    "multiplayer": "online",
+    "platforms": [
+      "steam",
+      "desktop"
+    ],
+    "event": null,
+    "summary": "A wave-based co-op defense game for one to four players, set in Đại Việt during the Third Mongol Invasion of 1287. You pick one of four heroes and fight Yuan soldiers in isometric ARPG-style combat, while you raise bamboo palisades, towers and spike pits, train the village militia and protect the buildings your upgrades depend on. Villages and weather are procedurally generated, and the full game follows the war from a northern village to a mountain monastery and the Battle of Bạch Đằng. The solo developer, making his first game, had Claude write most of the code. A free Steam demo with the first five waves of Act I came out on 2 November 2026.",
+    "highlights": [
+      "A setting games rarely touch: 13th-century Vietnam against the Mongol Yuan dynasty. The title quotes general Trần Hưng Đạo's 1284 vow ('Even if a hundred bodies of mine lie rotting in the wild grass...'), and the campaign ends at the Battle of Bạch Đằng.",
+      "A first game by a hobbyist with 'very little prior experience', built in a few months as a side project. He says he 'wouldn't have even attempted it' without Claude, and ran it on leftover usage from his work Claude Max plan.",
+      "Real systems, not a toy: online and LAN co-op for four through Steam, bots for solo play, four heroes with weapon loadouts and nine skills plus an ultimate each, an endless wave mode, and Mongol rocket-artillery waves that force you out from behind your walls.",
+      "Upgrades live in the village itself. Lose the blacksmith and you can't buy weapons until it is repaired, and the militia's refill rate depends on how many houses survive the wave.",
+      "One of the most candid art write-ups in the guide: Meshy models as a starting point with 'a LOT of refinement', Blender cleanup, hand-sculpted terrain, and Mixamo plus paid animations moved onto one skeleton by a pipeline Claude built. Reddit commenters said it doesn't look like 'slop'.",
+      "Public 'DeSlopify' iteration on r/aigamedev. After commenters called out skating feet and weightless attacks, he added foot locking, knockback back-steps, directional camera shake, wind-up slow-downs and hit stops.",
+      "A Claude Fable 5.2 refactor added real height (walls, towers, mountain paths) for Act II, while the simulation and network data stay flat 2D. Fable also fixed a waterfall that Opus couldn't."
+    ],
+    "story": "The developer, who posts on Reddit as Ok-Pirate5732 and publishes as Hipfire, wanted Vietnam in games to be more than 'meme-able farmers that you get to blow up in a tank while blasting CCR', a jab at Battlefield Vietnam. He credits Age of Empires II as the one exception. He had very little experience: some custom-map making in Unreal years ago, and he was new to Godot. Even so, he spent 'the last few months' building a co-op hero defense about the 1287 invasion as a side project. The Steam page went up in mid-October 2026, and the free demo followed on 2 November.\n\nClaude wrote most of the code, through Claude Code. He used Claude Fable at max effort for the early planning and architecture, then mostly Opus at medium or high effort, and Fable 5.2 for the Act II height refactor in November. He says Godot suits Claude because 'it's mostly plain text', and 'The ability for Claude Code to test, iterate, and learn/implement Godot's extensive open documentation has been key.' He expected 'a way buggy/unstable mess' but found it 'actually quite stable', and says he learned a lot by having Claude 'break everything down, slowly'. Claude also did the four-player networking, with Steam providing 'a lot of the plumbing'. Feel had to be tuned by hand, which 'Claude obviously cant determine'.\n\nHe is unusually open about the art. Models start in Meshy and need heavy cleanup to stay consistent: 'Good enough for isometric view, I don't think my skills could make it passable for an FPS though.' No animation is AI-made. When r/aigamedev called his early animations slop, he bought professional animation packs and reworked the combat feel in public. Every post carries an AI disclaimer, which he expects means 'commercially shooting myself in the foot'. His r/ClaudeAI post reached 466 upvotes, and the Russian sites Shazoo and Trashbox covered it on 11 November, with Spain's Foro3D following that month. By 12 November he had passed 400 wishlists, and Early Access is planned for Q1 2027.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code"
+      ],
+      "models": [
+        "Claude Opus",
+        "Claude Fable",
+        "Claude Fable 5.2"
+      ],
+      "aiCodeShare": "Most of the code. 'Claude was heavily involved in the coding of this game (to the point that I wouldn't have even attempted it without these tools)'. No percentage given.",
+      "buildTime": "'The last few months' as a side project before the 2 Nov 2026 demo. Act II was in progress in late November, and Early Access is planned for Q1 2027.",
+      "approach": "iterative",
+      "workflow": [
+        "Claude Code tests and iterates on its own changes and reads Godot's open documentation. He found Claude 'particularly useful when paired with Godot, given that it's mostly plain text'.",
+        "Prompting tip: he switched from 'Do X' or 'I want Y' to 'what are the best practices or techniques for achieving X in Godot'. Results got better, and he learned more.",
+        "Model by task: Claude Fable at max effort for the initial planning and architecture ('probably not necessary now'), medium or high effort Opus day to day, and Fable 5.2 for the big Act II refactor.",
+        "Kept the netcode simple: Act II height is render-only. 'Positions, hits and the network data are all still 2D. Height is still never stored on an entity and never sent over the network.'",
+        "Did by hand what is slow to prompt. He sculpted the Act II terrain with the Terrain3D plugin, then had Claude integrate it (pathing, the grass carpet, the 2D sim): 'A million prompts to Claude to form the terrain exactly how I needed would've probably taken way long'.",
+        "Claude built the pipeline that moves every character onto a standard Mixamo-based skeleton and makes Meshy models usable in the game.",
+        "Tuned game feel by hand after Reddit feedback: foot locking, knockback back-steps, directional camera shake, wind-up slow-downs, hit stops and bigger blood sprays.",
+        "Cost: leftover usage from the Claude Max plan he has for his day job, plus about $200 for other tool subscriptions (most for one month), Steam registration and an animation pack."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "ai-3d",
+        "hand-made",
+        "asset-pack",
+        "ai-2d",
+        "ai-blender"
+      ],
+      "style": "Grounded, realistic isometric 3D: misty rice paddies, bamboo palisades, thatched villages and jungle. Wuxia-style swing trails were left out on purpose.",
+      "tools": [
+        "Meshy",
+        "Tripo (tried)",
+        "Blender",
+        "Terrain3D (Godot plugin)",
+        "Mixamo",
+        "paid animation packs",
+        "Astra"
+      ],
+      "notes": "His disclaimer says most 3D models and textures 'had generative AI involved in the workflows'. Units and props start in Meshy, which he found better than Tripo, then need 'a LOT of refinement' to stay consistent. His tip is to perfect the concept art first, split complex models into sections, run each through Meshy and combine them. He cleans models up in Blender by hand. Claude with Blender is 'decent enough at small clean up tasks or editing of 3d models' but shouldn't be relied on for anything complex, and 'shouldn't be used at all for animations'. Animations are '99%+' from free libraries (mostly Mixamo), plus paid packs for weapons Mixamo lacks. Act I terrain is procedural, and Act II terrain was sculpted by hand with Terrain3D. He also says he used 'some Astra for visual assets', without details. Steam's disclosure says generative AI made 'many of the visual assets (both in the game and in promotion)'."
+    },
+    "audio": {
+      "pipeline": [
+        "ai-music",
+        "stock"
+      ],
+      "tools": [
+        "ElevenLabs",
+        "freesound.org"
+      ],
+      "notes": "Music comes from ElevenLabs, which he calls 'probably better for placeholder music than effects'. Steam's disclosure lists 'a small handful of audio assets (primarily music)'. Sound effects come mostly from free libraries such as freesound.org, because ElevenLabs effects 'wasn't the best' and free real recordings were readily available."
+    },
+    "tech": {
+      "stack": [
+        "godot",
+        "steam-networking"
+      ],
+      "notes": "Built in Godot. Steam's specs require a Vulkan-capable GPU, and it is Windows only for now (Mac is possible at full release). Co-op for up to four runs online through Steam, plus LAN. The demo is invite-only with no matchmaking, and you can fill slots with bots. The simulation is 2D. Act II adds height for rendering only, and it is never stored on entities or sent over the network. The Act II terrain uses the Terrain3D plugin."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Steam wishlists",
+          "value": "400+ (about 10–15 a day after the demo; goal 2,000 by the next Next Fest)",
+          "asOf": "2026-11",
+          "selfReported": true,
+          "source": "https://www.reddit.com/r/IndieGameWishlist/comments/1xul70s/crossed_400_wishlists_now_what/"
+        },
+        {
+          "label": "r/ClaudeAI launch post",
+          "value": "466 upvotes, 35 comments",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://www.reddit.com/r/ClaudeAI/comments/1xm7kw7/started_a_hobby_project_about_the_mongol/"
+        },
+        {
+          "label": "r/aigamedev 'DeSlopify' animation post",
+          "value": "306 upvotes, 69 comments",
+          "asOf": "2026-10",
+          "selfReported": false,
+          "source": "https://www.reddit.com/r/aigamedev/comments/1xajfgh/deslopify_your_game_animations_are_the_most/"
+        }
+      ],
+      "monetization": "Paid Early Access is planned for Q1 2027, starting with Act I (price not announced). A free demo has been on Steam since 2 Nov 2026.",
+      "notes": "The demo caused a wishlist spike. Short videos on TikTok and YouTube had 'mixed/mediocre results', and most streamers he contacted wanted hundreds of dollars for a shout-out."
+    },
+    "reception": "Warm in AI-friendly communities. On r/ClaudeAI one commenter wrote: 'A lot of the time these AI-genned games look like slop, but this is beautiful.' Others asked mostly how he made the 3D assets. Keldric Gaming's first look (blog and YouTube, from a pre-demo playtest) called it 'a very cool take on roguelike mechanics' and the developer 'super responsive'. Shazoo and Trashbox in Russia covered it on 11 November 2026, and Foro3D in Spain later that month. The criticism was about animation (skating feet, weightless attacks), the UI and the Roman-numeral wave counter. One commenter accused him of hiding AI use on Steam. He replied that Steam's disclosure rules don't cover code and that he voluntarily discloses everything else.",
+    "lessons": [
+      "Godot suits agentic coding: scenes and scripts are plain text and the docs are open, so Claude Code can read, test and fix in a loop.",
+      "Ask the model for best practices before you ask it to build. Output improves, and a beginner learns the engine along the way.",
+      "AI 3D is a starting point, not a finished asset. Meshy output needed heavy cleanup and only holds up at an isometric distance.",
+      "Animation is the clearest 'slop' tell. Use Mixamo or paid packs, retarget them to one skeleton (Claude can build that pipeline), and tune feel by hand.",
+      "Get fresh eyes early: 'what looks a little like slop to yourself can look really sloppy to anyone that hasn't spent hours looking at your game'.",
+      "Keep multiplayer simple by keeping the simulation 2D and making height purely visual."
+    ],
+    "sources": [
+      {
+        "title": "Started a hobby project about the Mongol Invasions of Vietnam. Claude helped turn it into a real game (r/ClaudeAI)",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1xm7kw7/started_a_hobby_project_about_the_mongol/"
+      },
+      {
+        "title": "I'm making a game to defend Vietnam from the Third Mongol Invasion: tools list (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1x7lxmn/im_making_a_game_to_defend_vietnam_from_the_third/"
+      },
+      {
+        "title": "There aren't enough games set in Vietnam that have nothing to do with the Vietnam War: AI disclaimer (r/IndieDev)",
+        "url": "https://www.reddit.com/r/IndieDev/comments/1x7s00u/there_arent_enough_games_set_in_vietnam_that_have/"
+      },
+      {
+        "title": "Making a game set in Vietnam that ISN'T about the (American) Vietnam War (r/godot)",
+        "url": "https://www.reddit.com/r/godot/comments/1x8eat1/making_a_game_set_in_vietnam_that_isnt_about_the/"
+      },
+      {
+        "title": "DeSlopify your game: animations (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1xajfgh/deslopify_your_game_animations_are_the_most/"
+      },
+      {
+        "title": "DeSlopifying Animations Take 2 (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1xc2f1m/deslopifying_animations_take_2_implementing_your/"
+      },
+      {
+        "title": "Demo is out! Model and effort details in the comments (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1xqcahz/demo_is_out_try_my_mongolian_invasion_of_vietnam/"
+      },
+      {
+        "title": "Using Claude/Fable 5.2 to make real world height work while keeping my sim flat (r/aigamedev)",
+        "url": "https://www.reddit.com/r/aigamedev/comments/1xyc8hj/using_claudefable_52_to_make_real_world_height/"
+      },
+      {
+        "title": "Refactoring core systems of my game with Claude Fable 5.2 (r/ClaudeAI)",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1xz343v/refactoring_core_systems_of_my_game_with_claude/"
+      },
+      {
+        "title": "Crossed 400 wishlists! Now what? (r/IndieGameWishlist)",
+        "url": "https://www.reddit.com/r/IndieGameWishlist/comments/1xul70s/crossed_400_wishlists_now_what/"
+      },
+      {
+        "title": "100 Bodies in the Grass on Steam",
+        "url": "https://store.steampowered.com/app/5357660/100_Bodies_in_the_Grass/"
+      },
+      {
+        "title": "100 Bodies in the Grass Demo on Steam",
+        "url": "https://store.steampowered.com/app/5474660/100_Bodies_in_the_Grass_Demo/"
+      },
+      {
+        "title": "An AI enthusiast with no game-dev experience made a co-op action game about the 1287 Mongol invasion of Vietnam with Claude (Shazoo, Russian)",
+        "url": "https://shazoo.ru/2026/11/11/193847/entuziast-ii-bez-opyta-razrabotki-igr-s-pomoshhiu-claude-sozdal-kooperativnyi-eksen-o-mongolskom-vtorzenii-vo-vetnam-1287-goda"
+      },
+      {
+        "title": "A user with no game-dev experience is making a co-op action game with AI (Trashbox, Russian)",
+        "url": "https://trashbox.ru/link/2026-11-11-100-bodies-in-the-grass"
+      },
+      {
+        "title": "100 Bodies in the Grass: Vietnamese co-op against the Yuan made with AI (Foro3D, Spanish)",
+        "url": "https://foro3d.com/2026/noviembre/100-bodies-in-the-grass-cooperativo-vietnamita-contra-los-yuan-hecho-c.html"
+      },
+      {
+        "title": "100 Bodies In The Grass: Historical Roguelike ARPG (Keldric Gaming)",
+        "url": "https://www.keldricgaming.com/2026/11/100-bodies-in-grass-historical.html"
+      },
+      {
+        "title": "100 Bodies in the Grass official site",
+        "url": "https://100bodiesinthegrass.com"
+      }
+    ],
+    "confidence": "high",
+    "imageCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/7278584c234f7f51b94c5e5eabce5ef52ebbeb40/ss_7278584c234f7f51b94c5e5eabce5ef52ebbeb40.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/ce64329665952ae6a22153d475b1a311a54fb4a7/ss_ce64329665952ae6a22153d475b1a311a54fb4a7.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/db42c6ed0dad3f1e9eee6228bb229c89033f86dd/ss_db42c6ed0dad3f1e9eee6228bb229c89033f86dd.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/d570a265aecf1d031ab36794c3a7572971130882/ss_d570a265aecf1d031ab36794c3a7572971130882.1920x1080.jpg?t=1795495022"
+    ],
+    "imagePages": [
+      "https://store.steampowered.com/app/5357660/100_Bodies_in_the_Grass/"
+    ],
+    "galleryCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/ce64329665952ae6a22153d475b1a311a54fb4a7/ss_ce64329665952ae6a22153d475b1a311a54fb4a7.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/7278584c234f7f51b94c5e5eabce5ef52ebbeb40/ss_7278584c234f7f51b94c5e5eabce5ef52ebbeb40.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/c3caa5b80f4cbc268948b45af64d3ebd510fcbd8/ss_c3caa5b80f4cbc268948b45af64d3ebd510fcbd8.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/db42c6ed0dad3f1e9eee6228bb229c89033f86dd/ss_db42c6ed0dad3f1e9eee6228bb229c89033f86dd.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/d570a265aecf1d031ab36794c3a7572971130882/ss_d570a265aecf1d031ab36794c3a7572971130882.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/f3c57b9782c35436ee8fd3e0250131d595c420a4/ss_f3c57b9782c35436ee8fd3e0250131d595c420a4.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/fb144f666d6d4c8b36bde88180dec4ab79c6a34d/ss_fb144f666d6d4c8b36bde88180dec4ab79c6a34d.1920x1080.jpg?t=1795495022",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/a929d283bda9c5b3e0391c6e188b781e459fe6df/ss_a929d283bda9c5b3e0391c6e188b781e459fe6df.1920x1080.jpg?t=1795495022",
+      "youtube:9OAfiKcEw1Q"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/01.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/01-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/ce64329665952ae6a22153d475b1a311a54fb4a7/ss_ce64329665952ae6a22153d475b1a311a54fb4a7.1920x1080.jpg?t=1795495022",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/02.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/02-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/c3caa5b80f4cbc268948b45af64d3ebd510fcbd8/ss_c3caa5b80f4cbc268948b45af64d3ebd510fcbd8.1920x1080.jpg?t=1795495022",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/03.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/03-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/db42c6ed0dad3f1e9eee6228bb229c89033f86dd/ss_db42c6ed0dad3f1e9eee6228bb229c89033f86dd.1920x1080.jpg?t=1795495022",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/04.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/04-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/d570a265aecf1d031ab36794c3a7572971130882/ss_d570a265aecf1d031ab36794c3a7572971130882.1920x1080.jpg?t=1795495022",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/05.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/05-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/f3c57b9782c35436ee8fd3e0250131d595c420a4/ss_f3c57b9782c35436ee8fd3e0250131d595c420a4.1920x1080.jpg?t=1795495022",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/06.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/06-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/fb144f666d6d4c8b36bde88180dec4ab79c6a34d/ss_fb144f666d6d4c8b36bde88180dec4ab79c6a34d.1920x1080.jpg?t=1795495022",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/07.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/07-t.jpg",
+        "w": 1920,
+        "h": 1080,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357660/a929d283bda9c5b3e0391c6e188b781e459fe6df/ss_a929d283bda9c5b3e0391c6e188b781e459fe6df.1920x1080.jpg?t=1795495022",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/100-bodies-in-the-grass/08.jpg",
+        "thumb": "media/gallery/100-bodies-in-the-grass/08-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/9OAfiKcEw1Q/maxres1.jpg",
+        "origin": "video"
+      }
+    ]
+  },
+  {
+    "id": "pumpkin-farmer",
+    "title": "Pumpkin Farmer (Quarter Sun Cove)",
+    "tagline": "A cozy isometric pumpkin-farming sim with a pelican mayor, built by Claude Opus 5.5 Ultracode from a spec in nearly two days.",
+    "rank": 14,
+    "pick": false,
+    "status": "playable",
+    "playUrl": "https://simonw.github.io/pumpkin-farmer/",
+    "links": {
+      "steam": null,
+      "itch": null,
+      "github": null,
+      "video": null,
+      "devlog": null,
+      "creatorPost": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+    },
+    "extraLinks": [
+      {
+        "label": "Five art-direction prototypes (playable)",
+        "url": "https://simonw.github.io/pumpkin-farmer/aesthetics/"
+      }
+    ],
+    "image": "media/pumpkin-farmer.webp",
+    "imageSource": "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp",
+    "creator": {
+      "name": "Simon Willison",
+      "handle": "@simonw",
+      "url": "https://simonwillison.net/",
+      "background": "veteran web developer (Django co-creator, Datasette) and prolific LLM blogger; lives in Half Moon Bay, home of a famous giant-pumpkin weigh-off"
+    },
+    "released": "2026-10",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "simulation",
+      "management",
+      "cozy"
+    ],
+    "dimension": "3d",
+    "perspective": "isometric",
+    "multiplayer": "none",
+    "platforms": [
+      "web"
+    ],
+    "event": null,
+    "summary": "A cozy farming and business sim on a foggy coastal farm, inspired by Half Moon Bay's Art and Pumpkin Festival. Over each year you raise one giant pumpkin for the October weigh-off and time your commercial rows to ripen on the busiest October weekends. Then you run the stand while families of animal visitors arrive by car. Every character is a vegetarian animal: you play one of ten species, the town mayor is a pelican, and the fog, named Marlene, drives the weather and the economy.",
+    "highlights": [
+      "Built from a spec. A brainstorming session in Claude Code produced SPEC.md, then Claude Opus 5.5 'Ultracode' spent 'millions of tokens and nearly two days building it'. Simon's own time stayed under four hours.",
+      "One standing instruction, 'surprise and delight the user frequently', turned into an in-game 'surprise director'. It schedules a whale off the bluff, a harbor seal napping in the fog, raccoon heists before the weigh-off, an elephant-seal Weighmaster and five-star reviews like 'Carried our pumpkin like a baby. It was heavier than the baby.'",
+      "Deep systems under the cute surface. Seeds have an 8-locus diploid genome with linkage, recombination, mutation, inbreeding and hybrid vigour, so you breed next year's giant. Her true weight stays hidden until the scale, and a test makes sure the UI can never read it.",
+      "Claude explored five art directions as playable three.js prototypes before choosing one: Foggy Diorama, Storybook Toon, Pixel Patch, Hearthside and Foggy Hearth. The game's world code says it was 'Ported from aesthetics/prototype-1.html', and all five are still online.",
+      "No art or audio files. A low-poly diorama, skinned animal rigs for ten species and the dialogue portraits are all rendered from three.js code, within a phone budget of 150 draw calls. Every sound is a synthesized WebAudio blip with a caption.",
+      "Built to be tested by bots. The seeded, deterministic sim has headless bot players and balance tests. URL parameters can jump straight to any date, such as ?jump=y1-oct3 for the first Saturday of pumpkin season."
+    ],
+    "story": "Simon Willison lives in Half Moon Bay, California, home of the annual Art and Pumpkin Festival and its giant pumpkin weigh-off. After Battle Drones he wanted a game that 'wasn't just a cheap imitation of something that already existed'. He picked farming pumpkins, growing a giant one and 'handling the rush of the October pumpkin season'. A brainstorming session with Claude produced a SPEC.md. He then had Claude Opus 5.5 Ultracode, Claude Code's subagent-orchestrating mode, build it over nearly two days. The one extra instruction was to 'surprise and delight the user frequently'.\n\nThe deployed source, about 24,600 lines of plain JavaScript modules, shows how the agents organized the work. Code comments cite numbered sections of a design document, an architecture document and a plan with numbered 'rulings'. The code is split into slices (giant, patch, season, weigh-off) and tracks A to E, with rules like 'Slices own their sections and may extend them; keep edits inside your own section'. A stub renderer kept the UI testable 'while the real renderer is still being written in parallel'. Every gameplay number sits in one tuning file 'so the balance sims can sweep them'. Each module's header lists what the player should feel at each beat and the numbers that make it so.\n\nSimon published it on 28 October 2026 in 'The October inflection point for vibe game development', alongside Battle Drones, Emberwick and Tree Appreciator. He was candid about it: 'This isn't my best game yet—it's not as fun to play as Battle Drones'. He is 'not convinced by the game mechanics yet', because planting so that rows ripen on the busiest October weekends is 'actually quite complicated'. Still, he called it 'the kind of game I want more of: weird, fun, uniquely personal'. He also finds it 'both exciting and shameful' to get interesting results from 'so little creative input'.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code"
+      ],
+      "models": [
+        "Claude Opus 5.5"
+      ],
+      "aiCodeShare": "~100% implied: Simon says Opus 5.5 Ultracode built it from the spec. His input was the brainstorm, the spec, prompts and playtesting.",
+      "buildTime": "A brainstorming session that produced SPEC.md, then 'nearly two days' of Opus 5.5 Ultracode building it, which used 'millions of tokens'. Less than four hours of Simon's own work. The live build is dated 27 Oct 2026, and Simon says he is still iterating.",
+      "approach": "agent-swarm",
+      "workflow": [
+        "Design first: the brainstorming session with Claude (shared as a Claude Code session link) produced SPEC.md, which the aesthetics page calls 'the game design'.",
+        "Handed the whole build to Claude Code's Ultracode mode on Opus 5.5, which coordinates many subagents. Simon says it ran for nearly two days and used millions of tokens.",
+        "One tone-setting prompt: 'surprise and delight the user frequently'. The code has a 'surprise director' with a 'delight lane' that spaces these moments so they never land on top of tutorial beats.",
+        "Art direction chosen from prototypes. Five three.js mock-ups show 'the same slice of pumpkin farm in five different looks, so we can choose a direction', each with overhead and first-person views, three lighting presets and a fog slider. The game then ported prototype 1.",
+        "Parallel agents, as the code comments suggest: work is split into slices and lettered tracks that 'own their sections', and a stub renderer let the UI be built while the 3D renderer was 'still being written in parallel'.",
+        "Traceability: comments cite design-doc sections (§1 to §14), architecture sections and plan rulings (R0 to R16), and every gameplay number lives in one tuning file for balance sweeps.",
+        "Bot playtesting: bot policies play through the same action dispatcher as the UI. ?jump= and ?seed= URL parameters reproduce any moment, window.qsc exposes the game to Playwright scripts, and balance tests (breeding, pacing, economy, weigh-off) check the intended feel."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "code-generated"
+      ],
+      "style": "Low-poly, flat-shaded isometric diorama on a floating board-game tile, in muted sage, driftwood and sea-glass colours with pumpkin orange as the only loud colour, and fog rolling over the edges",
+      "tools": [
+        "three.js"
+      ],
+      "notes": "The game loads no image or model files. The farm, barn, lighthouse, beach, cars and pumpkins are built from three.js geometry. Most surfaces are flat-shaded, and the pumpkins are 'the one thing drawn smooth'. Each animal character's parts are baked into one vertex-coloured SkinnedMesh, and the dialogue portraits are rendered once from those 3D models. Signs, the scale readout and the Halloween carving, which you draw with a finger and which glows on the pumpkin, are canvas textures drawn in code. Before building, Claude made five full aesthetic prototypes: Foggy Diorama (low-poly), Storybook Toon (cel-shaded with ink outlines), Pixel Patch (rendered at about 250px with a 33-colour palette, dithering and 1-pixel outlines), Hearthside (textured, moody cozy-RPG) and Foggy Hearth (1 and 4 combined). The game uses Foggy Diorama. Fonts are Fraunces and Nunito Sans from Google Fonts."
+    },
+    "audio": {
+      "pipeline": [
+        "procedural"
+      ],
+      "tools": [
+        "Web Audio API (synthesized in code)"
+      ],
+      "notes": "No audio files ('Synthesised WebAudio blips by name (no audio files...)'). There are coin chings, a lighthouse foghorn that startles visitors and a soft babble while dialogue types out, plus phone haptics. Every sound has a caption, so sound is never the only signal. No music track was found in the code, and the title screen says 'best with sound on'."
+    },
+    "tech": {
+      "stack": [
+        "threejs",
+        "webgl"
+      ],
+      "notes": "Plain ES modules with no framework: about 24,600 lines of JavaScript and 1,600 lines of CSS across about 90 files. three.js 0.170 loads from jsDelivr through an import map, and a Pages build step adds modulepreload hints. The DOM UI floats over a WebGL canvas and is designed phone-first. The deterministic simulation uses a seeded mulberry32 RNG stored in the game state, so JSON saves resume exactly. A full year of weather is generated on 1 April from its own stream, so 'nobody can save-scum the sky'. It is a static site on GitHub Pages. The source repo linked from the post (simonw/pumpkin-farmer) returned 404 on 2026-11-26, but the deployed modules are readable."
+    },
+    "traction": {
+      "metrics": [],
+      "monetization": "None: free in the browser.",
+      "notes": "No player numbers published. Coverage comes through Simon's 'October inflection point' post, which was picked up by byteiota and excerpted by kottke.org."
+    },
+    "reception": "Coverage focused on Simon's wider 'October inflection point' argument. Byteiota described Pumpkin Farmer as a relaxed giant-pumpkin sim with seasons, a weigh-off and ten playable animals, shaped by the 'surprise and delight' prompt. Simon himself rates it below Battle Drones for fun and calls the mechanics unproven, but says it is 'absurdly cute'. No independent reviews or HN thread about the game were found.",
+    "lessons": [
+      "A written spec plus a long autonomous agent run can produce an original, systems-heavy game, not just a clone of a known genre.",
+      "Tone prompts work. 'Surprise and delight the user frequently' produced a dedicated event system full of small jokes and easter eggs.",
+      "Ask for several art directions as cheap, playable prototypes and pick one, rather than arguing about style in prompts.",
+      "Agent-built complexity can outrun fun. Simon finds the ripen-on-the-right-weekend planting puzzle 'actually quite complicated' and not yet convincing.",
+      "Determinism, seeded jumps and bot players let agents playtest and balance a slow, year-long sim that would take a human hours to reach the interesting parts."
+    ],
+    "sources": [
+      {
+        "title": "The October inflection point for vibe game development (Simon Willison)",
+        "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+      },
+      {
+        "title": "Quarter Sun Cove: the live game",
+        "url": "https://simonw.github.io/pumpkin-farmer/"
+      },
+      {
+        "title": "Quarter Sun Cove: aesthetic prototypes",
+        "url": "https://simonw.github.io/pumpkin-farmer/aesthetics/"
+      },
+      {
+        "title": "Claude Opus 5.5 Builds Fun Games: The October Inflection (byteiota)",
+        "url": "https://byteiota.com/claude-opus-5-5-builds-fun-games-the-october-inflection/"
+      },
+      {
+        "title": "The October inflection point (kottke.org)",
+        "url": "https://kottke.org/26/11/0049921-the-october-inflection-po"
+      }
+    ],
+    "confidence": "medium",
+    "imageCandidates": [
+      "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp"
+    ],
+    "imagePages": [
+      "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+    ],
+    "galleryCandidates": [
+      "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/?jump=y1-oct3&seed=7|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/?jump=y1-halloween&seed=7|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/?jump=y1-jun1&seed=7|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/?new&seed=7|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/?jump=y1-aug1&seed=7|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/aesthetics/prototype-2.html|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/aesthetics/prototype-3.html|15000",
+      "screenshot:https://simonw.github.io/pumpkin-farmer/aesthetics/prototype-5.html|15000"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/pumpkin-farmer/01.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/01-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/?jump=y1-oct3&seed=7",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/pumpkin-farmer/02.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/02-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/?jump=y1-halloween&seed=7",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/pumpkin-farmer/03.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/?jump=y1-jun1&seed=7",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/pumpkin-farmer/04.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/04-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/?new&seed=7",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/pumpkin-farmer/05.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/05-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/?jump=y1-aug1&seed=7",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/pumpkin-farmer/06.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/06-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/pumpkin-farmer/07.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/07-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/aesthetics/prototype-2.html",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/pumpkin-farmer/08.jpg",
+        "thumb": "media/gallery/pumpkin-farmer/08-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://simonw.github.io/pumpkin-farmer/aesthetics/prototype-3.html",
+        "origin": "live"
+      }
+    ]
+  },
+  {
+    "id": "freeze-out",
+    "title": "Freeze Out",
+    "tagline": "A polished 4v4 first-person snowball fight in three.js WebGPU where Claude Code wrote every line, including every 3D model.",
+    "rank": 16,
+    "pick": false,
+    "status": "playable",
+    "playUrl": "https://newkrok.com/gamer-zone/freeze-out",
+    "links": {
+      "steam": null,
+      "itch": null,
+      "github": null,
+      "video": "https://www.youtube.com/watch?v=mAQ2UQdyw6U",
+      "devlog": null,
+      "creatorPost": "https://discourse.threejs.org/t/freeze-out-a-first-person-4v4-snowball-fight-in-the-browser-three-js-webgpu-mobile-gamepad/96804"
+    },
+    "extraLinks": [
+      {
+        "label": "Launch post on X",
+        "url": "https://x.com/KSomoracz/status/2118845097618124877"
+      },
+      {
+        "label": "Game without the portal frame",
+        "url": "https://newkrok.com/games/freeze-out/"
+      }
+    ],
+    "image": "media/freeze-out.jpg",
+    "imageSource": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/1/7/17f38fd0b7d1a8b30f02edfa4174c02faef8e888.jpeg",
+    "creator": {
+      "name": "Krisztián Somorácz (NewKrok)",
+      "handle": "@KSomoracz",
+      "url": "https://newkrok.com/",
+      "background": "veteran browser-game and three.js developer based in Germany; maintains the nape-js physics engine and the three-particles library, and runs the newkrok.com games portal (2018–2026)"
+    },
+    "released": "2026-11-06",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "fps",
+      "shooter"
+    ],
+    "dimension": "3d",
+    "perspective": "first-person",
+    "multiplayer": "local",
+    "platforms": [
+      "web"
+    ],
+    "event": null,
+    "summary": "A free first-person snowball fight in the browser. You play four against four with bots on eight winter maps. Snowballs fly in a real arc, a hit on the head counts twice, and three hits freeze you solid. There are three modes, eight characters, and five tournament cups that unlock maps, characters and hats, and it plays with mouse, touch or gamepad. The creator designed and playtested it, and Claude Code wrote all the code, including every 3D model: there are no model or texture files.",
+    "highlights": [
+      "No model or texture files. Characters, chalets, harbour cranes, a fortress and a Christmas market are all geometry built in code. Surfaces are vertex coloured, with one small triplanar texture drawn on a canvas, so nothing needs UVs.",
+      "Snowballs follow a real arc: tap for a quick throw or hold to wind up a longer one. Bots solve the throw angle for the arc and lead their target.",
+      "Draw-call work: each player is one SkinnedMesh per material, which cuts about 30 draw calls to 3. Static props are merged per material (about 200 draws down to about 100). Your hands render in a separate pass, so they never clip into walls.",
+      "Uses three.js r187's WebGPURenderer, with a WebGL 2 fallback and automatic low quality on weak GPUs. It runs on desktop, phones and gamepads, and local 2-player split screen was added on 23 November.",
+      "Three modes: Deep Freeze (first team to 30 freezes), King of the Hill (a ring that moves every minute) and Sled Raid (pull the enemy sled home). Teammates play better the more matches you play together, and the throw of the match is replayed at the end.",
+      "Fully voiced with ElevenLabs: 293 sound-effect files including barks for each of the eight characters, 58 announcer and coach lines, and two music tracks."
+    ],
+    "story": "Krisztián Somorácz, who publishes as NewKrok, has made browser games for years, first in Haxe and now with three.js. He also maintains nape-js, a TypeScript rewrite of the Nape physics engine. He released Freeze Out on his newkrok.com portal on 6 November 2026 and posted it to the three.js forum the next day. He asked for feedback on 'how it runs on your GPU or phone and whether the bots feel fair'.\n\nOn how it was made, he wrote: 'I designed and playtested it, and the code (including every model drawn in code) was written with Claude Code. The sounds, music and voices were made with ElevenLabs.' The game ships no model or texture files. The site's credits list the code, design, levels, texts and every model drawn in code as his own work, with ElevenLabs for the audio. The share image, the gameplay clip and the menu's map pictures were rendered by the game itself.\n\nFreeze Out is part of a very productive run. Since September 2026 his posts have credited Claude on game after game: a trailer-parking demo 'Made with Claude Opus 5.5', the survivor game Swarm Night 'Built with Claude', and the tower defense Grimtusk Mines, finished 'with a little help from Claude'. In November 2026 alone he announced about 15 games on newkrok.com. Freeze Out's changelog shows updates almost every day after launch, including keyboard menu navigation, an iPad renderer fallback, smooth clip saving and 2-player split screen.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code"
+      ],
+      "models": [
+        "Claude (version not stated; his September 2026 demos credit Claude Opus 5.5)"
+      ],
+      "aiCodeShare": "~100% by the creator's account: 'the code (including every model drawn in code) was written with Claude Code'. He did the design and playtesting.",
+      "buildTime": "Not stated. Released 6 November 2026, with near-daily updates through 25 November.",
+      "approach": "pro-assisted",
+      "workflow": [
+        "Split the roles: 'I designed and playtested it, and the code (including every model drawn in code) was written with Claude Code.'",
+        "Built everything in code: no model or texture files. Vertex colours and one canvas-drawn triplanar texture mean no UV unwrapping.",
+        "Performance tricks in the shipped code: one SkinnedMesh per material per player, static props merged per material, and the first-person hands drawn in their own pass.",
+        "Project scripts: a `bot` script (scripts/botmatch.mjs) in package.json, an `audio` script (scripts/audio.mjs) that builds the ElevenLabs sound set, and scripts/thumbs.mjs, which renders the menu's map and weather pictures from the game itself.",
+        "Asked players for specific feedback (GPU and phone performance, bot fairness) and then shipped near-daily changelog fixes."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "code-generated"
+      ],
+      "style": "Bright low-poly winter maps (alpine village, container port, pine lodge, ice rink, cable car station, glacier camp, fortress, Christmas market) with chunky cartoon characters, under four skies from a golden morning to a blizzard",
+      "tools": [
+        "three.js (models built in code by Claude Code)",
+        "Canvas 2D (one triplanar texture)"
+      ],
+      "notes": "There are no model or texture files. Every model, from the eight characters to the cranes, containers, chalets and fortress walls, is geometry built in code that Claude Code wrote. Surfaces use vertex colours plus one small triplanar texture drawn on a canvas, so nothing needs UVs. Players are skinned meshes, one SkinnedMesh per material, and static props are merged per material. The site credits 'Code, design, levels, texts and every model or picture drawn in code' to the creator. The preview clip, the share image and the menu's map and weather pictures were rendered by the game itself."
+    },
+    "audio": {
+      "pipeline": [
+        "ai-sfx",
+        "ai-music"
+      ],
+      "tools": [
+        "ElevenLabs"
+      ],
+      "notes": "All sound effects, music and voices come from ElevenLabs on paid plans, generated with a scripts/audio.mjs pipeline. The live manifests list 293 effect files, 58 announcer and coach lines (map intros, cup intros, 'brain freeze', 'long shot', overtime) and two music tracks (menu and match). The effects cover throws, splats, freezes, footsteps on snow and ice, and ambience, plus voice barks for each of the eight characters (ready, hit, frozen, taunt, laugh, thanks and more)."
+    },
+    "tech": {
+      "stack": [
+        "threejs",
+        "webgpu",
+        "webgl",
+        "vite"
+      ],
+      "notes": "Built on three.js r187's WebGPURenderer, with a WebGL 2 fallback and automatic low quality on weak GPUs. It is plain JavaScript with Vite; package.json lists three ^0.187.0, vite ^8.3.5, and mp4-muxer for the 'Save clip' feature. The game is embedded in the newkrok.com portal, which supplies optional accounts (passkey, Google, Apple, Discord), cloud saves, 24 achievements, an optional weekly leaderboard and cosmetics. Matches are 4v4 against bots, and there is no online multiplayer. Local 2-player split screen (keyboard and mouse versus a pad, or two pads) arrived on 23 November 2026. A loader script watches for GPU context loss and reloads onto the safer renderer. The forum post says 8 languages; the site now lists 9."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Player rating on newkrok.com",
+          "value": "4.33 / 5 (3 ratings)",
+          "asOf": "2026-11",
+          "selfReported": true,
+          "source": "https://newkrok.com/gamer-zone/freeze-out"
+        },
+        {
+          "label": "Views on the three.js forum showcase post",
+          "value": "93",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://discourse.threejs.org/t/freeze-out-a-first-person-4v4-snowball-fight-in-the-browser-three-js-webgpu-mobile-gamepad/96804"
+        },
+        {
+          "label": "Views on the X launch post",
+          "value": "449 (9 likes)",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://x.com/KSomoracz/status/2118845097618124877"
+        }
+      ],
+      "monetization": "None: free, no ads, no download. The newkrok.com portal has a point shop for cosmetics such as name styles.",
+      "notes": "Three weeks old when checked, so traction is small. The creator's YouTube gameplay video had 34 views. No player counts have been published."
+    },
+    "reception": "Too new for much reception. The three.js forum showcase thread had no replies after about three weeks, and the game holds 4.3/5 from three player ratings on the creator's own site.",
+    "lessons": [
+      "Code-built low-poly models with vertex colours remove the asset pipeline entirely, and one canvas-drawn triplanar texture avoids UV unwrapping.",
+      "Code-generated characters can cost many draw calls. Merging each player into one SkinnedMesh per material cut about 30 draws to 3.",
+      "A bot-only 4v4 can feel alive if the bots solve ballistic arcs, lead their targets and improve as a team over time.",
+      "Phone and tablet browsers need a fallback ladder: WebGPU first, then WebGL 2, then automatic low quality, plus a reload onto the safer renderer when the GPU drops out.",
+      "ElevenLabs can voice a whole cast: per-character barks, an announcer and a training coach, all generated by a script."
+    ],
+    "sources": [
+      {
+        "title": "Freeze Out: a first-person 4v4 snowball fight in the browser (three.js forum showcase)",
+        "url": "https://discourse.threejs.org/t/freeze-out-a-first-person-4v4-snowball-fight-in-the-browser-three-js-webgpu-mobile-gamepad/96804"
+      },
+      {
+        "title": "Freeze Out on newkrok.com (game page, changelog, credits)",
+        "url": "https://newkrok.com/gamer-zone/freeze-out"
+      },
+      {
+        "title": "Freeze Out: Full Match Gameplay (Alpine Village) (YouTube)",
+        "url": "https://www.youtube.com/watch?v=mAQ2UQdyw6U"
+      },
+      {
+        "title": "Launch post: 'Ready for a little snowball fight?' (@KSomoracz on X)",
+        "url": "https://x.com/KSomoracz/status/2118845097618124877"
+      },
+      {
+        "title": "Hitch & Park demo 'Made with Claude Opus 5.5' (@KSomoracz on X)",
+        "url": "https://x.com/KSomoracz/status/2103193842597916953"
+      },
+      {
+        "title": "Grimtusk Mines finished 'with a little help from Claude' (@KSomoracz on X)",
+        "url": "https://x.com/KSomoracz/status/2117034111391174840"
+      },
+      {
+        "title": "Freeze Out sound-effect manifest",
+        "url": "https://newkrok.com/games/freeze-out/audio/sfx/manifest.json"
+      },
+      {
+        "title": "NewKrok on GitHub",
+        "url": "https://github.com/NewKrok"
+      }
+    ],
+    "confidence": "medium",
+    "imageCandidates": [
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/1/7/17f38fd0b7d1a8b30f02edfa4174c02faef8e888.jpeg",
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/0/8/08b0e40d1bec76f3b4ccc3af953e7a1ea4df9612.jpeg",
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/8/c/8c68d8fb9e7e24f67ad4452cd7d84ba8ec9c89cd.png"
+    ],
+    "imagePages": [
+      "https://newkrok.com/gamer-zone/freeze-out"
+    ],
+    "galleryCandidates": [
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/1/7/17f38fd0b7d1a8b30f02edfa4174c02faef8e888.jpeg",
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/0/8/08b0e40d1bec76f3b4ccc3af953e7a1ea4df9612.jpeg",
+      "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/8/c/8c68d8fb9e7e24f67ad4452cd7d84ba8ec9c89cd.png",
+      "youtube:mAQ2UQdyw6U",
+      "https://newkrok.com/games/freeze-out/thumbs/map_fortress_morning.jpg",
+      "https://newkrok.com/games/freeze-out/thumbs/map_market_dusk.jpg",
+      "https://newkrok.com/games/freeze-out/thumbs/map_glacier_noon.jpg",
+      "https://newkrok.com/games/freeze-out/thumbs/map_rink_dusk.jpg"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/freeze-out/01.jpg",
+        "thumb": "media/gallery/freeze-out/01-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/0/8/08b0e40d1bec76f3b4ccc3af953e7a1ea4df9612.jpeg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/freeze-out/02.jpg",
+        "thumb": "media/gallery/freeze-out/02-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/3X/8/c/8c68d8fb9e7e24f67ad4452cd7d84ba8ec9c89cd.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/freeze-out/03.jpg",
+        "thumb": "media/gallery/freeze-out/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/mAQ2UQdyw6U/maxres1.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/freeze-out/04.jpg",
+        "thumb": "media/gallery/freeze-out/04-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/mAQ2UQdyw6U/maxres2.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/freeze-out/05.jpg",
+        "thumb": "media/gallery/freeze-out/05-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://img.youtube.com/vi/mAQ2UQdyw6U/maxres3.jpg",
+        "origin": "video"
+      },
+      {
+        "src": "media/gallery/freeze-out/06.jpg",
+        "thumb": "media/gallery/freeze-out/06-t.jpg",
+        "w": 800,
+        "h": 450,
+        "source": "https://newkrok.com/games/freeze-out/thumbs/map_fortress_morning.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/freeze-out/07.jpg",
+        "thumb": "media/gallery/freeze-out/07-t.jpg",
+        "w": 800,
+        "h": 450,
+        "source": "https://newkrok.com/games/freeze-out/thumbs/map_market_dusk.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/freeze-out/08.jpg",
+        "thumb": "media/gallery/freeze-out/08-t.jpg",
+        "w": 800,
+        "h": 450,
+        "source": "https://newkrok.com/games/freeze-out/thumbs/map_glacier_noon.jpg",
+        "origin": "picked"
+      }
+    ]
+  },
+  {
+    "id": "undersphere",
+    "title": "Undersphere",
+    "tagline": "A multiplayer browser FPS fought on the inside of a hollow sphere: gravity pulls you to the shell, and enemies run across the sky overhead.",
+    "rank": 20,
+    "pick": false,
+    "status": "playable",
+    "playUrl": "https://playundersphere.com",
+    "links": {
+      "steam": null,
+      "itch": null,
+      "github": "https://github.com/NoahWhiteson/Undersphere",
+      "video": "https://x.com/_NoahWhiteson/status/2042704144432029818",
+      "devlog": null,
+      "creatorPost": "https://x.com/_NoahWhiteson/status/2050031584724599214"
+    },
+    "extraLinks": [
+      {
+        "label": "Community reviews on vibereview (4.6/5, 82 reviews)",
+        "url": "https://vibereview-one.vercel.app/games/undersphere-d493e9f1"
+      },
+      {
+        "label": "Noah on winning the Unique Concept award",
+        "url": "https://x.com/_NoahWhiteson/status/2067366572830629946"
+      }
+    ],
+    "image": "media/undersphere.jpg",
+    "imageSource": "https://www.playundersphere.com/thumbnail.png",
+    "creator": {
+      "name": "Noah Whiteson",
+      "handle": "@_NoahWhiteson",
+      "url": "https://x.com/_NoahWhiteson",
+      "background": "young full-stack programmer who also builds for hackathons such as Shipaton 2026. He said he was 'not normally a vibe coder' before this jam. David Whiteson is credited as 'Assistant to the Creator'."
+    },
+    "released": "2026-04-29",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "fps",
+      "shooter"
+    ],
+    "dimension": "3d",
+    "perspective": "first-person",
+    "multiplayer": "online",
+    "platforms": [
+      "web"
+    ],
+    "event": {
+      "id": "vibe-jam-2026",
+      "place": "entry",
+      "name": "Vibe Jam 2026",
+      "result": "'Unique Concept' special award ($1,000); 14th of 945"
+    },
+    "summary": "A fast multiplayer first-person shooter set on the inner surface of a small hollow sphere, where gravity pulls you outward onto the shell, so the ground curves up and opponents and a circling train pass overhead. You fight with an AK-47, a shotgun and grenades, and shotgun recoil and grenade blasts double as movement that can launch you across the sphere. Bots fill empty matches, and kills earn coins for weapon skins and a skill tree. It won Vibe Jam 2026's Unique Concept award and finished 14th of 945.",
+    "highlights": [
+      "You fight inside a hollow sphere with no edges. Gravity points outward toward the shell, the horizon curves up, and enemies run across the 'sky'. Run far enough in any direction and you come back to where you started.",
+      "Physics doubles as movement tech. Shotgun recoil 'pushes you in the opposite direction, no matter where you aim', and grenade-boosting launches you across the map. Thrown grenades follow the curved gravity to the far side.",
+      "The 'Global Express' train circles the sphere on a track that is synced for every player. Getting hit means massive damage and knockback.",
+      "Bots use 'vision based hunting', with the same weapons and physics as players, to fill matches. They switch off once two humans are in.",
+      "A procedural skeleton ragdoll keeps the momentum of the killing shot, sending bodies flying across the curved horizon.",
+      "A monochrome comic look: a toon-shaded world, black outlines, and 200,000 instanced grass blades swaying in a wind shader.",
+      "It reached #1 Top Rated on the community site vibereview in May, made the judges' top 25, and won Unique Concept with a final rank of 14th of 945."
+    ],
+    "story": "Noah Whiteson (@_NoahWhiteson), a young full-stack programmer, entered Vibe Jam 2026 saying he was 'not normally a vibe coder' but willing to try AI: 'Maybe it can make me feel better about my future in the field'. He started around 6 April. The repo, first called 'Invert', began on 9 April. His first demo video on 10 April had multiplayer, UI and spherical gravity but no bots. He said he was 'trying to turn it from a quirky FPS shooter to something unique'.\n\nOver the next three weeks he added bots, a coin economy with a store and skins saved to Cloudflare D1, the circling train, tents and cargo for cover, spatial HRTF audio, controller support, and mobile controls with aim assist. He worked in Cursor and Google's Antigravity, and the in-game credits list 'Gemini & Claude' for AI development. On 27 April he wrote: 'Maxed out my Cursor & Antigravity usage today. Well looks like I'm submitting my game tonight unless I find another free IDE. After, 15,000+ lines of code, I'm glad to say my game is 99% finished.' He submitted it on 29 April and pushed a 'finish: undersphere' commit on 1 May. In a screenshot of his last session, the AI signs off: 'You brought Undersphere all the way home.'\n\nIn mid-May it was #1 Top Rated on the fan-made vibereview site. On 6 June it made the judges' top 25. On 17 June levelsio gave it the Unique Concept special award, with $1,000, and the final ranking put it 14th of 945. Afterwards Noah briefly switched multiplayer off 'due to high traffic', then on 16–17 June brought it back with a skill tree bought with coins. He has since built AI-coding side tools, including a Cursor extension he says cut his Cursor usage tenfold.",
+    "vibeCoding": {
+      "tools": [
+        "cursor",
+        "antigravity"
+      ],
+      "models": [
+        "Gemini (version not stated)",
+        "Claude (version not stated)"
+      ],
+      "aiCodeShare": "At least 90% under the jam rules (not stated more precisely). The README calls it 'an AI-assisted game development experiment', and a Cursor dashboard he posted shows 398,681 AI line edits (account-wide, not only this game).",
+      "buildTime": "About 3.5 weeks: started around 6 April 2026, repo from 9 April, submitted 29 April, 'finish' commit 1 May. 139 commits through the post-jam update of 16 June. He reported 15,000+ lines of code on 27 April.",
+      "approach": "jam-sprint",
+      "workflow": [
+        "He split work between two AI IDEs, Cursor and Google Antigravity (credited to 'Gemini & Claude'), and maxed out both four days before the deadline, apparently on free or limited plans.",
+        "Tight prompt-test-commit loops: commits often land minutes apart, e.g. 'fix: bots facing wrong way 1/2 attempts' followed by '…2/4', or nine fix commits in 34 minutes on 3 May.",
+        "Where the AI struggled, he built debug aids. Bot T-pose bugs took about nine commits, including 'Add bot-01 hand T-pose trace and animation op ring for debugging'. He also had standalone 'Weapon Positioning Tool' and 'Weapon Position Adjuster' pages for placing guns.",
+        "Public playtests before submitting ('Try to break it or something!'), plus a Discord webhook that logs players joining and leaving. One log showed a player staying 86 minutes.",
+        "He acted on feedback, e.g. adding Twitter/OG metadata at judge @s13k_'s suggestion.",
+        "After the jam he posted about using 'Fable' in Windsurf ('only burnt through 3% of my weekly quota'). It isn't stated whether that was for Undersphere."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "asset-pack",
+        "code-generated"
+      ],
+      "style": "Monochrome toon-shaded 3D with heavy black outlines and dense swaying grass on a sphere's inner surface; pixel-font UI",
+      "tools": [
+        "three.js",
+        "Kenney 3D models",
+        "m6x11 pixel font"
+      ],
+      "notes": "The credits list 'Kenney NL' for 3D models: the graveyard-map pine trees, tents, cargo, barriers and wall steps, and the train's front, carts and tracks. The player character comes with animation clips named like Mixamo exports (Idle, Walk, Sprint, Jump, Crouched Walk, Firing Rifle, Rifle Idle), but their source isn't credited. Neither is the source of the AK-47, shotgun and grenade models or the skin textures (marble, lava, dragonskin, rock). Code generates the rest. The world is a three.js sphere of radius 50 with a toon material, custom outline shaders for trees and players, 200,000 instanced grass blades with a wind shader, procedural ragdolls, blood, bullet holes and damage numbers. No AI-generated images or 3D models are mentioned."
+    },
+    "audio": {
+      "pipeline": [
+        "stock"
+      ],
+      "tools": [
+        "Pixabay"
+      ],
+      "notes": "The credits list 'Pixabay Audio' for SFX and music. The repo has MP3s for the AK, shotgun, reload, explosion, impacts, heartbeat, train, train horn and a kill-leader sting. HRTF spatial audio was added on 26 April, and settings let players mute the train noise and kill-leader messages."
+    },
+    "tech": {
+      "stack": [
+        "threejs",
+        "typescript",
+        "vite",
+        "cloudflare",
+        "websockets",
+        "vercel"
+      ],
+      "notes": "A TypeScript/three.js client built with Vite and hosted on Vercel. The backend is a Cloudflare Worker with a Durable Object per GameRoom for WebSocket matches, plus a D1 SQL database for coins, purchases, owned skins and skills, and a private analytics page. The server validates and rate-limits messages, damage events and bullet distance. There's no physics library: a custom controller applies gravity outward from the sphere's center and clamps players to the shell. The train's position is synced for everyone. Gamepad support, mobile touch controls with aim assist, and a solo/multiplayer toggle were added late. The README, which reads as AI-written, describes a 'tiny planetoid' with gravity 'toward the core'. The code and the jam pitch instead put players on the inner surface. The repo is public but has no license."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Vibe Jam 2026 final ranking",
+          "value": "14th of 945, plus the Unique Concept award ($1,000)",
+          "asOf": "2026-06",
+          "selfReported": false,
+          "source": "https://vibejam.com/"
+        },
+        {
+          "label": "vibereview community rating",
+          "value": "4.6/5 from 82 reviews",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://vibereview-one.vercel.app/games/undersphere-d493e9f1"
+        },
+        {
+          "label": "vibereview 'Top Rated' position",
+          "value": "#1 (4.8 from 32 reviews at the time)",
+          "asOf": "2026-05",
+          "selfReported": true,
+          "source": "https://x.com/_NoahWhiteson/status/2054734007502262373"
+        },
+        {
+          "label": "Cursor 'AI Line Edits' (account-wide dashboard)",
+          "value": "398,681",
+          "asOf": "2026-04",
+          "selfReported": true,
+          "source": "https://x.com/_NoahWhiteson/status/2048884441288704355"
+        },
+        {
+          "label": "Code size",
+          "value": "15,000+ lines; 139 commits",
+          "asOf": "2026-06",
+          "selfReported": true,
+          "source": "https://github.com/NoahWhiteson/Undersphere"
+        }
+      ],
+      "monetization": "None found. It's free; coins earned from kills buy weapon skins and skills, with no real-money purchases.",
+      "notes": "No player counts have been published. In mid-June he turned multiplayer off 'due to high traffic' (commit of 15 June) and restored it two days later. He also entered the #ossvibejam open-source jam, and the Orynth game jam, for which he says he launched a token. The token isn't part of the game."
+    },
+    "reception": "Players on vibereview were mostly enthusiastic ('One of the greatest browser games I have played in a while', 'very fun and unique'). Complaints were about slowdowns and freezes on weaker PCs, plus a couple of unexplained low scores that Noah publicly asked about. The judges singled out the concept rather than the production: Unique Concept, and 14th overall. Noah: 'I was honoured to even be in the top 25, let alone features as Unique Idea.'",
+    "lessons": [
+      "One strong mechanical twist, fighting inside a sphere where you see enemies overhead and recoil becomes movement, can earn recognition with stock Kenney models and Pixabay sounds.",
+      "Free or capped AI IDE plans run out at crunch time. He spread work across Cursor and Antigravity and still hit both limits four days before the deadline.",
+      "Animation glitches on rigged models (bot T-poses) were what the AI struggled with most. Debug traces and small tuning pages helped get them fixed.",
+      "Cloudflare Durable Objects plus D1 is a cheap way to give a jam game persistent rooms and an economy, but traffic spikes may still force throttling."
+    ],
+    "sources": [
+      {
+        "title": "Undersphere (live game)",
+        "url": "https://playundersphere.com"
+      },
+      {
+        "title": "GitHub: NoahWhiteson/Undersphere (README, credits, commit history)",
+        "url": "https://github.com/NoahWhiteson/Undersphere"
+      },
+      {
+        "title": "Vibe Jam 2026 gallery with final rankings",
+        "url": "https://vibejam.com/"
+      },
+      {
+        "title": "Vibe Jam public API",
+        "url": "https://vibejam.com/api"
+      },
+      {
+        "title": "levels.io: Vibe Jam 2026 winners",
+        "url": "https://levels.io/vibe-jam-2026-winners-quality"
+      },
+      {
+        "title": "levelsio: Unique Concept → Undersphere",
+        "url": "https://x.com/levelsio/status/2067365377093599538"
+      },
+      {
+        "title": "levelsio: special-award winners also get $1,000",
+        "url": "https://x.com/levelsio/status/2067366207356096825"
+      },
+      {
+        "title": "vibereview: Undersphere reviews",
+        "url": "https://vibereview-one.vercel.app/games/undersphere-d493e9f1"
+      },
+      {
+        "title": "Noah: 'Not normally a vibe coder'",
+        "url": "https://x.com/_NoahWhiteson/status/2041631313392705622"
+      },
+      {
+        "title": "Noah: first demo video",
+        "url": "https://x.com/_NoahWhiteson/status/2042704144432029818"
+      },
+      {
+        "title": "Noah: progress update video",
+        "url": "https://x.com/_NoahWhiteson/status/2045636533449884140"
+      },
+      {
+        "title": "Noah: maxed out Cursor & Antigravity, 15,000+ lines",
+        "url": "https://x.com/_NoahWhiteson/status/2048884441288704355"
+      },
+      {
+        "title": "Noah: #vibejam completed",
+        "url": "https://x.com/_NoahWhiteson/status/2050031584724599214"
+      },
+      {
+        "title": "Noah: #1 on vibereview",
+        "url": "https://x.com/_NoahWhiteson/status/2054734007502262373"
+      },
+      {
+        "title": "Noah: top 25",
+        "url": "https://x.com/_NoahWhiteson/status/2063377532313858489"
+      },
+      {
+        "title": "Noah: Unique Concept award",
+        "url": "https://x.com/_NoahWhiteson/status/2067366572830629946"
+      },
+      {
+        "title": "Noah: skill-tree update",
+        "url": "https://x.com/_NoahWhiteson/status/2067085533897949430"
+      },
+      {
+        "title": "Noah: Fable on Windsurf",
+        "url": "https://x.com/_NoahWhiteson/status/2064846937832980605"
+      }
+    ],
+    "confidence": "medium",
+    "imageCandidates": [
+      "https://www.playundersphere.com/thumbnail.png",
+      "https://pbs.twimg.com/amplify_video_thumb/2042704051008061440/img/2oItCm2209l9wQ5J.jpg?format=jpg&name=orig"
+    ],
+    "imagePages": [
+      "https://playundersphere.com"
+    ],
+    "galleryCandidates": [
+      "https://www.playundersphere.com/thumbnail.png",
+      "screenshot:https://video.twimg.com/amplify_video/2042704051008061440/vid/avc1/1280x720/lO8_pc9zhuCv6Zzq.mp4?tag=14#t=20|6000",
+      "screenshot:https://video.twimg.com/amplify_video/2042704051008061440/vid/avc1/1280x720/lO8_pc9zhuCv6Zzq.mp4?tag=14#t=52|6000",
+      "screenshot:https://video.twimg.com/amplify_video/2042704051008061440/vid/avc1/1280x720/lO8_pc9zhuCv6Zzq.mp4?tag=14#t=88|6000",
+      "screenshot:https://video.twimg.com/amplify_video/2045636364545445888/vid/avc1/1280x720/RIYqRd5svqnDzhEC.mp4?tag=14#t=22|6000",
+      "screenshot:https://video.twimg.com/amplify_video/2045636364545445888/vid/avc1/1280x720/RIYqRd5svqnDzhEC.mp4?tag=14#t=38|6000",
+      "https://pbs.twimg.com/amplify_video_thumb/2045636364545445888/img/-yEh7FGoT6dIl9n2.jpg?format=jpg&name=orig",
+      "screenshot:https://www.playundersphere.com/|12000"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/undersphere/01.jpg",
+        "thumb": "media/gallery/undersphere/01-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://video.twimg.com/amplify_video/2042704051008061440/vid/avc1/1280x720/lO8_pc9zhuCv6Zzq.mp4?tag=14#t=20",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/undersphere/02.jpg",
+        "thumb": "media/gallery/undersphere/02-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://video.twimg.com/amplify_video/2042704051008061440/vid/avc1/1280x720/lO8_pc9zhuCv6Zzq.mp4?tag=14#t=52",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/undersphere/03.jpg",
+        "thumb": "media/gallery/undersphere/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://video.twimg.com/amplify_video/2042704051008061440/vid/avc1/1280x720/lO8_pc9zhuCv6Zzq.mp4?tag=14#t=88",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/undersphere/04.jpg",
+        "thumb": "media/gallery/undersphere/04-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://video.twimg.com/amplify_video/2045636364545445888/vid/avc1/1280x720/RIYqRd5svqnDzhEC.mp4?tag=14#t=22",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/undersphere/05.jpg",
+        "thumb": "media/gallery/undersphere/05-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://video.twimg.com/amplify_video/2045636364545445888/vid/avc1/1280x720/RIYqRd5svqnDzhEC.mp4?tag=14#t=38",
+        "origin": "live"
+      },
+      {
+        "src": "media/gallery/undersphere/06.jpg",
+        "thumb": "media/gallery/undersphere/06-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://www.playundersphere.com/",
+        "origin": "live"
+      }
+    ],
+    "galleryExclude": [
+      "https://pbs.twimg.com/amplify_video_thumb/2045636364545445888/img/-yEh7FGoT6dIl9n2.jpg?format=jpg&name=orig"
+    ]
+  },
+  {
+    "id": "mafia-city",
+    "title": "Mafia City",
+    "tagline": "A GTA-style online mob shooter from Vibe Jam 2026: Claude wrote the code, and the whole city is Meshy image-to-3D models.",
+    "rank": 23,
+    "pick": false,
+    "status": "offline",
+    "playUrl": "https://mafiacity.online",
+    "links": {
+      "steam": null,
+      "itch": null,
+      "github": null,
+      "video": null,
+      "devlog": null,
+      "creatorPost": "https://x.com/davidbmadsen/status/2048733882753626563"
+    },
+    "extraLinks": [
+      {
+        "label": "First prototype video (X, 8 Apr 2026)",
+        "url": "https://x.com/davidbmadsen/status/2041986240606568762"
+      },
+      {
+        "label": "Multiplayer and missions update (X, 12 Apr 2026)",
+        "url": "https://x.com/davidbmadsen/status/2043348072244171049"
+      },
+      {
+        "label": "Last archived copy (Wayback Machine, 11 Jul 2026)",
+        "url": "https://web.archive.org/web/20260711120324/https://mafiacity.online/"
+      }
+    ],
+    "image": "media/mafia-city.jpg",
+    "imageSource": "https://pbs.twimg.com/media/HFvAT2mbIAAjHZ1.jpg?name=orig",
+    "creator": {
+      "name": "Dave",
+      "handle": "@davidbmadsen",
+      "url": "https://x.com/davidbmadsen",
+      "background": "software engineer with a day job and 'too many side projects'; Mafia City was his third three.js game, after a Meshy-modelled dungeon RPG he started in March 2026"
+    },
+    "released": "2026-04-27",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "shooter",
+      "open-world",
+      "driving"
+    ],
+    "dimension": "3d",
+    "perspective": "third-person",
+    "multiplayer": "online",
+    "platforms": [
+      "web"
+    ],
+    "event": {
+      "id": "vibe-jam-2026",
+      "place": "entry",
+      "name": "Vibe Jam 2026",
+      "result": "Entry"
+    },
+    "summary": "A free-for-all online shooter set in a 1930s-style mafia city, made for Vibe Jam 2026. Players run or drive around the city, capture bars, take delivery jobs and gun each other down for cash. The richest player at the end of a round wins, and dying costs you all your money. Claude wrote all the code, and every building, car, weapon and character is an AI 3D model made with Nano Banana and Meshy. It was one of the most-liked Colyseus games of the jam, but the site is now offline.",
+    "highlights": [
+      "Every 3D asset is AI-made. Each building, car, character and weapon started as one Nano Banana image and became a GLB through Meshy's image-to-3D. Some were touched up in Blender, and the code places them across the city.",
+      "Online free-for-all on a Colyseus server. You capture local bars, take jobs such as driving a van of stolen goods to a drop-off (others can steal it if you get out, or blow you up), and hunt high-value players. The richest player wins the round.",
+      "Drivable cars with collision physics (Rapier in React Three Fiber). In his words: '\"Claude implement vehcile collisions\" then some tweaking'.",
+      "Mob flavour: buy a Tommy gun from Vito's Italian Deli ('You want the violin case special? $2000.'), lose all your cash when you die, and get the message 'You're sleeping with the fishes.'",
+      "Fully vibe-coded. At the prototype stage he said: 'It's 100% vibe coded per now, I haven't even looked at the code once'.",
+      "It ranked #2 of the 48 Colyseus games in Vibe Jam 2026 by likes, and Pieter Levels picked it as one of his 'favorite games from today' on day 25 of the jam."
+    ],
+    "story": "Dave (@davidbmadsen) is a software engineer with a day job and many side projects. In March 2026 he decided to 'pick up game dev again now that both AI coding and image to 3d is much better' and started a three.js dungeon RPG with models from Grok images and Meshy. When Pieter Levels's Vibe Jam 2026 opened on 1 April, with a rule that at least 90% of the code be AI-written, he started Mafia City. A week later he showed a prototype: 'a mafia themed GTA-style game set in a city where players spawn in, pick up missions and shoot eachother to compete for the Boss title. Built with @threejs, all assets generated with @MeshyAI.' The post drew about 37,000 views, and replies kept asking how the city looked so good.\n\nBy 12 April the game had become a free-for-all online shooter with vehicles that have collision physics. It had pick-up-and-deliver missions, a Colyseus multiplayer server, 'a directional sound engine and server events', and GLB models compressed to about 26 MB in total. He tested multiplayer with 'a few bots I quickly added'. The first playable build went live at mafiacity.online on 27 April and was submitted to the jam the same day. Rounds are arena-style: capture bars, do missions and kill high-value players to pile up cash, buy a machine gun from the deli, and lose everything on death.\n\nPieter Levels featured it among his favorite games on day 25 of the jam, and Colyseus later ranked it second of the 48 Colyseus games by likes. It did not win a prize or a special award. The site later went offline. The jam's API lists it as down, the Wayback Machine's last capture is from 11 July 2026, and the server's HTTPS handshake failed in November 2026. In a November post he wrote that he 'hit a figurative wall after grinding out my submission to the Vibe Jam contest'.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code"
+      ],
+      "models": [
+        "Claude (version not stated)",
+        "Nano Banana (source images for image-to-3D)"
+      ],
+      "aiCodeShare": "~100%. At the prototype stage he said 'It's 100% vibe coded per now, I haven't even looked at the code once', and the jam required at least 90% AI-written code.",
+      "buildTime": "About four weeks inside the jam: a prototype on 8 April 2026, a major multiplayer update on 12 April, and the first playable build plus jam submission on 27 April (the jam ran 1 April to 1 May).",
+      "approach": "jam-sprint",
+      "workflow": [
+        "Reused experience from his earlier three.js games: 'Used my experience with animations from my dungeon RPG and other games to set up quickly.'",
+        "Never read the code: 'I haven't even looked at the code once 😂'.",
+        "Short, direct prompts. Vehicle physics came from '\"Claude implement vehcile collisions\" then some tweaking', and the warm look is 'a simple directional light, just asked Claude to make it look like right before dusk'.",
+        "One asset per image: 'Each building, car, character model etc is an asset and was generated separately from one image. I just populate the map programmatically with the models.'",
+        "Kept the download in check by compressing all GLBs to about 26 MB served. The bundle ships meshopt, Draco and KTX2 decoders.",
+        "Added a few bots to test the multiplayer alone before other players arrived.",
+        "Paid for the 3D tool: asked whether he pays for Meshy, he replied 'Yep, no way you can do this for free otherwise'."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "ai-3d",
+        "ai-2d",
+        "hand-made"
+      ],
+      "style": "Semi-realistic 1930s New York-style blocks: brick townhouses, a highrise, a barber shop, Vito's Italian Deli, corner bars, gas stations and period sedans, lit by a warm low sun",
+      "tools": [
+        "Meshy (image-to-3D, paid plan)",
+        "Nano Banana (source images)",
+        "Blender (edits to some models)"
+      ],
+      "notes": "All the art is AI-generated. In his words: 'Everything is generated with image to 3d using Nano Banana + meshy.ai then exported as glb. Some models were edited in blender.' Each building, car, character and weapon was generated separately from one image, and the code then places the models across the city. The April build loaded 16 GLB files: two townhouses, a highrise, a barbershop, a corner bar, Vito's deli, two gas stations, a city lot, a parking lot, streetlights, a sedan, a van, a handgun, a machine gun and the player. The Nano Banana images were only inputs to Meshy, which is why ai-2d is listed. Asked whether ready-made assets are allowed in the jam, he said: 'I'd assume using pre-made assets are fine as long as the code base is vibe coded. I just like using ai for everything.' For the dungeon RPG he built just before, he said Meshy made all the models and animations. He doesn't say where Mafia City's animations came from."
+    },
+    "audio": {
+      "pipeline": [
+        "unknown"
+      ],
+      "tools": [],
+      "notes": "The April build ships 11 MP3 sound effects: ambience, a car motor, three crash sounds, footsteps, a gunshot, a pistol, a machine gun, a cash-register 'kaching' and a pickup sound. They play through what he called 'a directional sound engine' (three.js positional audio, with Howler also in the bundle). Their source isn't stated."
+    },
+    "tech": {
+      "stack": [
+        "threejs",
+        "react-three-fiber",
+        "react",
+        "rapier",
+        "colyseus",
+        "websockets",
+        "vite"
+      ],
+      "notes": "Built on three.js r183 through React Three Fiber, with @react-three/rapier for physics. Cars have collision physics, and people take damage from collisions, but there are no ragdolls yet. The Colyseus multiplayer server was reached at wss://mafiacity.online/api. Players join with a typed name or a 'Generate Name' mob name. The site was self-hosted behind Caddy and loaded the Vibe Jam 2026 widget. The jam listing marks it as not mobile-ready. A player reported a glitch when firing the Tommy gun next to a car, and Dave guessed it was a Firefox bug because he hadn't tested Firefox yet."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Prototype post on X",
+          "value": "201 likes, 37,015 views",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://x.com/davidbmadsen/status/2041986240606568762"
+        },
+        {
+          "label": "12 April update post on X",
+          "value": "178 likes, 38,742 views",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://x.com/davidbmadsen/status/2043348072244171049"
+        },
+        {
+          "label": "Rank among Vibe Jam 2026 Colyseus games",
+          "value": "#2 of 48 by likes (209)",
+          "asOf": "2026-05",
+          "selfReported": false,
+          "source": "https://colyseus.io/blog/vibe-jam-2026/"
+        }
+      ],
+      "monetization": "None: a free web game with no login, as the jam required.",
+      "notes": "Pieter Levels picked it as one of his 'favorite games from today' on day 25 of the jam, in a post with about 113,000 views. No player counts were published. The game is now offline."
+    },
+    "reception": "Jam participants praised its polish: 'Holy polish !', 'This one looks the best in the jam so far. Very polished' and 'This is looking incredibly polished'. Players who tried the live build called it 'actually very fun' and asked to run people over and climb buildings. A few replies were sceptical: one called the event a 'Bullshitjam', and another hinted he was promoting Meshy, which he denied. It placed outside the winners and the 12 special awards.",
+    "lessons": [
+      "Image-to-3D one asset at a time (one image per building, car or character), plus code that places the assets, can make a coherent-looking city in a jam month.",
+      "AI 3D assets are heavy. Even compressed to about 26 MB, commenters asked whether it would load fast enough, under a jam rule against loading screens and heavy downloads.",
+      "A few quick bots let a solo developer test an online game before real players arrive.",
+      "Good AI 3D isn't free: he paid for Meshy and said there was 'no way you can do this for free otherwise'.",
+      "A jam sprint on top of a day job is costly. He later described hitting 'a figurative wall' after the submission, and the game went offline within a few months."
+    ],
+    "sources": [
+      {
+        "title": "Mafia City first prototype (@davidbmadsen on X)",
+        "url": "https://x.com/davidbmadsen/status/2041986240606568762"
+      },
+      {
+        "title": "Major update: Colyseus server, missions and vehicle physics (@davidbmadsen on X)",
+        "url": "https://x.com/davidbmadsen/status/2043348072244171049"
+      },
+      {
+        "title": "First playable build of Mafia City for the #vibejam (@davidbmadsen on X)",
+        "url": "https://x.com/davidbmadsen/status/2048733882753626563"
+      },
+      {
+        "title": "Reply: 'Nano Banana + meshy.ai then exported as glb. Some models were edited in blender'",
+        "url": "https://x.com/davidbmadsen/status/2049115799474889039"
+      },
+      {
+        "title": "Reply: each asset generated separately from one image",
+        "url": "https://x.com/davidbmadsen/status/2043563794811502917"
+      },
+      {
+        "title": "Reply: '100% vibe coded… haven't even looked at the code once'",
+        "url": "https://x.com/davidbmadsen/status/2041988797290643876"
+      },
+      {
+        "title": "Reply: '\"Claude implement vehcile collisions\" then some tweaking'",
+        "url": "https://x.com/davidbmadsen/status/2043389002300985399"
+      },
+      {
+        "title": "Reply: lighting tuned by asking Claude for 'right before dusk'",
+        "url": "https://x.com/davidbmadsen/status/2042107612750057704"
+      },
+      {
+        "title": "Dungeon RPG start: 'pick up game dev again now that both AI coding and image to 3d is much better'",
+        "url": "https://x.com/davidbmadsen/status/2032217971741917681"
+      },
+      {
+        "title": "Pieter Levels: Vibe Jam day 25 favorite games",
+        "url": "https://x.com/levelsio/status/2048773325401305214"
+      },
+      {
+        "title": "Vibe Jam 2026: 1 in 7 multiplayer games shipped with Colyseus (Colyseus blog)",
+        "url": "https://colyseus.io/blog/vibe-jam-2026/"
+      },
+      {
+        "title": "Vibe Jam public API (Mafia City entry)",
+        "url": "https://vibejam.com/api"
+      },
+      {
+        "title": "mafiacity.online on the Wayback Machine (11 Jul 2026)",
+        "url": "https://web.archive.org/web/20260711120324/https://mafiacity.online/"
+      },
+      {
+        "title": "Post-jam reflection on burnout (@davidbmadsen on X)",
+        "url": "https://x.com/davidbmadsen/status/2119911535690576304"
+      }
+    ],
+    "confidence": "medium",
+    "imageCandidates": [
+      "https://pbs.twimg.com/media/HFvAT2mbIAAjHZ1.jpg?name=orig",
+      "https://pbs.twimg.com/amplify_video_thumb/2043347131352686592/img/4hEgchEVgoCuvPUX.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2048733083747446784/img/UwNszMUo3AOwbkG-.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2041985905423011840/img/KYHjox3qPcIEXGTn.jpg"
+    ],
+    "imagePages": [],
+    "galleryCandidates": [
+      "https://pbs.twimg.com/amplify_video_thumb/2041985905423011840/img/KYHjox3qPcIEXGTn.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2043347131352686592/img/4hEgchEVgoCuvPUX.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2043350243333349376/img/TD86o8NmBWXyeQPR.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2048733083747446784/img/UwNszMUo3AOwbkG-.jpg",
+      "https://pbs.twimg.com/media/HFvAT2mbIAAjHZ1.jpg?name=orig",
+      "https://pbs.twimg.com/media/HG9nPQibwAAEQ4g.jpg?name=orig"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/mafia-city/01.jpg",
+        "thumb": "media/gallery/mafia-city/01-t.jpg",
+        "w": 1200,
+        "h": 696,
+        "source": "https://pbs.twimg.com/amplify_video_thumb/2041985905423011840/img/KYHjox3qPcIEXGTn.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/mafia-city/02.jpg",
+        "thumb": "media/gallery/mafia-city/02-t.jpg",
+        "w": 1200,
+        "h": 696,
+        "source": "https://pbs.twimg.com/amplify_video_thumb/2043347131352686592/img/4hEgchEVgoCuvPUX.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/mafia-city/03.jpg",
+        "thumb": "media/gallery/mafia-city/03-t.jpg",
+        "w": 1200,
+        "h": 696,
+        "source": "https://pbs.twimg.com/amplify_video_thumb/2043350243333349376/img/TD86o8NmBWXyeQPR.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/mafia-city/04.jpg",
+        "thumb": "media/gallery/mafia-city/04-t.jpg",
+        "w": 1200,
+        "h": 694,
+        "source": "https://pbs.twimg.com/amplify_video_thumb/2048733083747446784/img/UwNszMUo3AOwbkG-.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/mafia-city/05.jpg",
+        "thumb": "media/gallery/mafia-city/05-t.jpg",
+        "w": 1911,
+        "h": 919,
+        "source": "https://pbs.twimg.com/media/HG9nPQibwAAEQ4g.jpg?name=orig",
+        "origin": "picked"
+      }
+    ]
+  },
+  {
+    "id": "catvivors",
+    "title": "Catvivors",
+    "tagline": "A Vampire Survivors-style cat roguelite on Steam, made by an AI researcher with Claude Code in about three weeks, plus three for Steam.",
+    "rank": 28,
+    "pick": false,
+    "status": "steam",
+    "playUrl": "https://store.steampowered.com/app/4450240/Catvivors/",
+    "links": {
+      "steam": "https://store.steampowered.com/app/4450240/Catvivors/",
+      "itch": null,
+      "github": null,
+      "video": "https://www.youtube.com/watch?v=5OmYfo7WsfY",
+      "devlog": null,
+      "creatorPost": "https://pchojecki.medium.com/ai-helped-me-solo-dev-a-game-on-steam-f84a2425be10"
+    },
+    "extraLinks": [
+      {
+        "label": "Featured in '10 Steam Games Coded by AI' (Shark AI, YouTube)",
+        "url": "https://www.youtube.com/watch?v=ssHuZ3OM27I"
+      }
+    ],
+    "image": "media/catvivors.jpg",
+    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/18cf4db64c17ce11115b2a293cbf057916161493/ss_18cf4db64c17ce11115b2a293cbf057916161493.1920x1080.jpg",
+    "creator": {
+      "name": "Przemek Chojecki",
+      "handle": "@pchojecki",
+      "url": "https://pchojecki.medium.com/",
+      "background": "AI researcher and writer (his Medium bio: PhD in mathematics, Forbes 30 under 30, former Oxford fellow). A lifelong gamer, but this was his first game. He had some coding experience. Steam lists Yotta Content LTD as developer and publisher."
+    },
+    "released": "2026-03-13",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "roguelite",
+      "bullet-hell"
+    ],
+    "dimension": "2d",
+    "perspective": "top-down",
+    "multiplayer": "none",
+    "platforms": [
+      "steam",
+      "desktop"
+    ],
+    "event": null,
+    "summary": "A Vampire Survivors-style roguelite where you play a cat and survive endless waves while your weapons fire automatically. It has 24 levels, from gardens and graveyards to the Throne Room. There are 6 playable cats, 15+ weapons with evolutions, bosses like a Volcano Dragon, a Hydra and a Kraken, and a coin shop for permanent upgrades. AI researcher Przemek Chojecki made it as his first game: Claude Code wrote the code from a readme blueprint and also made the simple sprites, which he touched up himself. It launched in Steam Early Access at $4.99 on 13 March 2026.",
+    "highlights": [
+      "A complete Steam release for Windows, Mac and Linux by a first-time game developer: 24 levels, 6 cats, 15+ weapons with evolutions, boss fights and persistent upgrades.",
+      "A short, documented timeline: about 2 weeks to get one fun level, 1 more week for the rest of the content, then about 3 weeks of Steam builds, store setup and review waits.",
+      "The art is chunky pixel cats and tile maps. He says the sprites were 'created by Claude, plus modifications by me if I didn't like something'. No image model is mentioned.",
+      "Silly weapon set: yarn balls, hairballs, lasers and lightning. Evolutions include Thunder Shield, Meteor Shower and Acid Rain. The 'Bald Cat' plays with just 1 HP.",
+      "An honest account of the limits: 'testing is still 100% human' and 'AI cannot tell you if a game is fun.'",
+      "Built on a $20/month Claude subscription. He warns that the usage limits arrive quickly."
+    ],
+    "story": "Przemek Chojecki is an AI researcher by trade and a gamer all his life. He wanted to see whether today's models could help him finish a game he would actually enjoy, all the way to Steam. He picked the simplest genre he knew well, a Vampire Survivors clone with cats. He started from a readme.md blueprint describing the game, the tools and the core mechanics, and let Claude Code build from it in the terminal. His first prototype was 'trash', as he warned readers theirs would be.\n\nHe says the hard part was the first level. It took about two weeks of back-and-forth with Claude Code, fixing balance, sprite glitches and movement, before one level was fun. After that, more levels, weapons and a shop took about a week. Getting onto Steam took longest: builds for Windows, Mac and Linux, the store page, Steam's checklists and roughly two weeks of waiting took about three weeks.\n\nHe published a Medium tutorial and a YouTube video on launch day, 13 March 2026, and priced the game at about $5 in Early Access. The Steam page promises more characters, achievements and cloud saves during Early Access. As of November 2026 the store still showed no user reviews, and the public build had not changed since February 2026.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code",
+        "codex"
+      ],
+      "models": [],
+      "aiCodeShare": "Apparently all or nearly all of it. He says Claude Code did the coding and 'everything was done in the terminal', and the testing was his job. The Steam AI disclosure is vaguer: the 'game code was optimized with Claude Code'.",
+      "buildTime": "About 6 weeks: ~2 weeks to a fun first level, ~1 week for the rest of the content, ~3 weeks of Steam builds, store setup and review waits.",
+      "approach": "iterative",
+      "workflow": [
+        "Blueprint first: 'Everything starts with a simple .md (Markdown) file.' His readme.md described the game, the engine, the tools and the core mechanics, so Claude Code had full context from the start.",
+        "Expect a bad first build: 'Brace yourself: your first run will probably be terrible.' Iterate from there.",
+        "Make the first level fun before adding anything else. Once it was locked in, new levels, weapons and the shop came 'much faster'.",
+        "Built and tested as a browser game first, which he says made testing easy.",
+        "Claude Code in the terminal was the main tool. He praises it for inspecting the codebase and 'keeping the context'. He also tried Codex while researching how this kind of game plays.",
+        "He playtested every major revision himself for balance, sprite and movement problems: 'testing is still 100% human.'",
+        "He used the LLM for the Steam chores too, such as compiling for Windows, Mac and Linux, which he found 'not that problematic'."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "code-generated",
+        "hand-made"
+      ],
+      "style": "Simple pixel art: chunky cats, tiny enemies and blocky tile maps (desert, grass, graveyard, metal deck).",
+      "tools": [
+        "Claude Code"
+      ],
+      "notes": "In his video he says he 'could use basically sprites created by Claude, plus modifications by me if I didn't like something... that was all created by LLM'. His article says he 'initially used simple AI-generated sprites and modified them myself'. No image generator is named. Claude has no image model, so the sprites were presumably drawn by code that Claude wrote, but he doesn't say how. He adds that LLMs are 'decent at generating basic 2D sprites', but complex art needs human artists or asset packs. Steam's AI disclosure says the first 7 seconds of the trailer were AI-generated video. It doesn't mention AI art."
+    },
+    "audio": {
+      "pipeline": [
+        "unknown"
+      ],
+      "tools": [],
+      "notes": "Not documented."
+    },
+    "tech": {
+      "stack": [],
+      "notes": "The engine is unclear. The Medium article says he chose Godot. In the launch-day video he says Catvivors began as a browser game, and that Godot is the engine for a different side project, a Contra-like roguelite. Steam builds exist for Windows, macOS and Linux (about 355 MB installed on Windows). The store lists keyboard, mouse, touch and gamepad support, and Steam Deck compatibility."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Steam user reviews",
+          "value": "None yet ('No user reviews')",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://store.steampowered.com/app/4450240/Catvivors/"
+        },
+        {
+          "label": "Launch tutorial video views",
+          "value": "309",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://www.youtube.com/watch?v=5OmYfo7WsfY"
+        },
+        {
+          "label": "Public Steam build last updated",
+          "value": "2026-02-24 (before the March launch)",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://api.steamcmd.net/v1/info/4450240"
+        }
+      ],
+      "monetization": "Premium, $4.99 in Early Access.",
+      "notes": "No sales figures published. On launch day he said he couldn't talk about revenue yet. SteamSpy shows no reviews and no tracked players."
+    },
+    "reception": "Little coverage found beyond his own Medium post and YouTube video. Shark AI's YouTube roundup '10 Steam Games Coded by AI' featured it ('a cat survivors game, playable in 3 weeks'). Eight months after launch it has no Steam user reviews.",
+    "lessons": [
+      "Getting one level fun is the hardest part. After that, content comes quickly.",
+      "Steam publishing (multi-platform builds, store page, review waits) took longer than writing the game's content.",
+      "AI can't judge fun, frustration or game feel, so playtesting stays a human job.",
+      "LLMs can make basic 2D sprites. Better-looking art still means artists or asset packs.",
+      "A paid plan is necessary: Claude Code's usage limits show up quickly on the $20 tier."
+    ],
+    "sources": [
+      {
+        "title": "AI helped me Solo Dev a Game on Steam (Przemek Chojecki, Medium)",
+        "url": "https://pchojecki.medium.com/ai-helped-me-solo-dev-a-game-on-steam-f84a2425be10"
+      },
+      {
+        "title": "AI helped me Solo Dev a game on Steam - Tutorial (Przemek Chojecki, YouTube)",
+        "url": "https://www.youtube.com/watch?v=5OmYfo7WsfY"
+      },
+      {
+        "title": "Catvivors on Steam",
+        "url": "https://store.steampowered.com/app/4450240/Catvivors/"
+      },
+      {
+        "title": "10 Steam Games Coded by AI. Here's What They Made. (Shark AI, YouTube)",
+        "url": "https://www.youtube.com/watch?v=ssHuZ3OM27I"
+      },
+      {
+        "title": "SteamCMD app info for 4450240 (builds and depots)",
+        "url": "https://api.steamcmd.net/v1/info/4450240"
+      }
+    ],
+    "confidence": "medium",
+    "imageCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/18cf4db64c17ce11115b2a293cbf057916161493/ss_18cf4db64c17ce11115b2a293cbf057916161493.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/0f4504636fc2223576956e0d8e1737f2d7afe2dc/ss_0f4504636fc2223576956e0d8e1737f2d7afe2dc.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/90eb8373747a063c5cec3fd8aef87415f42551b8/ss_90eb8373747a063c5cec3fd8aef87415f42551b8.1920x1080.jpg"
+    ],
+    "imagePages": [
+      "https://store.steampowered.com/app/4450240/Catvivors/"
+    ],
+    "galleryCandidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/18cf4db64c17ce11115b2a293cbf057916161493/ss_18cf4db64c17ce11115b2a293cbf057916161493.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/90eb8373747a063c5cec3fd8aef87415f42551b8/ss_90eb8373747a063c5cec3fd8aef87415f42551b8.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/0f4504636fc2223576956e0d8e1737f2d7afe2dc/ss_0f4504636fc2223576956e0d8e1737f2d7afe2dc.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/9ab931c8192fafd533b31d3cdb46ad9b54b2c6e0/ss_9ab931c8192fafd533b31d3cdb46ad9b54b2c6e0.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/ad890c3dc7fcbe3dd12bbbc542145a8bc6c36522/ss_ad890c3dc7fcbe3dd12bbbc542145a8bc6c36522.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/e1c29fc4d8bcd5007011e373bb2472f6a400051c/header.jpg"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/catvivors/01.jpg",
+        "thumb": "media/gallery/catvivors/01-t.jpg",
+        "w": 1920,
+        "h": 964,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/90eb8373747a063c5cec3fd8aef87415f42551b8/ss_90eb8373747a063c5cec3fd8aef87415f42551b8.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/catvivors/02.jpg",
+        "thumb": "media/gallery/catvivors/02-t.jpg",
+        "w": 1920,
+        "h": 1075,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/0f4504636fc2223576956e0d8e1737f2d7afe2dc/ss_0f4504636fc2223576956e0d8e1737f2d7afe2dc.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/catvivors/03.jpg",
+        "thumb": "media/gallery/catvivors/03-t.jpg",
+        "w": 1920,
+        "h": 962,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/9ab931c8192fafd533b31d3cdb46ad9b54b2c6e0/ss_9ab931c8192fafd533b31d3cdb46ad9b54b2c6e0.1920x1080.jpg",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/catvivors/04.jpg",
+        "thumb": "media/gallery/catvivors/04-t.jpg",
+        "w": 1920,
+        "h": 1074,
+        "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450240/ad890c3dc7fcbe3dd12bbbc542145a8bc6c36522/ss_ad890c3dc7fcbe3dd12bbbc542145a8bc6c36522.1920x1080.jpg",
+        "origin": "picked"
+      }
+    ]
+  },
+  {
+    "id": "crownfall",
+    "title": "Crownfall",
+    "tagline": "A free browser kingdom game with hex territories, public daily elections and 28-day eras, built 'almost entirely' with Claude Code.",
+    "rank": 34,
+    "pick": false,
+    "status": "playable",
+    "playUrl": "https://www.crownfall.cz/",
+    "links": {
+      "steam": null,
+      "itch": "https://crownfallgame.itch.io/crownfall",
+      "github": null,
+      "video": null,
+      "devlog": "https://crownfallgame.itch.io/crownfall/devlog/1402210/era-2-has-begun-the-perfect-time-to-join-crownfall",
+      "creatorPost": "https://www.producthunt.com/products/crownfall"
+    },
+    "extraLinks": [
+      {
+        "label": "Game manual",
+        "url": "https://www.crownfall.cz/manual"
+      },
+      {
+        "label": "About / features",
+        "url": "https://www.crownfall.cz/about"
+      }
+    ],
+    "image": "media/crownfall.jpg",
+    "imageSource": "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTczMC5wbmc=/original/widr%2F8.png",
+    "creator": {
+      "name": "CrownfallGame",
+      "handle": "@crownfallgame",
+      "url": "https://crownfallgame.itch.io",
+      "background": "Anonymous. Posts as CrownfallGame on itch.io and as 'New User' (@clawd_bud) on Product Hunt. The .cz domain and a Czech-language option suggest a Czech developer, but no name or prior work is published."
+    },
+    "released": "2026-02",
+    "addedOn": "2026-11-26",
+    "genres": [
+      "strategy",
+      "4x"
+    ],
+    "dimension": "2d",
+    "perspective": "top-down",
+    "multiplayer": "online",
+    "platforms": [
+      "web"
+    ],
+    "event": null,
+    "summary": "A free, persistent browser strategy game set in a medieval world. You start with two territories and 2,000 gold, spend turns that build up every 10 minutes, and use them to explore, build and train an army of up to eight unit types, from free Militia to Knights. Players band into kingdoms that elect a king every day by public vote, wage wars, spy on each other and race for prestige, and every 28-day era resets everyone to equal footing. Its anonymous maker says it was 'built almost entirely with Claude Code'.",
+    "highlights": [
+      "Kingdom politics are the hook: kingdoms elect a king by public vote every midnight UTC, the king appoints a Marshal, Steward, Spymaster and Scholar who give kingdom-wide bonuses, and wars come with grace periods, peace terms and truces.",
+      "A large rule set for a solo AI-built game: Raid, Assault and Siege attacks, per-unit readiness, stances, 15+ spy operations, 30 innovations (at most 23 per era), four specializations to level 20, and faiths with devotion levels.",
+      "It targets the usual browser-strategy problems head on: a turn cap so 24/7 players can't run away with it, 100 turns of protection for newcomers, attacks that only take a percentage, 'Fierce Resistance' against bullying, and a cosmetics-only premium.",
+      "28-day eras with a one-day grace period. Rankings are archived, and some prestige sources stay hidden until the era ends, so 'the obvious leader may not win'.",
+      "The Era 2 update (20 Feb 2026) added a 'Hex Realm Map' with illustrated terrain and building tiles and three views (map, simple, list), plus faiths and a fortification overhaul.",
+      "A full in-game manual, English and Czech translations, and Google or Apple sign-in, all in the browser with no download."
+    ],
+    "story": "Crownfall belongs to the lineage of turn-economy browser strategy games: you log in for '5-15 minute sessions', spend banked turns, and the politics happen between players. The maker launched it on Product Hunt and itch.io in February 2026, just as Era 2 began. In the launch comment they explain the motive: 'I built Crownfall because I wanted to see how far AI-assisted development could go.' They say the answer was 'pretty far', describe the game as 'built almost entirely with Claude Code', and invite feedback on 'the AI-built approach'.\n\nThat is close to everything on record about how it was made. No devlog, repo, model name, build time or art credit has been published. itch.io's AI disclosure ticks only 'Code', not graphics or sound, and nothing turned up on Reddit, Hacker News or Czech tech sites. The in-game changelog shows the game being tuned between eras. The 20 February 2026 update added faiths, the hex map and a fortification overhaul, rebalanced every unit to '1 turn / 100 gold per batch', changed capture to a square-root formula to curb snowballing, and fixed six combat bugs.\n\nThe store copy and the manual disagree on the core number. Product Hunt, itch.io and the About page say '288 turns per day'. The manual says one turn every 10 minutes, which is 144 a day, with up to 288 stored over about 48 hours. The landing page promises play 'against thousands', but the launch drew only 2 upvotes and no reviews on Product Hunt.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code"
+      ],
+      "models": [],
+      "aiCodeShare": "'Almost entirely' Claude Code, per the maker's Product Hunt launch comment. itch.io's AI disclosure lists AI-assisted code only.",
+      "buildTime": "unknown. Era 1 ran before 21 Feb 2026, and the game was still being rebalanced and extended after launch.",
+      "approach": null,
+      "workflow": [
+        "Framed as an experiment: 'I wanted to see how far AI-assisted development could go'. Verdict: 'pretty far'.",
+        "Tuned live between eras. The in-game changelog lists balance passes (starting gold 2,000, Stewardship boosts food, square-root capture, siege capture reduced) and batches of bug fixes such as 'Spy agents die on failure' and 'Real attack error messages'."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "unknown"
+      ],
+      "style": "Dark slate dashboard with gold accents around an illustrated hex map of painted grass, swamp and water tiles, with farms, houses and a castle drawn in a 3/4 view",
+      "tools": [],
+      "notes": "The maker hasn't said how the hex tiles and building art were made. itch.io's AI disclosure ticks only 'Code', not 'Graphics'. Most of the game is UI (cards, tables and line icons). The map art arrived in the Era 2 update in February 2026."
+    },
+    "audio": {
+      "pipeline": [
+        "unknown"
+      ],
+      "tools": [],
+      "notes": "Not documented. It is a menu-driven browser game, and no sound or music is mentioned anywhere."
+    },
+    "tech": {
+      "stack": [
+        "nextjs",
+        "react"
+      ],
+      "notes": "A Next.js web app (Turbopack build) with Tailwind-style styling, JSON API routes for views and actions, Google and Apple sign-in, English and Czech translations, a PWA manifest and Google Analytics. Hosting, database and how the 10-minute turn tick runs on the server are not disclosed."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Product Hunt upvotes",
+          "value": "2 (no reviews)",
+          "asOf": "2026-11",
+          "selfReported": false,
+          "source": "https://www.producthunt.com/products/crownfall"
+        },
+        {
+          "label": "Players (landing-page claim)",
+          "value": "'Join thousands of nobles' (unverified)",
+          "asOf": "2026-11",
+          "selfReported": true,
+          "source": "https://www.crownfall.cz/about"
+        }
+      ],
+      "monetization": "Free to play. The site says premium is cosmetic only, with no pay-to-win.",
+      "notes": "No player counts or era results are published. The Discord invite links on the site have expired. The developer cross-posted the Era 2 announcement to itch.io, IndieDB and ModDB."
+    },
+    "reception": "Almost none is visible: 2 upvotes and no reviews on Product Hunt, no itch.io comments, and no Reddit, Hacker News or press coverage found.",
+    "lessons": [
+      "An AI-built solo game can ship a deep systems design (elections, espionage, wars, innovation trees), but distribution is still the bottleneck. Launch posts on Product Hunt and itch.io drew almost no attention.",
+      "Rule numbers drift when the code moves fast: the store pages say 288 turns a day, while the in-game manual says 144 a day with 288 stored.",
+      "Turn-economy browser strategy fits AI-assisted development well. The work is rules, numbers and UI, not real-time graphics or netcode."
+    ],
+    "sources": [
+      {
+        "title": "Crownfall on Product Hunt (maker launch comment)",
+        "url": "https://www.producthunt.com/products/crownfall"
+      },
+      {
+        "title": "Crownfall launch post on Product Hunt",
+        "url": "https://www.producthunt.com/posts/crownfall"
+      },
+      {
+        "title": "Crownfall by CrownfallGame (itch.io)",
+        "url": "https://crownfallgame.itch.io/crownfall"
+      },
+      {
+        "title": "Era 2 Has Begun: The Perfect Time to Join Crownfall! (itch.io devlog)",
+        "url": "https://crownfallgame.itch.io/crownfall/devlog/1402210/era-2-has-begun-the-perfect-time-to-join-crownfall"
+      },
+      {
+        "title": "About Crownfall: Features & Gameplay",
+        "url": "https://www.crownfall.cz/about"
+      },
+      {
+        "title": "Crownfall Game Manual",
+        "url": "https://www.crownfall.cz/manual"
+      },
+      {
+        "title": "Crownfall (play)",
+        "url": "https://www.crownfall.cz/"
+      }
+    ],
+    "confidence": "low",
+    "imageCandidates": [
+      "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTczMC5wbmc=/original/widr%2F8.png",
+      "https://ph-files.imgix.net/377746e8-38d0-4106-8761-8732536a3b76.png"
+    ],
+    "imagePages": [
+      "https://crownfallgame.itch.io/crownfall"
+    ],
+    "galleryCandidates": [
+      "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTczMC5wbmc=/original/widr%2F8.png",
+      "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTczMS5wbmc=/original/R8X4wf.png",
+      "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTczMi5wbmc=/original/ohQVSP.png",
+      "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTUyOC5qcGc=/original/Auyfhk.jpg",
+      "screenshot:https://www.crownfall.cz/about|8000"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/crownfall/01.jpg",
+        "thumb": "media/gallery/crownfall/01-t.jpg",
+        "w": 3584,
+        "h": 1740,
+        "source": "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTczMS5wbmc=/original/R8X4wf.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/crownfall/02.jpg",
+        "thumb": "media/gallery/crownfall/02-t.jpg",
+        "w": 3584,
+        "h": 1744,
+        "source": "https://img.itch.zone/aW1hZ2UvNDMwOTgyNC8yNTcxMTczMi5wbmc=/original/ohQVSP.png",
+        "origin": "picked"
+      },
+      {
+        "src": "media/gallery/crownfall/03.jpg",
+        "thumb": "media/gallery/crownfall/03-t.jpg",
+        "w": 1280,
+        "h": 720,
+        "source": "https://www.crownfall.cz/about",
+        "origin": "live"
+      }
+    ]
+  },
+  {
+    "id": "stellar-throne",
+    "title": "Stellar Throne",
+    "tagline": "A solo dev's Master of Orion-style 4X, built with Claude as a 'junior dev' and rebuilt across Zig, Godot, C and Unity in a year.",
+    "rank": 36,
+    "pick": false,
+    "status": "unknown",
+    "playUrl": null,
+    "links": {
+      "steam": null,
+      "itch": null,
+      "github": null,
+      "video": null,
+      "devlog": "https://www.mrphilgames.com/blog/stellar-throne-devlog-11-new-architecture-new-partner-new-direction",
+      "creatorPost": "https://mrphilgames.substack.com/p/agentic-game-development"
+    },
+    "extraLinks": [
+      {
+        "label": "Official site",
+        "url": "https://stellarthrone.games"
+      },
+      {
+        "label": "How I Use Claude Like a Junior Dev",
+        "url": "https://mrphilgames.substack.com/p/how-i-use-claude-like-a-junior-dev"
+      },
+      {
+        "label": "Why I'm switching Stellar Throne to Godot",
+        "url": "https://mrphilgames.substack.com/p/why-im-switching-stellar-throne-to"
+      },
+      {
+        "label": "The Engine Overhaul: 52x faster simulation",
+        "url": "https://mrphilgames.substack.com/p/stellar-throne-devlog-the-engine"
+      },
+      {
+        "label": "Indie Hackers product page",
+        "url": "https://www.indiehackers.com/product/stellar-throne"
+      }
+    ],
+    "image": "media/stellar-throne.jpg",
+    "imageSource": "https://www.mrphilgames.com/images/stellar-throne-galaxy-map.jpg",
+    "creator": {
+      "name": "Philip Ludington (MrPhil)",
+      "handle": "@MrPhilGames",
+      "url": "https://www.mrphilgames.com",
+      "background": "long-time indie developer and self-described game director in Austin, TX (blogging since the 2000s, many Ludum Dares); also built the Changesmith SaaS with Claude Code and sells AI-assisted engineering work"
+    },
+    "released": null,
+    "addedOn": "2026-11-26",
+    "genres": [
+      "strategy",
+      "4x"
+    ],
+    "dimension": "2d",
+    "perspective": "top-down",
+    "multiplayer": "none",
+    "platforms": [
+      "desktop"
+    ],
+    "event": null,
+    "summary": "A turn-based sci-fi 4X inspired by Master of Orion (1993). You explore a procedurally generated galaxy, colonize planets, research technologies, make deals with AI empires and fight fleet and ground battles. Solo developer Philip Ludington started it in April 2025 as an experiment in 'Agentic Game Development', with Claude as a junior developer and ChatGPT for art and prompt help. He has documented almost every step in public devlogs. There is no public build yet. By March 2026 it had a C simulation core, a Unity frontend just getting started and an art partner, Pixel Cows, and it was being redesigned for 2–4 hour games.",
+    "highlights": [
+      "The tech stack was picked for the AI. Claude compared engines and recommended Monogame, then Zig + SDL2 when Monogame's sealed renderer blocked unit tests. Philip says Zig 'gives Claude the expressive power and minimal constraints it needs to shine', and Claude could compile, run tests and read logs by itself.",
+      "Four architectures in about a year. Zig/SDL2 came first, then a Godot port (3 days of full-time work against Claude's one-week estimate, keeping 'at least 70%'). Next came a Zig simulation core inside Godot, 52.7× faster (100 turns in a large galaxy fell from 685 ms to 13 ms). Then a C simulation library with an SDL frontend, and finally the same C library behind a Unity frontend.",
+      "In Godot he asked Claude which version it knew best (4.2.2) instead of using the latest. He credits that for turning an earlier bad Godot attempt into a good one.",
+      "Early art came from ChatGPT image generation: sprite sheets with 16 variants for each of 8 planet types and for star classes O to M. He used a reusable partial prompt and ChatGPT's memory for the palette, and a custom SpriteSheetMaker tool aligns the sheets and downscales them with a Mitchell filter.",
+      "Cross-model checking. ChatGPT acted as a 'prompt architect' when Claude couldn't understand the three-layer fog of war. A ChatGPT-suggested snake_case rule that clashed with Zig conventions forced a full restart, so now each model reviews the other's suggestions.",
+      "Candid about failures. Claude reported passing tests that weren't passing, files had to be split to fit token limits, and he came to question 'the ROI on unit tests' compared with manual playthroughs."
+    ],
+    "story": "Philip Ludington, a long-time indie developer who posts as MrPhil, started Stellar Throne in April 2025. He set out to 'treat an AI not as a code generator, but as a junior developer'. Claude co-wrote the game design document and roadmap. Each morning he asked it for the next roadmap item, approved a 5–6 step plan saved to PLAN.md and let it work for 20–30 minutes, often with a second Claude instance on another branch. A CLAUDE.md 'operating manual' held the project rules. ChatGPT handled image generation, explained Zig syntax, and suggested the name Stellar Throne.\n\nThe stack kept moving to suit both the AI and the game. Claude's first pick, Monogame, gave way to Zig + SDL2. After 'a couple hundred hours' the visuals 'weren't living up to my vision', so in August 2025 he ported to Godot for its UI editor and web builds. In his words, 'Claude writes logic. I connect it to the UI'; he also linked scenes and pasted in errors, because Claude couldn't see Godot's runtime logs. By October the turn simulation had moved back into Zig: 23 managers were ported from GDScript, data moved from JSON to TOML, and a parity tester ran identical turns in both engines. He reported 476 commits in three months.\n\nIn Devlog 11 (March 2026) he described 475 more commits. There was a C rewrite of the simulation, QuickJS embedded so the original JavaScript map generator runs unchanged, and an MCP proxy so the simulation can talk to AI tools outside a Claude Code session. He also announced a partnership with Pixel Cows, who bring 'game design and art expertise that I frankly don't have', and a move to a Unity frontend. The design is shifting toward 2–4 hour games built around annexing stars, bidding wars for territory and 33 ancient relics. In February he wrote that 'the game is playable' and that an art team was working on concept art. No public build or store page had appeared as of November 2026.",
+    "vibeCoding": {
+      "tools": [
+        "claude-code",
+        "chatgpt",
+        "grok"
+      ],
+      "models": [
+        "Claude Opus 4.1"
+      ],
+      "aiCodeShare": "Not quantified. For the Godot port he summed up the split as 'Claude writes logic. I connect it to the UI — or ask Claude to build UI panels separately.' He reviews, playtests, wires scenes and steers design.",
+      "buildTime": "Started April 2025, with 'a couple hundred hours' by August 2025. He reports 476 commits from Aug to Oct 2025 and 475 from Nov 2025 to Mar 2026. Still in development with no public release as of Nov 2026.",
+      "approach": "pro-assisted",
+      "workflow": [
+        "Goals, not instructions: 'Instead of giving Claude step-by-step instructions, I'd hand it a clear objective.' Claude returns a 5–6 step plan, saves it to PLAN.md and works for 20–30 minutes.",
+        "CLAUDE.md is 'my project's operating manual. It's written for the AI': file layout, architecture rules, the messaging system and banned actions. He refined it with Claude and ChatGPT until both rated it 9.5/10.",
+        "Picks tools the model knows. Claude chose the stack, and in Godot he asked which version Claude knew best (4.2.2) rather than using the latest.",
+        "Parallel sessions: a second Claude instance works another feature on its own branch. If a merge gets messy, 'Claude writes code so fast that starting over often costs less than debugging.'",
+        "Cross-model review: ChatGPT as 'prompt architect' when Claude is stuck, and each model checks the other's suggestions after a bad snake_case rule cost a full restart.",
+        "Custom Claude agents: a Godot Developer agent and a Quality Control Reviewer (drafted with ChatGPT, refined by Claude), plus Resume Writer and Resume Reader agents that keep a RESUME.md save point under context limits.",
+        "AI-friendly code structure: oversized Zig files were split to fit token limits, pure manager scripts keep logic away from engine internals, and an MCP proxy lets the simulation talk to AI tools.",
+        "Verification beyond the agent: a parity tester ran the same turns in Godot and Zig, a TCP test harness was planned for batch game runs, and he relies on manual playthroughs because Claude reported tests passing when they weren't."
+      ]
+    },
+    "art": {
+      "pipeline": [
+        "ai-2d",
+        "hand-made"
+      ],
+      "style": "Readable, minimal sci-fi strategy UI over a sprite-based star map; 'futuristic yet minimal UI with clean visuals and lighter, playful tone'",
+      "tools": [
+        "ChatGPT image generation",
+        "SpriteSheetMaker (custom tool)"
+      ],
+      "notes": "In the Zig/SDL2 era, planet and star sprites, star-map icons and a stylized galaxy backdrop for the fog of war were generated with ChatGPT. Requirements were style cohesion, transparent backgrounds and no lens flares. Usable assets took about 5 prompt cycles, and broken outputs were simply discarded and regenerated in parallel with Claude's coding. ChatGPT struggled to keep sprites centred and consistent, so Philip built SpriteSheetMaker to align them into sheets and downscale them with a Mitchell filter. An early devlog says Claude Code, ChatGPT and Grok were used 'for code and art generation'. By July 2025 he wrote that an Art Director was needed for professional-level visuals. In February 2026 an art team was working on concept art, and in March 2026 the art studio Pixel Cows joined to make the Unity frontend's visuals. The current look is unpublished, and the source of the site's key art is not documented."
+    },
+    "audio": {
+      "pipeline": [
+        "unknown"
+      ],
+      "tools": [],
+      "notes": "Phase 8 'Audio & Advanced Visual Effects' began in July 2025, but he hit 'resource gaps — particularly regarding sound design'. Audio now falls to the Unity frontend, and nothing about it has been published."
+    },
+    "tech": {
+      "stack": [
+        "zig",
+        "sdl",
+        "godot",
+        "c",
+        "unity"
+      ],
+      "notes": "The stack evolved through Monogame (abandoned), Zig + SDL2, Godot 4.2.2 to 4.4 with GDScript, a hybrid Godot UI with a Zig simulation via gdzig (23 managers, 21 turn phases, TOML config, 52.7× faster turns), and a C simulation library with an SDL frontend. Since March 2026 that C library sits behind a Unity frontend through P/Invoke. Test counts are self-reported and differ between copies of the same October 2025 post: 1,044 on Substack and 339 on his site. QuickJS is embedded so the original JS galaxy generator runs unchanged, and an MCP proxy connects the sim to AI tools. It is single-player, aimed at Mac and Windows according to Indie Hackers. Proposed new stack tags: zig, sdl, c."
+    },
+    "traction": {
+      "metrics": [
+        {
+          "label": "Commits, Aug 5 – Oct 31 2025",
+          "value": "476",
+          "asOf": "2025-10",
+          "selfReported": true,
+          "source": "https://mrphilgames.substack.com/p/stellar-throne-devlog-the-engine"
+        },
+        {
+          "label": "Commits, Nov 2025 – Mar 2026",
+          "value": "475",
+          "asOf": "2026-03",
+          "selfReported": true,
+          "source": "https://www.mrphilgames.com/blog/stellar-throne-devlog-11-new-architecture-new-partner-new-direction"
+        },
+        {
+          "label": "Revenue (Indie Hackers)",
+          "value": "$0/mo",
+          "asOf": "2025-07",
+          "selfReported": true,
+          "source": "https://www.indiehackers.com/product/stellar-throne"
+        }
+      ],
+      "monetization": "None yet. It is listed on Indie Hackers as a transactional (paid) Mac/Windows game, with an itch.io alpha planned in 2025 that never appeared.",
+      "notes": "No public build, store page, wishlist numbers or player counts. The Substack newsletter shows about 10 subscribers in its metadata. Devlog videos on YouTube are narrated by an AI avatar of the developer."
+    },
+    "reception": null,
+    "lessons": [
+      "Choose languages and engine versions the model handles well. A minimal, statically typed language where the agent can compile, test and read logs by itself made Claude far more effective than an editor-centric engine.",
+      "Engines built for humans add a 'workflow tax' for agents: Claude couldn't see Godot's runtime logs, so the developer became the copy-paste loop.",
+      "Agent speed makes code feel disposable, which is double-edged. Rewrites and ports are cheap, but four architecture changes in a year still kept the game from shipping.",
+      "Don't trust an agent's test reports. Claude claimed passing runs while GUT showed warnings and leaks, and manual playthroughs caught what unit tests missed.",
+      "Treat 'reasonable' as a red flag and cross-check one model with another. A plausible ChatGPT naming rule cost a full restart.",
+      "AI art got the prototype on screen, but for a commercial 4X the developer concluded he needed professional art and design partners."
+    ],
+    "sources": [
+      {
+        "title": "Agentic Game Development (Philip Ludington, Substack)",
+        "url": "https://mrphilgames.substack.com/p/agentic-game-development"
+      },
+      {
+        "title": "How I Use Claude Like a Junior Dev (and When It Goes Off the Rails)",
+        "url": "https://mrphilgames.substack.com/p/how-i-use-claude-like-a-junior-dev"
+      },
+      {
+        "title": "Why I'm Switching Stellar Throne to Godot — And How I'm Making It Work",
+        "url": "https://mrphilgames.substack.com/p/why-im-switching-stellar-throne-to"
+      },
+      {
+        "title": "Stellar Throne Devlog — The Engine Overhaul: 52× Faster Simulation",
+        "url": "https://mrphilgames.substack.com/p/stellar-throne-devlog-the-engine"
+      },
+      {
+        "title": "Stellar Throne Devlog 11: New Architecture, New Partner, New Direction",
+        "url": "https://www.mrphilgames.com/blog/stellar-throne-devlog-11-new-architecture-new-partner-new-direction"
+      },
+      {
+        "title": "The Big Catch-Up (newsletter, Feb 2026)",
+        "url": "https://www.mrphilgames.com/newsletter/the-big-catch-up"
+      },
+      {
+        "title": "Stellar Throne: Building a 4X Strategy Game with AI Coding Tools",
+        "url": "https://www.mrphilgames.com/blog/stellar-throne-building-a-4x-strategy-game-with-ai-coding-tools"
+      },
+      {
+        "title": "Restart, Rebuild, Recalibrate",
+        "url": "https://www.mrphilgames.com/blog/restart-rebuild-recalibrate"
+      },
+      {
+        "title": "Stellar Throne Development Log: July 14, 2025 (sprite sheets)",
+        "url": "https://www.mrphilgames.com/blog/stellar-throne-development-log-july-14-2025"
+      },
+      {
+        "title": "Fog of War, First Playthrough, and Prompt Engineering Wins",
+        "url": "https://www.mrphilgames.com/blog/fog-of-war-first-playthrough-and-prompt-engineering-wins"
+      },
+      {
+        "title": "Stellar Throne Enters Alpha: Polish, Audio, and the Godot Port Begins",
+        "url": "https://www.mrphilgames.com/blog/stellar-throne-enters-alpha-polish-audio-and-the-godot-port-begins"
+      },
+      {
+        "title": "Opus 4.1, GUT Migration, and Combat UI Overhaul",
+        "url": "https://www.mrphilgames.com/blog/opus-4-1-gut-migration-and-combat-ui-overhaul"
+      },
+      {
+        "title": "Stellar Throne Devlog #10 — From Bug Fixes to Breakthroughs",
+        "url": "https://www.mrphilgames.com/blog/stellar-throne-devlog-10-from-bug-fixes-to-breakthroughs"
+      },
+      {
+        "title": "Stellar Throne porting progress and platform trade-offs (itch.io)",
+        "url": "https://itch.io/blog/999121/-stellar-throne-porting-progress-platform-trade-offs"
+      },
+      {
+        "title": "Godot port complete (mostly) (itch.io)",
+        "url": "https://itch.io/blog/999977/-godot-port-complete-mostly"
+      },
+      {
+        "title": "Patching up combat and building better testing tools (itch.io)",
+        "url": "https://itch.io/blog/1004519/patching-up-combat-and-building-better-testing-tools"
+      },
+      {
+        "title": "Stellar Throne on Indie Hackers",
+        "url": "https://www.indiehackers.com/product/stellar-throne"
+      }
+    ],
+    "confidence": "medium",
+    "imageCandidates": [
+      "https://www.mrphilgames.com/images/stellar-throne-galaxy-map.jpg",
+      "https://img.itch.zone/aW1nLzIyNDU0Mzk4LnBuZw==/original/dTyeQ4.png",
+      "https://www.mrphilgames.com/images/grid-stellar-throne.webp"
+    ],
+    "imagePages": [],
+    "galleryCandidates": [
+      "https://www.mrphilgames.com/images/stellar-throne-galaxy-map.jpg",
+      "https://img.itch.zone/aW1nLzIyNDU0Mzk4LnBuZw==/original/dTyeQ4.png",
+      "https://www.mrphilgames.com/images/grid-stellar-throne.webp"
+    ],
+    "galleryAuto": false,
+    "gallery": [
+      {
+        "src": "media/gallery/stellar-throne/01.jpg",
+        "thumb": "media/gallery/stellar-throne/01-t.jpg",
+        "w": 5344,
+        "h": 3054,
+        "source": "https://img.itch.zone/aW1nLzIyNDU0Mzk4LnBuZw==/original/dTyeQ4.png",
+        "origin": "picked"
+      }
+    ]
   }
 ]
